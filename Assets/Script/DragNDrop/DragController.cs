@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -83,6 +84,13 @@ namespace Team1
 
             if (lastDragged.hasToReturn)
                 lastDragged.transform.DOMove(lastDragged.InitPos, 1); lastDragged.transform.rotation = lastDragged.InitRot;
+
+            if (lastDragged.ValidateRight)
+                FindObjectOfType<TextMeshProUGUI>().text = "VALIDATE RIGHT SIDE";
+            else if (lastDragged.ValidateLeft)
+                FindObjectOfType<TextMeshProUGUI>().text = "VALIDATE LEFT SIDE";
+            else
+                FindObjectOfType<TextMeshProUGUI>().text = "<- WHAT DO YOU WANT TO DO ? ->";
 
             lastDragged = null;
         }

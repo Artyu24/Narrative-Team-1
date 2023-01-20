@@ -43,9 +43,9 @@ namespace Team1
             Vector2 _tPos = Camera.main.WorldToScreenPoint(transform.position);
 
             //Right
-            validateRight = transform.position.x > 1 ? validateRight = true : validateRight = false;
+            validateRight = transform.position.x > 2 ? validateRight = true : validateRight = false;
             //Left
-            validateRight = transform.position.x < -1 ? validateLeft = true : validateLeft = false;
+            validateLeft = transform.position.x < -2 ? validateLeft = true : validateLeft = false;
 
         }
     }
