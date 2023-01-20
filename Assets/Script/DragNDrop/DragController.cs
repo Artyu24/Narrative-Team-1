@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -72,16 +73,18 @@ namespace Team1
 
         private void Drag()
         {
-            lastDragged.transform.position = new Vector2(worldPosition.x, worldPosition.y);
-            lastDragged.transform.position = 
+            lastDragged.transform.DOMove(new Vector2(worldPosition.x, worldPosition.y), .25f);
+            lastDragged.ValidateZone();
         }
-
 
         private void Drop() 
         {
             isDragActive = false;
+
+            if (lastDragged.hasToReturn)
+                lastDragged.transform.DOMove(lastDragged.InitPos, 1); lastDragged.transform.rotation = lastDragged.InitRot;
+
             lastDragged = null;
-            Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAHA");
         }
     }
 }
