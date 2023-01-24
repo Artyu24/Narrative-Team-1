@@ -9,55 +9,183 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faa20d9496980f24890b7825d24452e1, type: 3}
+  m_Script: {fileID: 11500000, guid: adc083a1f58870e4a84fbb168eead5e0, type: 3}
   m_Name: DialogueDatabase
   m_EditorClassIdentifier: 
-  rows:
-  - columns:
-    - Bonjour
-    - Hello
-  - columns:
-    - tu
-    - ouais
-  - columns:
-    - vas
-    - de
-  - columns:
-    - bien
-    - fou
-  - columns:
-    - ba
-    - je
-  - columns:
-    - oui
-    - parle
-  - columns:
-    - et
-    - en
-  - columns:
-    - toi
-    - anglais
-  - columns:
-    - francis
-    - tel
-  - columns:
-    - comment
-    - shakespeare
-  - columns:
-    - tu
-    - et
-  - columns:
-    - vas
-    - je
-  - columns:
-    - frero
-    - sais
-  - columns:
-    - genre
-    - pas
-  - columns:
-    - je
-    - ecrire
-  - columns:
-    - trouve
-    - shakespeare
+  dialogueDB:
+  - id: PF_A_1_D
+    data:
+      dialogueID: 1
+      key: PF_A_1_D
+      dialogueLine: 1
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_B_1_B
+      goodChoiceKey: PF_B_1_G
+      addonKey: 
+  - id: PF_B_1_G
+    data:
+      dialogueID: 1
+      key: PF_B_1_G
+      dialogueLine: 2
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: PF_B_2_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_B_1_B
+    data:
+      dialogueID: 1
+      key: PF_B_1_B
+      dialogueLine: 3
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: PF_B_3_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_B_2_D
+    data:
+      dialogueID: 2
+      key: PF_B_2_D
+      dialogueLine: 4
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_B_2_B
+      goodChoiceKey: PF_B_2_G
+      addonKey: 
+  - id: PF_B_2_G
+    data:
+      dialogueID: 2
+      key: PF_B_2_G
+      dialogueLine: 5
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_B_2_B
+    data:
+      dialogueID: 2
+      key: PF_B_2_B
+      dialogueLine: 6
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_B_3_D
+    data:
+      dialogueID: 3
+      key: PF_B_3_D
+      dialogueLine: 7
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_C_3_B
+      goodChoiceKey: PF_C_3_G
+      addonKey: 
+  - id: PF_C_3_G
+    data:
+      dialogueID: 3
+      key: PF_C_3_G
+      dialogueLine: 8
+      spriteId: 2
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_C_3_B
+    data:
+      dialogueID: 3
+      key: PF_C_3_B
+      dialogueLine: 9
+      spriteId: 2
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_C_4_D
+    data:
+      dialogueID: 4
+      key: PF_C_4_D
+      dialogueLine: 10
+      spriteId: 2
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_C_4_B
+      goodChoiceKey: PF_C_4_G
+      addonKey: 
+  - id: PF_C_4_G
+    data:
+      dialogueID: 4
+      key: PF_C_4_G
+      dialogueLine: 11
+      spriteId: 2
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_C_4_B
+    data:
+      dialogueID: 4
+      key: PF_C_4_B
+      dialogueLine: 12
+      spriteId: 2
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_C_5_D
+    data:
+      dialogueID: 5
+      key: PF_C_5_D
+      dialogueLine: 13
+      spriteId: 2
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_D_5_B
+      goodChoiceKey: PF_D_5_G
+      addonKey: 
+  - id: PF_D_5_G
+    data:
+      dialogueID: 5
+      key: PF_D_5_G
+      dialogueLine: 14
+      spriteId: 3
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_D_5_B
+    data:
+      dialogueID: 5
+      key: PF_D_5_B
+      dialogueLine: 15
+      spriteId: 3
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_D_6_D
+    data:
+      dialogueID: 6
+      key: PF_D_6_D
+      dialogueLine: 16
+      spriteId: 3
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 

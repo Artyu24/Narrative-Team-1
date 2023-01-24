@@ -12,11 +12,6 @@ namespace TeamOne
         JSONNode jsonFile = null;
         public JSONNode JsonFile => jsonFile;
 
-        [Header("Database")]
-        [SerializeField] private DialogueDatabase dialogueDB;
-        public DialogueDatabase DialogueDb => dialogueDB;
-
-
         #region Google Sheet
 
         public void GetDataSheet()
@@ -37,13 +32,6 @@ namespace TeamOne
             {
                 string json = www.downloadHandler.text;
                 jsonFile = JSON.Parse(json);
-
-                //string[] sentence = new string[dialogueId.Length];
-                //for (int i = 0; i < dialogueId.Length; i++)
-                //{
-                //    sentence[i] = JSON.Parse(jsonFile["values"][dialogueId[i].lineId][dialogueId[i].columnId].ToString());
-                //}
-                //DialogueManager.Instance.StartDialogue(sentence);
             }
         }
 

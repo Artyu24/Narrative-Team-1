@@ -41,10 +41,10 @@ namespace TeamOne
         //            Debug.Log("");
         //            //Call an other
 
-        //        //string[] sentence = new string[dialogueId.Length];
-        //        //for (int i = 0; i < dialogueId.Length; i++)
+        //        //string[] sentence = new string[dialogueLine.Length];
+        //        //for (int i = 0; i < dialogueLine.Length; i++)
         //        //{
-        //        //    sentence[i] = JSON.Parse(o["values"][dialogueId[i].lineId][dialogueId[i].columnId].ToString());
+        //        //    sentence[i] = JSON.Parse(o["values"][dialogueLine[i].lineId][dialogueLine[i].columnId].ToString());
         //        //}
         //        //DialogueManager.Instance.StartDialogue(sentence);
         //    }

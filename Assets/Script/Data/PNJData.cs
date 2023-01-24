@@ -8,10 +8,11 @@ namespace TeamOne
     [System.Serializable]
     public class PNJData : ScriptableObject
     {
-        [SerializeField] private string name;
+        [SerializeField] private string pnjName;
         [SerializeField] private List<Sprite> allSprites = new List<Sprite>();
-        
-        private DialogueData actualDialogueData;
+        public string PnjName => pnjName;
+
+        [SerializeField] private DialogueData actualDialogueData;
         public DialogueData ActualDialogueData { get => actualDialogueData; set => actualDialogueData = value; }
     }
 }

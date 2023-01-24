@@ -1,34 +1,29 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data.Common;
+using System.Globalization;
 using UnityEngine;
 
 namespace TeamOne
 {
     [CreateAssetMenu]
+    [System.Serializable]
     public class DialogueDatabase : ScriptableObject
     {
-        public Row[] rows;
-
-        public void CreateNewShape(int nbrRow, int nbrColumn)
-        {
-            rows = new Row[nbrRow];
-
-            for (int i = 0; i < nbrRow; i++)
-            {
-                rows[i] = new Row(nbrColumn);
-            }
-        }
+        [SerializeField] private List<DialogueDataID> dialogueDB = new List<DialogueDataID>();
+        public List<DialogueDataID> DialogueDb => dialogueDB;
     }
 
-    [System.Serializable]
-    public class Row
+    [Serializable]
+    public struct DialogueDataID
     {
-        public string[] columns;
+        public string id;
+        public DialogueData data;
 
-        public Row(int size)
+        public DialogueDataID(string idKey, DialogueData dialogueData)
         {
-            columns = new string[size];
+            id = idKey;
+            data = dialogueData;
         }
     }
 }
