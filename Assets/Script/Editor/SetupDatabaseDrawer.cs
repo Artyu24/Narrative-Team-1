@@ -88,7 +88,15 @@ namespace TeamOne
 
                     PNJDatabase PNJ_DB = AssetDatabase.LoadAssetAtPath<PNJDatabase>("Assets/ScriptableObject/PNJDatabase.asset");
                     
-                    foreach (PNJData pnj in PNJ_DB.pnjDatabase)
+                    foreach (PNJData pnj in PNJ_DB.pnjDatabaseOne)
+                    {
+                        if (persoDialogueDataTemp.ContainsKey(pnj.PnjName))
+                        {
+                            pnj.ActualDialogueData = GetFirstDefaultDialogue(persoDialogueDataTemp[pnj.PnjName], 1);
+                        }
+                    }
+
+                    foreach (PNJData pnj in PNJ_DB.pnjDatabaseTwo)
                     {
                         if (persoDialogueDataTemp.ContainsKey(pnj.PnjName))
                         {

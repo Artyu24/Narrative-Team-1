@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5b9d487911467544b230e7159ad513d, type: 3}
   m_Name: PNJDatabase
   m_EditorClassIdentifier: 
-  pnjDatabase:
+  pnjDatabaseOne:
+  - {fileID: 11400000, guid: 9daff34843c4d7d48bebad75c96aae1d, type: 2}
+  - {fileID: 11400000, guid: 2b6bb6d09af916b4d803b5450315e4ca, type: 2}
+  pnjDatabaseTwo:
+  - {fileID: 11400000, guid: a85f7fb218e9d854daa9d020fd2b92e2, type: 2}
   - {fileID: 11400000, guid: 0b1e83ba049f8f64c9d30a72772ef367, type: 2}
