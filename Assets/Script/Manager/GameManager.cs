@@ -18,6 +18,9 @@ namespace TeamOne
         public TextDatabase TextDatabase => textDatabase;
 
 
+        [Header("NewsPaper")] 
+        [SerializeField] private NewsPaper newsPaper;
+
         [Header("Actual Data")]
         public List<PNJData> pnjPhaseOneClone;
         public List<PNJData> pnjPhaseTwoClone;
@@ -45,7 +48,7 @@ namespace TeamOne
             NextDialogue();
         }
 
-        private void NextDialogue()
+        public void NextDialogue()
         {
             actualPNJ = GetTodayPnjList()[actualPNJID];
             DialogueManager.instance.InitDialogue(actualPNJ.ActualDialogueData);
@@ -83,6 +86,11 @@ namespace TeamOne
         private void SwitchDay()
         {
             Debug.Log("Jour suivant");
+
+            List<PNJData> listTemp = GetTodayPnjList();
+
+            newsPaper.gameObject.SetActive(true);
+            newsPaper.InitNews(null, textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), null, textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
         }
 
         private List<PNJData> GetTodayPnjList()

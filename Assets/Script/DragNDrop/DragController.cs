@@ -6,7 +6,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace Team1
+namespace TeamOne
 {    public class DragController : MonoBehaviour
     {
         [SerializeField] private bool isDragActive = false;
