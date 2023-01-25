@@ -46,7 +46,7 @@ namespace TeamOne
         //        //{
         //        //    sentence[i] = JSON.Parse(o["values"][dialogueLine[i].lineId][dialogueLine[i].columnId].ToString());
         //        //}
-        //        //DialogueManager.Instance.StartDialogue(sentence);
+        //        //DialogueManager.instance.StartDialogue(sentence);
         //    }
         //}
     }

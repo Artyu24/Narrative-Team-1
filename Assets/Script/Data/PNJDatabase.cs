@@ -8,7 +8,8 @@ namespace TeamOne
     [System.Serializable]
     public class PNJDatabase : ScriptableObject
     {
-        public List<PNJData> pnjDatabaseOne;
-        public List<PNJData> pnjDatabaseTwo;
+        public List<PNJData> pnjDatabase;
+        public List<PNJData> pnjPhaseOne;
+        public List<PNJData> pnjPhaseTwo;
     }
 }

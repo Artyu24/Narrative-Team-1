@@ -4,104 +4,54 @@ using System.Collections.Generic;
 using TeamOne;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public static DialogueManager Instance;
+    public static DialogueManager instance;
 
     [SerializeField] private GameObject dialogueBox;
     public GameObject DialogueBox => dialogueBox;
-    [SerializeField] private GameObject interactionImage;
-    [SerializeField] private Text dialogueText;
-
-    public delegate void DialogueDelegate();
-    private DialogueDelegate actualDialogueDelegate = null;
+    [SerializeField] private TextMeshProUGUI dialogueText;
 
     //Cree une liste ranger dans l ordre d apparition les objets present
     public Queue<string> sentences = new Queue<string>();
     private string actualSentence;
     private string playerName;
 
-    private DialogueState actualDialogueState;
-    [SerializeField] private float cdAction, cdDialogue;
-
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
+        if (instance == null)
+            instance = this;
     }
 
-    public void InitDialogue(DialogueData[] dialogue)
+    public void InitDialogue(DialogueData dialogue)
     {
-        actualDialogueState = DialogueState.INTERACTION;
-
-        //readGoogleSheet.GetTextString(dialogue);
+        //Init sprite
+        StartDialogue(GameManager.instance.TextDatabase.rows[dialogue.DialogueLine].columns[0]);
     }
 
-    public void StartDialogue(string[] dialogue)
+    public void StartDialogue(string dialogue)
     {
         sentences.Clear();
 
         dialogueBox.SetActive(true);
 
-        foreach (string sentence in dialogue)
-        {
-            sentences.Enqueue(sentence);
-        }
+        sentences.Enqueue(dialogue);
 
         DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
     {
-        interactionImage.SetActive(false);
-        
         if(sentences.Count == 0)
         {
-            switch (actualDialogueState)
-            {
-                #region Draw
-                case DialogueState.DRAW:
-
-                    break;
-                #endregion
-
-                #region Draw & Action
-                case DialogueState.DRAW_ACTION:
-
-                    if (actualDialogueDelegate != null)
-                    {
-                        actualDialogueDelegate();
-                        actualDialogueDelegate = null;
-                    }
-
-                    break;
-                #endregion
-
-                #region Interaction
-                case DialogueState.INTERACTION:
-                    dialogueBox.SetActive(false);
-
-                    break;
-                #endregion
-
-                #region Interaction & Action
-                case DialogueState.INTERACTION_ACTION:
-                    dialogueBox.SetActive(false);
-
-                    if (actualDialogueDelegate != null)
-                    {
-                        actualDialogueDelegate();
-                        actualDialogueDelegate = null;
-                    }
-                    break;
-                #endregion
-            }
-
+            dialogueBox.SetActive(false);
             return;
         }
 
         actualSentence = sentences.Dequeue();
+        FixText(ref actualSentence);
 
         StopAllCoroutines();
         StartCoroutine(TypeSentence(actualSentence));
@@ -116,33 +66,11 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
 
-        //TEXTE FINIS D ETRE ECRIS
-
-        if (actualDialogueState == DialogueState.INTERACTION || actualDialogueState == DialogueState.INTERACTION_ACTION)
-        {
-            interactionImage.SetActive(true);
-        }
-        else
-            StartCoroutine(CoolDownNextSentence());
+        //Texte finis donc laisser le choix de gauche / droite
     }
 
-    private IEnumerator CoolDownNextSentence()
+    private void FixText(ref string texte)
     {
-        if (sentences.Count == 0 && actualDialogueState == DialogueState.DRAW_ACTION)
-            yield return new WaitForSeconds(cdAction);
-        else
-            yield return new WaitForSeconds(cdDialogue);
-
-        DisplayNextSentence();
-    }
-
-    public void DisplayTextInstant()
-    {
-        if (actualDialogueState == DialogueState.INTERACTION || actualDialogueState == DialogueState.INTERACTION_ACTION)
-        {
-            StopAllCoroutines();
-            dialogueText.text = actualSentence;
-            interactionImage.SetActive(true);
-        }
+        //texte = texte.Replace("PLAYER", playerName).Replace("POKEPL", CombatManager.instance.playerPoke.data.name).Replace("POKEEN", CombatManager.instance.enemiePoke.data.name).Replace("ATKPL", CombatManager.instance.PlayerAttackName).Replace("ATKEN", CombatManager.instance.EnemieAttackName);
     }
 }

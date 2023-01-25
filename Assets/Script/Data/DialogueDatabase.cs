@@ -12,6 +12,17 @@ namespace TeamOne
     {
         [SerializeField] private List<DialogueDataID> dialogueDB = new List<DialogueDataID>();
         public List<DialogueDataID> DialogueDb => dialogueDB;
+
+        public DialogueData GetDialogueData(string key)
+        {
+            foreach (DialogueDataID dataID in dialogueDB)
+            {
+                if (dataID.data.Key == key)
+                    return dataID.data;
+            }
+
+            return null;
+        }
     }
 
     [Serializable]

@@ -42,7 +42,7 @@ namespace TeamOne
                     {
                         for (int j = 0; j < myObject.JsonFile["values"].Count; j++)
                         {
-                            DB.rows[j].columns[i - 6] = JSON.Parse(myObject.JsonFile["values"][j][i]);
+                            DB.rows[j].columns[i - 6] = JSON.Parse(myObject.JsonFile["values"][j][i].ToString());
                         }
                     }
                 }
@@ -82,21 +82,17 @@ namespace TeamOne
                     {
                         foreach (IdSortTemp idSort in list)
                         {
-                            SetupDialogueData(idSort.dialogueList);
+                            try
+                            {
+                                SetupDialogueData(idSort.dialogueList);
+                            }
+                            catch (Exception){}
                         }
                     }
 
                     PNJDatabase PNJ_DB = AssetDatabase.LoadAssetAtPath<PNJDatabase>("Assets/ScriptableObject/PNJDatabase.asset");
                     
-                    foreach (PNJData pnj in PNJ_DB.pnjDatabaseOne)
-                    {
-                        if (persoDialogueDataTemp.ContainsKey(pnj.PnjName))
-                        {
-                            pnj.ActualDialogueData = GetFirstDefaultDialogue(persoDialogueDataTemp[pnj.PnjName], 1);
-                        }
-                    }
-
-                    foreach (PNJData pnj in PNJ_DB.pnjDatabaseTwo)
+                    foreach (PNJData pnj in PNJ_DB.pnjDatabase)
                     {
                         if (persoDialogueDataTemp.ContainsKey(pnj.PnjName))
                         {
@@ -148,7 +144,7 @@ namespace TeamOne
                     return TextState.DEFAULT;
                 case "G":
                     return TextState.GOOD;
-                case "B":
+                case "R":
                     return TextState.BAD;
                 case "A":
                     return TextState.ADDON;

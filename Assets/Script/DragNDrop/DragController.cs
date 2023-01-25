@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TeamOne;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -86,9 +87,9 @@ namespace Team1
                 lastDragged.transform.DOMove(lastDragged.InitPos, 1); lastDragged.transform.rotation = lastDragged.InitRot;
 
             if (lastDragged.ValidateRight)
-                FindObjectOfType<TextMeshProUGUI>().text = "VALIDATE RIGHT SIDE";
+                GameManager.instance.SwipeChoice(true);
             else if (lastDragged.ValidateLeft)
-                FindObjectOfType<TextMeshProUGUI>().text = "VALIDATE LEFT SIDE";
+                GameManager.instance.SwipeChoice(false);
             else
                 FindObjectOfType<TextMeshProUGUI>().text = "<- WHAT DO YOU WANT TO DO ? ->";
 
