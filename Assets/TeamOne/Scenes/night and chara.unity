@@ -166,7 +166,13 @@ MonoBehaviour:
   soundOn: {fileID: 21300000, guid: 8d512cc330502da4fa4f8bbbd4dd2337, type: 3}
   soundOff: {fileID: 21300000, guid: 604b04f52a0b57f4bb4412737dbc0a26, type: 3}
   buttonImage: {fileID: 745435417}
-  sounds: []
+  sounds:
+  - name: NightSound
+    clip: {fileID: 8300000, guid: e71f4d83d69dc314d95d90b66f3613e7, type: 3}
+    volume: 0.5
+    audioMixer: {fileID: 0}
+    source: {fileID: 0}
+    actualSound: 1
 --- !u!4 &1257951010
 Transform:
   m_ObjectHideFlags: 0
@@ -341,6 +347,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -177
+      objectReference: {fileID: 0}
     - target: {fileID: 506195589723988871, guid: 006e473a690a81746af36c6b6599880e, type: 3}
       propertyPath: m_Name
       value: Canvas

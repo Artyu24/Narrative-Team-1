@@ -37,10 +37,6 @@ public class AudioManager : MonoBehaviour
             s.source.volume = s.volume;
             s.source.outputAudioMixerGroup = s.audioMixer;
         }
-    }
-
-    private void Start()
-    {
         foreach (Sound sound in sounds)
         {
             if (!DicoActualSound.ContainsKey(sound.ActualSound))
@@ -49,6 +45,11 @@ public class AudioManager : MonoBehaviour
             }
             DicoActualSound[sound.ActualSound].Add(sound);
         }
+    }
+
+    private void Start()
+    {
+
     }
 
     public void Stop(SoundState soundState)
@@ -75,7 +76,7 @@ public class AudioManager : MonoBehaviour
         if (DicoActualSound.ContainsKey(soundState) && soundActivate)
         {
             int i = Random.Range(0, DicoActualSound[soundState].Count);
-
+            Debug.Log("ça passe ");
             Sound s = DicoActualSound[soundState][i];
             if (s == null)
             {
