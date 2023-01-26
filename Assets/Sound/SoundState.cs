@@ -7,5 +7,8 @@ public enum SoundState
     Victory,
     Night,
     FootStep,
+    ButtonFR,
+    ButtonENG,
+    
 
 }
