@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace TeamOne
 {
-    public class Character : MonoBehaviour
+    public class CharacterAnimation : MonoBehaviour
     {
-        [SerializeField] private SpriteRenderer sprite;
+        [SerializeField] private SpriteRenderer charaRenderer;
 
         //elle tu l'appel au momen ou le perso spawnS
         public void InitCharacter(Sprite charasprite)
         {
-            sprite.sprite = charasprite;
+            charaRenderer.sprite = charasprite;
             EnterAnime();
         }
 
@@ -21,13 +21,13 @@ namespace TeamOne
             Sequence EnterAnime = DOTween.Sequence();
             EnterAnime.Insert(0, transform.DORotate(new Vector3(0, 0, 144), 0f));
             EnterAnime.Join(transform.DOMoveY(-3, 0f));
-            EnterAnime.Join(sprite.DOFade(0f, 0));
-            EnterAnime.Join(sprite.DOColor(Color.black, 0f));
-            EnterAnime.Append(transform.DOMoveY(-1, 3f));
-            //EnterAnime.Insert(1.5, GameManager.instance.NextDialogue());
+            EnterAnime.Join(charaRenderer.DOFade(0f, 0));
+            EnterAnime.Join(charaRenderer.DOColor(Color.black, 0f));
+            Tween a = transform.DOMoveY(-1, 3f).OnComplete(() => GameManager.instance.NextDialogue());
+            EnterAnime.Append(a);
             EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack));
-            EnterAnime.Insert(1.5f, sprite.DOFade(1f, 3f));
-            EnterAnime.Join(sprite.DOColor(Color.white, 3f));
+            EnterAnime.Insert(1.5f, charaRenderer.DOFade(1f, 3f));
+            EnterAnime.Join(charaRenderer.DOColor(Color.white, 3f));
         }
 
         //elle tu l'appel quand le dialogue est finis
@@ -35,8 +35,9 @@ namespace TeamOne
         {
             Sequence ExitAnime = DOTween.Sequence();
             ExitAnime.Insert(1, transform.DORotate(new Vector3(0, 0, -144), 3f).SetEase(Ease.InBack));
-            ExitAnime.Insert(1f, sprite.DOColor(Color.black, 2f));
-            ExitAnime.Insert(1.5f, sprite.DOFade(0f, 3f)).OnComplete(() => GameManager.instance.InitDialogue());
+            ExitAnime.Insert(1f, charaRenderer.DOColor(Color.black, 2f));
+            Tween a = charaRenderer.DOFade(0f, 3f).OnComplete(() => GameManager.instance.InitDialogue());
+            ExitAnime.Insert(1.5f, a);
         }
     }
 }

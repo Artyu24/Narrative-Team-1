@@ -37,17 +37,20 @@ namespace TeamOne
 
         private void ExitAnime()
         {
+            DialogueManager.instance.DialogueBox.DOFade(1, 1f);
             Sequence exitPaperAnime= DOTween.Sequence();
             exitPaperAnime.Insert(0, transform.DOScale(new Vector3(0, 0, 0), 1f).SetEase(Ease.InBack));
             
-            exitPaperAnime.Append(transform.DOMoveY(-8, 0)).OnComplete(() => { gameObject.SetActive(false);});
+            exitPaperAnime.Append(transform.DOMoveY(-8, 0)).OnComplete(() =>
+            {
+                gameObject.SetActive(false);
+                GameManager.instance.InitDialogue();
+            });
         }
 
         private void OnMouseDown()
         {
             ExitAnime();
-            //PNJ START
-            GameManager.instance.InitDialogue();
         }
     }
 }

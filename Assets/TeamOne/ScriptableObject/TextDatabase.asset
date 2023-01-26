@@ -17,316 +17,496 @@ MonoBehaviour:
     - FR
     - EN
   - columns:
-    - "Bonjour Forgeron, sympa votre boutique m\xEAme si j'en ai vu des plus impressionnante
-      lors de mes voyages, je m'appelle [nom_paysanne_forte] . J'ai un probl\xE8me,
-      je suis maladroite. Et pour r\xE9parer les pots cass\xE9s je vais participer
-      \xE0 un concours de sculpture, mais mon couteau avec lequel je manipule l'argile
-      a rendu l'\xE2me. Je dois me pr\xE9parer pour ce grand \xE9v\xE8nement, cela
-      se passe dans un lieu de culte et j'en ai besoin au plus vite."
-    - Hello
+    - "Je suivais un papillon et donc le papillon il m'a amen\xE9 ici, enfin par
+      hasard... Euh, c'est quoi votre magasin monsieur c'est joli \xE7a. Moi c'est
+      [PF] Est-ce que je peux couper des fleurs avec \xE7a ?"
+    - I was following a butterfly and so the butterfly brought me here, well by chance...
+      Uh, what's your store sir, it's nice. I'm [PF] Can I cut flowers with this?
   - columns:
-    - tu
-    - ouais
+    - "ALERTE INFO : Le cimeti\xE8re du royaume retrouv\xE9 sans fleurs ce matin.
+      Les autorit\xE9s recherchent activement l'auteur.  "
+    - 'NEWS ALERT: The kingdom''s cemetery found without flowers this morning. The
+      authorities are actively looking for the author.'
   - columns:
-    - vas
-    - de
+    - "Une avanc\xE9e m\xE9dicale ! Les scientifiques ont r\xE9ussis \xE0 soigner
+      une maladie chronique \xE0 l'aide de p\xE9tales !"
+    - A medical breakthrough! Scientists have succeeded in curing a chronic disease
+      with the help of petals!
   - columns:
-    - jean-claude
-    - de
+    - "Bonjour monsieur, j'ai donn\xE9 plein de fleurs \xE0 mon p\xE8re gr\xE2ce
+      \xE0 vous, il \xE9tait tout content. Je veux aider mon papa \xE0 lui pr\xE9parer
+      une armure pour la chasse, vous pouvez me donner un truc ?      "
+    - Hello sir, I gave my father a lot of flowers thanks to you, he was very happy.
+      I want to help my dad to prepare an armor for hunting, can you give me something?
   - columns:
-    - bien
-    - fou
+    - "Un villageois est venu se plaindre aupr\xE8s du roi car un de ses gobots aurait
+      \xE9t\xE9 meurtri pendant la nuit. Les gardes patrouillent actuellement dans
+      le royaume afin de trouver le coupable."
+    - A villager has come to complain to the king because one of his gobots was bruised
+      during the night. The guards are now patrolling the kingdom to find the culprit.
   - columns:
-    - ba
-    - 'je '
+    - "Une bonne surprise ! Les armures pr\xE9par\xE9es pour la chasse ont \xE9t\xE9
+      d\xE9cor\xE9es pendant la nuit. Le bienfaiteur est rest\xE9 anonyme."
+    - A nice surprise! The armors prepared for the hunt were decorated during the
+      night. The benefactor remained anonymous.
   - columns:
-    - oui
-    - parle
+    - "Bonjour monsieur, j'ai pas r\xE9ussi a couper les fleurs que je voulais du
+      coup j'aimerai en prendre autre part, vous pouvez m'aider ?"
+    - Hello sir, I didn't manage to cut the flowers I wanted so I would like to take
+      them somewhere else, can you help me?
   - columns:
-    - et
-    - 'en '
+    - "Disparu: Felix. Un chat de s\xE9rie CHT-3000 a disparu hier. Si vous avez
+      la moindre information contactez nous au plus vite"
+    - 'Missing: Felix. A cat of the CHT-3000 series disappeared yesterday. If you
+      have any information please contact us as soon as possible'
   - columns:
-    - toi
-    - anglais
+    - "Ouverture d'un nouveau bar \xE0 chats dans le quartier de Qualipo"
+    - Opening of a new cat bar in the Qualipo district
   - columns:
-    - francis
-    - tel
+    - "Mon papa il est trop fort, on se baladait pr\xE8s de la for\xEAt et des gros
+      animaux ont courus vers nous ! Il m'a dit de rentrer \xE0 la maison mais je
+      l'ai vu se battre contre eux ! Je veux devenir comme lui il me faut une arme
+      !"
+    - My daddy is too strong, we were walking near the forest and some big animals
+      ran towards us! He told me to go home but I saw him fighting them! I want to
+      become like him, I need a weapon!
   - columns:
-    - comment
-    - shakespeare
+    - "Un groupe d'adolescents retrouv\xE9s mutil\xE9s dans un parc peu fr\xE9quent\xE9.
+      Les familles sont d\xE9vast\xE9es. La police n'a aucune piste dans cette affaire."
+    - A group of teenagers found mutilated in a park not very frequented. The families
+      are devastated. The police have no leads in this case.
   - columns:
-    - tu
-    - 'et '
+    - "Une petite fille d\xE9termin\xE9e voulait acc\xE9der \xE0 la salle d'entra\xEEnement
+      de m\xE9tal. \"Je veux chasser les animaux comme papa ! Jvous jure je sais
+      faire je sais faire !\""
+    - A determined little girl wanted to access to the metal training room. "I want
+      to hunt animals like daddy! I swear I know how to do it!"
   - columns:
-    - vas
-    - je
+    - "Monsieur le forgeron, mon papa est parti avec l'armure que j'ai pr\xE9par\xE9
+      pour lui j'esp\xE8re que il va attraper plein de m\xE9chants pas beaux. Pour
+      lui faire une surprise vous pouvez me donner une grande \xE9p\xE9e toute jolie
+      pour lui ?"
+    - Mister Blacksmith, my daddy has left with the armor I prepared for him I hope
+      he will catch a lot of bad guys. As a surprise, can you give me a big, pretty
+      sword for him?
   - columns:
-    - frero
-    - sais
+    - 
+    - 
   - columns:
-    - genre
-    - pas
+    - 
+    - 
   - columns:
-    - 'je '
-    - ecrire
+    - "Monsieur, monsieur vous pouvez me donner une nouvelle dague, c'est mon p\xE8re
+      qui m'envoie vous en demander une."
+    - Sir, sir you can give me a new dagger, it is my father who sent me to ask you
+      one.
   - columns:
-    - trouve
-    - shakespeare
+    - "Beaucoup de chats disparaissent dans le royaume, il est conseill\xE9 de programmer
+      vos animaux de compagnie \xE0 rester chez vous."
+    - Many cats disappear in the kingdom, it is advisable to schedule your pets to
+      stay at home.
   - columns:
-    - trouve
-    - shakespeare
+    - "Une nouvelle m\xE9thode de chasse pour les petits animaux \xE0 \xE9t\xE9 trouv\xE9
+      par un chasseur."
+    - A new method of hunting small animals has been found by a hunter.
   - columns:
-    - trouve
-    - shakespeare
+    - "Je suis pas tr\xE8s forte \xE0 l'\xE9cole\u2026 Il me faut une lame pour le
+      cours de cr\xE9ations\u2026 Je veux vraiment r\xE9ussir s'il vous pla\xEEt."
+    - I'm not very good at school... I need a blade for the design class... I really
+      want to pass please.
   - columns:
-    - trouve
-    - shakespeare
+    - "Concours manuel des \xE9coles primaire, le premier prix a \xE9t\xE9 remport\xE9
+      par une jeune fille du royaume"
+    - Manual competition for primary schools, the first prize was won by a young
+      girl from the kingdom
   - columns:
-    - trouve
-    - shakespeare
+    - "Apr\xE8s une altercation entre deux \xE9l\xE8ves, un enfant gri\xE8vement
+      bless\xE9 a \xE9t\xE9 d\xE9clar\xE9 dans une \xE9cole primaire."
+    - After an altercation between two students, a seriously injured child was reported
+      at an elementary school.
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - "*Snif* Ils sont vraiment pas gentils. Je vais leur montrer ce que je sais
+      faire puisqu'ils me croient pas ! Donnez moi une super arme s'il vous pla\xEEt
+      !"
+    - '*Snif* They are really not nice. I''ll show them what I can do since they
+      don''t believe me! Give me a super weapon please!'
   - columns:
-    - trouve
-    - shakespeare
+    - "Un mordu d'entr\xE2inement a commis une effraction dans la salle d'entra\xEEnement,
+      aucun bien n'a \xE9t\xE9 vol\xE9 mais tous les mannequins de simulation on
+      \xE9t\xE9 proprement d\xE9capit\xE9s."
+    - A training enthusiast broke into the training room, no property was stolen
+      but all the simulation mannequins were cleanly decapitated.
   - columns:
-    - trouve
-    - shakespeare
+    - "Du vandalisme \xE0 la salle d'entrainement a fait fuir les clients. La salle
+      d'entrainement va \xEAtre ferm\xE9e pour r\xE9novation"
+    - Vandalism to the training room has driven away customers. The training room
+      will be closed for renovation
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - 
+    - 
   - columns:
-    - trouve
-    - shakespeare
+    - "Monsieur monsieur, vous savez je prends exemple sur mon p\xE8re. Je m'entraine
+      a \xEAtre comme lui et c'est pour \xE7a que j'ai besoin d'une arme rien qu'\xE0
+      moi."
+    - Sir, you know I take example after my father. I train to be just like him and
+      that's why I need a blade of my own.
   - columns:
-    - trouve
-    - shakespeare
+    - "Des cadavres d'animaux ont \xE9t\xE9 retrouv\xE9s dans la for\xEAt, compl\xE8tement
+      vid\xE9s de leur boyaux."
+    - Dead animals were found in the forest, completely gutted.
   - columns:
-    - trouve
-    - shakespeare
+    - "Des cadavres d'animaux ont \xE9t\xE9 retrouv\xE9s dans la foret pendus sur
+      les arbres."
+    - Dead animals were found in the forest hanging from the trees.
   - columns:
-    - trouve
-    - shakespeare
+    - "Monsieur mon papa il a gagn\xE9 plein d'argent et maintenant il y'a plein
+      de gens dans la boutique, mais il passe moins de temps avec moi, j'ai envie
+      de lui faire un cadeau pour qu'il se souviennent de moi, pouvez vous me donner
+      une \xE9p\xE9e s'il vous plait ?"
+    - Mister my daddy has earned a lot of money and now there are a lot of people
+      in the store, but he spends less time with me, I want to give him a present
+      to remember me, can you give me a sword please?
   - columns:
-    - trouve
-    - shakespeare
+    - "Record : une petite fille a r\xE9ussi \xE0 chasser un \xE9norme M\xE9cagon,
+      le plus gros de la saison."
+    - 'Record: a little girl managed to chase a huge Mechagon, the biggest of the
+      season.'
   - columns:
-    - trouve
-    - shakespeare
+    - "Disparition : Une petite fille est port\xE9e disparue, les autorit\xE9s commencent
+      les recherches dans tout le royaume "
+    - 'Disappearance: A little girl is reported missing, the authorities begin the
+      search throughout the kingdom'
   - columns:
-    - trouve
-    - shakespeare
+    - "Monsieur Monsieur, vous avez vu j'ai gagn\xE9 le premier prix, j'aimerai bien
+      en faire un pour ma maman. Vous pouvez me donner de nouveaux ciseaux ?"
+    - Sir, you saw I won the first prize, I would like to make one for my mom. Can
+      you give me some new scissors?
   - columns:
-    - trouve
-    - shakespeare
+    - "Des citoyens trouvent que l'une des tombes du cimeti\xE8re \xE0 \xE9t\xE9
+      embellie par de magnifiques cr\xE9ations d'enfants"
+    - Citizens find that one of the graves in the cemetery has been embellished with
+      beautiful children's creations
   - columns:
-    - trouve
-    - shakespeare
+    - "Les citoyens se plaignent du surplus de d\xE9chets dans le cimeti\xE8re."
+    - Citizens are complaining about the excess waste in the cemetery.
   - columns:
-    - trouve
-    - shakespeare
+    - "Monsieur le forgeron, je vous jure c'est pas ma faute. (pleure) Le gar\xE7on
+      n'arr\xEAtait pas de se moquer de moi tous les jours et et (pleure) j'en ai
+      eu marre et \u2026 (pleure) Je veux me racheter en lui ramenant des fleurs
+      \xE0 l'h\xF4pital, il me faut des ciseaux s'il vous plait."
+    - Mr. Blacksmith, I swear it's not my fault. (cries) The boy kept making fun
+      of me every day and and (cries) I got tired of it and... (cries) I want to
+      make it up to him by bringing flowers to the hospital, I need scissors please.
   - columns:
-    - trouve
-    - shakespeare
+    - "T\xE9moignage touchant d'un jeune gar\xE7on ayant re\xE7u des fleurs de son
+      agresseur. "
+    - Touching testimony of a young boy who received flowers from his attacker.
   - columns:
-    - trouve
-    - shakespeare
-  - columns:
-    - trouve
-    - shakespeare
+    - "Le jeune gar\xE7on bless\xE9 \xE0 cause d'une altercation il y'a quelques
+      jours est plac\xE9 dans le coma artificiel, l'enfant \xE0 l'origine de cet
+      \xE9v\xE8nement va recevoir des sanctions plus s\xE9v\xE8res"
+    - The young boy injured because of an altercation a few days ago is placed in
+      an induced coma, the child at the origin of this event will receive more severe
+      sanctions
   - columns:
     - "Il me faut une machette, vite. De la meilleure qualit\xE9 que vous avez."
-    - shakespeare
+    - I need a machete, fast. The best quality you have.
   - columns:
     - Bonne nouvelle ! Il n'y a pas eu d'attaques d'animaux sauvages depuis 1 semaine.
-    - shakespeare
+    - Good news ! There have been no wild animal attacks for the last few weeks.
   - columns:
     - "Une r\xE9surgence d'animaux sauvages aux abords de la for\xEAt. Veuillez \xE9viter
       les chemins en bordure. Pr\xE9cautions pour les chasseurs d'y aller en groupe."
-    - shakespeare
+    - A resurgence of wildlife at the edge of the forest. Please avoid the roads
+      on the edge. Caution for hunters to go in groups.
   - columns:
     - "Je m'appelle [PR]. Vos outils sont tr\xE8s durables, je vais vous prendre
       une machette d'avance s'il vous pla\xEEt. Peut-\xEAtre que je peux me faire
       un de ces mythiques Metadrax, haha !"
-    - shakespeare
+    - My name is [PR]. Your tools are very durable, I'll take a machete in advance
+      please. Maybe I can kill one of those mythical Metadrax, haha!
   - columns:
     - "Le royaume semble en paix mais restez sur vos gardes : un serial killer r\xF4de
       toujours et donne du fil \xE0 retordre \xE0 la police depuis 10 ans cette ann\xE9e."
-    - shakespeare
+    - 'The kingdom seems to be in peace, but beware : a serial killer is still on
+      the prowl and has been giving the police a hard time for 10 years this year.'
   - columns:
     - "Un chasseur exp\xE9riment\xE9 lance l'alerte. Il dit que la faune sauvage
       de la for\xEAt se renforce \"Un Clipag a bris\xE9 mon arme favorite en un coup,
       ils ont \xE9volu\xE9s\". Serait-ce l'heure de la nouvelle Grande Chasse ?"
-    - shakespeare
+    - An experienced hunter sounds the alarm. He says the forest wildlife is getting
+      stronger "A Clipag broke my favorite weapon in one shot, they have evolved".
+      Could it be time for the new Big Hunt?
   - columns:
     - Bonjour, je veux faire une commande au nom de [PR]. Il me une machette par
       jour.
-    - shakespeare
+    - Hello, I want to make an order on behalf of [PR]. I need one machete per day.
   - columns:
     - "Bonne nouvelle ! Il n'y a pas eu de blessures li\xE9es aux b\xEAtes sauvages
       depuis 1 semaine. Un chasseur raconte : \"Depuis que [PR] m'a forc\xE9 \xE0
       \xE9changer mon arme avec la sienne avec, je n'ai plus de peine \xE0 chasser\u2026\""
-    - shakespeare
+    - Good news! There have been no wildlife-related injuries in the past few weeks.
+      One hunter says, "Since [PR] forced me to swap my blade with his, I don't have
+      any trouble hunting..."
   - columns:
     - "Le prix du lingot de faronium est mont\xE9 de 30% au cours de la semaine pass\xE9e.
       Une future p\xE9nurie se pr\xE9pare-t-elle ?"
-    - shakespeare
+    - The price of faronium ingot has risen by 30% in the past week. Is a future
+      shortage in the offing?
   - columns:
     - "Hey ! Gr\xE2ce \xE0 vous, aucun ennemi ne me r\xE9siste ! Et j'ai un peu plus
       de temps \xE0 accorder \xE0 ma fille\u2026 M\xEAme si c'est un peu tard pour
       reprendre mon r\xF4le de p\xE8re. J'esp\xE8re r\xE9ussir \xE0 renouer des liens.
       Il me faudrait une machette comme d'habitude s'il vous pla\xEEt."
-    - shakespeare
+    - Hey! Thanks to you, no enemy can resist me! And I have a little more time to
+      spend with my daughter... Even if it's a too late to resume my role as a father.
+      I hope I can reconnect. I would need a machete as usual please.
   - columns:
     - "Prudence ! Des citoyens bless\xE9s par des attaques d'animaux sauvages provenant
       de la for\xEAt m\xE8nent des chasseurs en difficult\xE9."
-    - shakespeare
+    - Caution! Citizens injured by wild animal attacks from the forest lead hunters
+      into trouble.
   - columns:
     - "Alerte Info : Invasions d'animaux sauvages, restez chez vous ! De nombreux
       chasseurs gravement bless\xE9s en essayant de les repousser."
-    - shakespeare
+    - 'Info Alert: Wildlife Invasions, Stay Home! Many hunters seriously injured
+      trying to repel them.'
   - columns:
     - "J'ai r\xE9ussi \xE0 lancer un projet de chasse pr\xE9ventive. Mon intuition
       me dit qu'il nous faudrait une arme plus longue, pour plus de port\xE9e. "
-    - shakespeare
+    - I managed to start a preventive hunting project. My intuition tells me that
+      we need a longer weapon, for more range.
   - columns:
     - "Le roi est descendu f\xE9liciter les chasseurs pour leur retour sans aucun
       bless\xE9s. Le chasseur \xE0 l'origine de cette id\xE9e fut acclam\xE9."
-    - shakespeare
+    - The king came down to congratulate the hunters on their return without any
+      injuries. The hunter who came up with the idea was cheered.
   - columns:
     - "Les Mecagons \xE0 pattes longues ont fait des ravages lors de cette derni\xE8re
       chasse. Beaucoup de bless\xE9s \xE0 d\xE9plorer. \"Nous n'avions pas anticip\xE9
       ce genre d'attaques\" rapporte un chasseur."
-    - shakespeare
+    - The long-legged mecagons have made havoc during this last hunt. Many injuries
+      were reported. "We didn't anticipate this kind of attack," said one hunter.
   - columns:
     - "On pr\xE9pare une chasse pr\xE9ventive. Vos derni\xE8res machettes ont \xE9t\xE9
       excellentes. Il nous faut beaucoup d'armes. "
-    - shakespeare
+    - We are preparing a preventive hunt. Your last machetes were excellent. We need
+      a lot of weapons.
   - columns:
     - "Les chasseurs sont heureux d'annoncer le succ\xE8s de leur derni\xE8re op\xE9ration,
       malgr\xE9 quelques bless\xE9s au retour de cette chasse pr\xE9ventive. Les
       Mecagons \xE0 pattes longues auraient pu devenir une s\xE9rieuse menace d'apr\xE8s
       le rapport."
-    - shakespeare
+    - The hunters are happy to announce the success of their latest operation, despite
+      a few casualties on the way back from this preventive hunt. The long-legged
+      mecagons could have become a serious threat according to the report.
   - columns:
     - "Les Mecagons \xE0 pattes longues ont fait des ravages lors de cette derni\xE8re
       chasse. Beaucoup de bless\xE9s \xE0 d\xE9plorer. \"Nous n'avions pas anticip\xE9
       ce genre d'attaques\" rapporte un chasseur."
-    - shakespeare
+    - The long-legged mecagons have made havoc during this last hunt. Many injuries
+      were reported. "We didn't anticipate this kind of attack," said one hunter.
   - columns:
     - "On pr\xE9pare une grande chasse pour repousser la faune sauvage qui n'arr\xEAte
       jamais de se renforcer. Il me faut vos meilleures lames je vous en prie, je
       suis pr\xEAt \xE0 mettre le prix."
-    - shakespeare
+    - We are preparing a great hunt to push back the wild fauna that never stops
+      getting stronger. I need your best blades please, I am ready to pay the price.
   - columns:
     - "Malgr\xE9 la surprise des Mecagons \xE0 pattes longues la chasse fut un succ\xE8s.
       Il y a malheureusement un certain nombre de bless\xE9s \xE0 d\xE9plorer. \"Nous
       n'avions pas anticip\xE9 ce genre d'animaux mais le mal est repouss\xE9\" rapporte
       un chasseur."
-    - shakespeare
+    - Despite of the surprise of the long-legged Mecagons, the hunt was a success.
+      Unfortunately, there were a number of casualties. "We did not anticipate this
+      kind of animals but the damage is repelled" reports a hunter.
   - columns:
     - "Les Mecagons \xE0 pattes longues ont fait rage lors de cette derni\xE8re chasse.
       Beaucoup de bless\xE9s et m\xEAmes de pertes sont \xE0 d\xE9plorer. \"C'est
       une catastrophe, personne n'avait anticip\xE9 une telle menace\" rapporte un
       chasseur."
-    - shakespeare
+    - The long-legged Mecagons raged during this last hunt. Many injuries and even
+      losses were reported. "It's a disaster, nobody anticipated such a threat" reports
+      a hunter.
   - columns:
-    - trouve
-    - shakespeare
+    - "Je suis en train d'enseigner la chasse \xE0 ma fille, je ne voudrai pas qu'elle
+      finisse comme tout ces gueux, incapables de faire quoique ce soit par eux-m\xEAmes.
+      Elle se d\xE9brouille tr\xE8s bien, elle n'a pas peur de prendre une vie, c'est
+      l'essentiel pour un chasseur. Il me faudrait une machette pour elle."
+    - I'm teaching my daughter to hunt, I don't want her to end up like all those
+      beggars, unable to do anything for themselves. She's doing very well, she's
+      not afraid to take a life, that's the main thing for a hunter. I would need
+      a machete for her.
   - columns:
-    - trouve
-    - shakespeare
+    - "S\xE9rie de meurtres \xE0 travers diff\xE9rents quartiers. Les autorit\xE9s
+      suspectent un chasseur car toutes les victimes ont \xE9t\xE9 attaqu\xE9es \xE0
+      la machette. Ils soul\xE8vent \xE9galement la possibilit\xE9 d'un complice."
+    - A series of murders across different neighborhoods. Authorities suspect a hunter
+      because all the victims were attacked with machetes. They also raise the possibility
+      of an accomplice.
   - columns:
-    - trouve
-    - shakespeare
+    - "Mise en garde \xE0 vue d'un p\xE8re avec sa fille, retrouv\xE9s tous les deux
+      sur la sc\xE8ne du crime."
+    - Police custody of a father with his daughter, both found at the scene of the
+      crime.
   - columns:
-    - trouve
-    - shakespeare
+    - "J'enseigne \xE0 ma fille comment se d\xE9fendre pour pas qu'elle finisse quoi
+      moi et mon bras. Il me faudrait une machette. Je suis fier car elle est d\xE9j\xE0
+      bien d\xE9termin\xE9e mais j'ai peur qu'elle se blesse."
+    - I'm teaching my daughter how to defend herself so she doesn't end up with me
+      and my arm. I would need a machete. I am proud because she is already very
+      determined but I am afraid she will get hurt.
   - columns:
-    - trouve
-    - shakespeare
+    - "Un enfant emmen\xE9 \xE0 l'h\xF4pital apr\xE8s avoir \xE9t\xE9 bless\xE9 \xE0
+      l'arme blanche lors de sa pause. Il n'ose pas d\xE9noncer l'auteur des faits."
+    - A child taken to the hospital after being stabbed during his break. He does
+      not dare to denounce the perpetrator.
   - columns:
-    - trouve
-    - shakespeare
+    - "Une petite fille a essay\xE9 d'attaquer son camarade de classe avec une arme
+      blanche. Elle aurait r\xE9pondu \xE0 une menace. Le port d'armes \xE0 l'\xE9cole
+      est-il toujours d'actualit\xE9 ?"
+    - A little girl tried to attack her classmate with a knife. She reportedly responded
+      to a threat. Is the carrying of weapons in schools still a thing?
   - columns:
-    - trouve
-    - shakespeare
+    - "Merci pour la derni\xE8re fois. Gr\xE2ce \xE0 mes r\xE9sultats j'ai termin\xE9
+      t\xF4t et accord\xE9 plus de temps \xE0 ma fille, mais je r\xE9alise que je
+      ne la connais pas du tout. Elle est timide et introvertie, mais je vais faire
+      de mon mieux pour l'aider ! On va jardiner ensemble, pourriez vous me fournir
+      du mat\xE9riel s'il vous pla\xEEt."
+    - Thank you for the last time. Thanks to my results I finished early and gave
+      my daughter more time, but I realize that I don't know her at all. She is shy
+      and introverted, but I will do my best to help her! We are going to garden
+      together, could you provide me with some materials please.
   - columns:
-    - trouve
-    - shakespeare
+    - "Le titre de la \"Maison Fleurie\" a \xE9t\xE9 d\xE9cern\xE9 \xE0 un p\xE8re
+      et sa fille gr\xE2ce \xE0 leur efforts."
+    - The title of "Flower House" was awarded to a father and daughter for their
+      efforts.
   - columns:
-    - trouve
-    - shakespeare
+    - "Malgr\xE9 des efforts acharn\xE9s, une petite famille n'arrivait pas \xE0
+      embellir leur jardin. Heureusement, leurs efforts ne furent pas vains, de nombreux
+      habitants, par compassion ont d\xE9cid\xE9 de leur apporter de l'aide."
+    - Despite their best efforts, a small family was unable to beautify their garden.
+      Fortunately, their efforts were not in vain, many residents, out of compassion,
+      decided to help them.
   - columns:
-    - trouve
-    - shakespeare
+    - "Je... J'ai pris peur sur le terrain. J'ai repens\xE9 \xE0 ma fille et j'ai
+      compris que je ne pouvais pas prendre le risque de laisser ces animaux sortir
+      de la for\xEAt. Il me faut une machette pour d\xE9fendre nos vies."
+    - I... I got scared on the ground. I thought about my daughter and realized that
+      I couldn't risk letting these animals out of the forest. I need a machete to
+      defend our lives.
   - columns:
-    - trouve
-    - shakespeare
+    - "Le meilleur chasseur du royaume a mis fin \xE0 la menace des M\xE9cagons en
+      trouvant leur terrier, profond\xE9ment dans la for\xEAt. Il aurait r\xE9ussi
+      \xE0 le mettre hors d'\xE9tat de nuire par lui-m\xEAme !"
+    - The best hunter in the kingdom put an end to the Mecagon threat by finding
+      their burrow deep in the forest. He would have succeeded in putting them out
+      of action by himself!
   - columns:
-    - trouve
-    - shakespeare
+    - "Le meilleur chasseur du royaume retrouv\xE9 inconscient, profond\xE9ment dans
+      la for\xEAt. Il aurait trouv\xE9 le terrier des dangereux M\xE9cagons et l'aurait
+      mis hors d'\xE9tat de nuire. Sa vie est hors de danger."
+    - The best hunter of the kingdom found unconscious, deep in the forest. He would
+      have found the burrow of the dangerous Mechagons and put it out of action.
+      His life is out of danger.
   - columns:
-    - trouve
-    - shakespeare
+    - "Je veux monter un cours pour former les prochains chasseurs, car je pense
+      que les dangers ne vont que s'aggraver, alors autant miser sur le futur. Et
+      peut-\xEAtre m\xEAme que ma fille sera int\xE9ress\xE9e qui sait ! Il me faut
+      des armes pour d\xE9butants."
+    - I want to set up a course to train the next hunters, because I think the dangers
+      will only get worse, so I might as well bet on the future. And maybe my daughter
+      will even be interested, who knows! I need weapons for beginners.
   - columns:
-    - trouve
-    - shakespeare
+    - "Un projet pour entra\xEEner les futurs chasseurs a remport\xE9 un franc succ\xE8s
+      chez les jeunes. \"Le futur est entre vos mains\". "
+    - A project to train future hunters was a big hit with the youth. "The future
+      is in your hands".
   - columns:
-    - trouve
-    - shakespeare
+    - "La nouvelle activit\xE9 de formation pour chasseurs est au c\u0153ur d'une
+      controverse pour son enseignement sans piti\xE9. Beaucoup sortent du cours
+      bless\xE9s. Voil\xE0 ce que le professeur a \xE0 dire : \"Il faut d'abord les
+      endurcir, la nature sauvage ne vous fera pas de cadeaux\""
+    - The new hunter education activity is at the center of a controversy for its
+      ruthless teaching. Many leave the course wounded. Here's what the instructor
+      has to say, "You have to toughen them up first, the wilderness won't do you
+      any favors."
   - columns:
-    - trouve
-    - shakespeare
+    - "Cette chasse m'aura appris qu'on ne peut que compter sur soi-m\xEAme. Je me
+      d\xE9brouillerai toujours tout seul dor\xE9navant. Une nouvelle machette s'il
+      vous pla\xEEt."
+    - This hunt has taught me that you can only rely on yourself. I'll always be
+      on my own from now on. A new machete please.
   - columns:
-    - trouve
-    - shakespeare
+    - "Insolite : Un chasseur \xE0 d\xE9cid\xE9 d'ouvrir sa boutique o\xF9 il y vendrait
+      son butin. Quelques curieux se laissent tenter."
+    - 'Unusual : A hunter decided to open his store where he would sell his booty.
+      Some curious people let themselves be tempted.'
   - columns:
-    - trouve
-    - shakespeare
+    - "Un chasseur retrouv\xE9 mort dans la for\xEAt, son arme bris\xE9e. Il laisse
+      une petite orpheline derri\xE8re lui. "
+    - A hunter found dead in the forest, his blade broken. He leaves a little orphan
+      girl behind.
   - columns:
-    - trouve
-    - shakespeare
+    - "J'ai l'impression d'avoir \xE9t\xE9 impuissant lors de cette attaque. J'ai
+      donc pris la d\xE9cision de partir m'entra\xEEner tout seul, sans ma fille.
+      Je suis s\xFBr qu'elle s'en sortira, elle est maligne. Il me faut une arme
+      tr\xE8s durable s'il vous pla\xEEt."
+    - I feel like I was helpless during this attack. So I made the decision to go
+      off and train on my own, without my daughter. I'm sure she'll be fine, she's
+      smart. I need a very durable weapon please.
   - columns:
-    - trouve
-    - shakespeare
+    - "Un nouvel ermite aurait \xE9t\xE9 aper\xE7u aujourd'hui profond\xE9ment dans
+      la for\xEAt. Mais celui-ci ne semblerait pas hostile\u2026 \"Il semblait s'entra\xEEner
+      dur et ne m'a m\xEAme pas r\xE9pondu apr\xE8s interpellation\" raconte le t\xE9moin."
+    - A new hermit would have been seen today deep in the forest. But this one would
+      not seem hostile... "He seemed to train hard and did not even answer me after
+      questioning" tells the witness.
   - columns:
-    - trouve
-    - shakespeare
+    - "Un homme sauvage aurait \xE9t\xE9 aper\xE7u dans la for\xEAt, il se battait
+      \xE0 mains nu contre un groupe d'Oursdon."
+    - A wild man was reportedly seen in the forest, fighting with his bare hands
+      against a group of Oursdon.
   - columns:
-    - trouve
-    - shakespeare
+    - Je... Je dois travailler... Pourquoi... Ah oui ma fille... Bon. Il me faut
+      une machette monsieur le forgeron.
+    - I... I have to work... Why do you... Oh yes my daughter... Ok. I need a machete,
+      Mr. Blacksmith.
   - columns:
-    - trouve
-    - shakespeare
+    - "Un des chasseurs les plus respect\xE9s du village a abandonn\xE9 son poste.
+      Le moral des \xE9quipes en prend un coup."
+    - One of the village's most respected hunters has abandoned his post. The morale
+      of the teams takes a hit.
   - columns:
-    - trouve
-    - shakespeare
+    - "Un chasseur retrouv\xE9 mort dans la for\xEAt, son arme bris\xE9e. Il laisse
+      une petite orpheline derri\xE8re lui. "
+    - A hunter found dead in the forest, his blade broken. He leaves a little orphan
+      girl behind.
   - columns:
     - "Bonjour monsieur le forgeron, moi c'est [VF]. Je je me permets de venir vous
       voir parce que j'en ai marre d'\xEAtre faible et d'\xEAtre moqu\xE9 par tout

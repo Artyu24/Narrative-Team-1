@@ -15,8 +15,8 @@ MonoBehaviour:
   pnjName: 
   pnjKeyName: PR
   allSprites:
-  - {fileID: 21300000, guid: 3a538e23a923f194782857226aacc8ce, type: 3}
-  - {fileID: 21300000, guid: 7114fd101b53b0d4b90c85571706e2bb, type: 3}
+  - {fileID: 21300000, guid: 0c7046cea31b5dd46bf2bae6b30ce410, type: 3}
+  - {fileID: 21300000, guid: 6ee4760df8488554cbcc1ae6f2434ba8, type: 3}
   actualDialogueData:
     dialogueID: 1
     key: PR_A_1_D

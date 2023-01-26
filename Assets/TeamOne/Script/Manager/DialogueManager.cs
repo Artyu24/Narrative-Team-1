@@ -10,9 +10,10 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
 
-    [SerializeField] private GameObject dialogueBox;
-    public GameObject DialogueBox => dialogueBox;
+    [SerializeField] private SpriteRenderer dialogueBox;
+    public SpriteRenderer DialogueBox => dialogueBox;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI DialogueText => dialogueText;
 
     //Cree une liste ranger dans l ordre d apparition les objets present
     public Queue<string> sentences = new Queue<string>();
@@ -27,7 +28,6 @@ public class DialogueManager : MonoBehaviour
 
     public void InitDialogue(DialogueData dialogue)
     {
-        //Init sprite
         StartDialogue(GameManager.instance.TextDatabase.rows[dialogue.DialogueLine].columns[0]);
     }
 
@@ -35,7 +35,7 @@ public class DialogueManager : MonoBehaviour
     {
         sentences.Clear();
 
-        dialogueBox.SetActive(true);
+        dialogueBox.gameObject.SetActive(true);
 
         sentences.Enqueue(dialogue);
 
@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(sentences.Count == 0)
         {
-            dialogueBox.SetActive(false);
+            dialogueBox.gameObject.SetActive(false);
             return;
         }
 
@@ -65,8 +65,6 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return new WaitForSeconds(0.01f);
         }
-
-        //Texte finis donc laisser le choix de gauche / droite
     }
 
     private void FixText(ref string texte)

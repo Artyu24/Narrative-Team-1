@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using TeamOne;
 using UnityEngine;
 
@@ -22,7 +23,7 @@ namespace TeamOne
         [SerializeField] private NewsPaper newsPaper;
 
         [Header("GameFeel")] 
-        [SerializeField] private Character charaEffect;
+        [SerializeField] private CharacterAnimation charaEffect;
         [SerializeField] private Night nightEffect;
 
         [Header("Actual Data")]
@@ -31,6 +32,7 @@ namespace TeamOne
         private PNJData actualPNJ;
         private int actualPNJID = 0;
         private int actualDay = 0;
+        private bool inNightMode = false;
 
         private void Awake()
         {
@@ -54,15 +56,17 @@ namespace TeamOne
 
         public void InitDialogue()
         {
-            actualPNJ = GetTodayPnjList()[actualPNJID];
-            charaEffect.InitCharacter(actualPNJ.AllSprites[actualPNJ.ActualDialogueData.SpriteId]);
+            if (!inNightMode)
+            {
+                DialogueManager.instance.DialogueBox.DOFade(1, 1f);
+
+                actualPNJ = GetTodayPnjList()[actualPNJID];
+                charaEffect.InitCharacter(actualPNJ.AllSprites[actualPNJ.ActualDialogueData.SpriteId]);
+            }
         }
 
         public void NextDialogue()
         {
-            if(!DialogueManager.instance.DialogueBox.activeInHierarchy)
-                DialogueManager.instance.DialogueBox.SetActive(true);
-
             DialogueManager.instance.InitDialogue(actualPNJ.ActualDialogueData);
         }
 
@@ -87,35 +91,31 @@ namespace TeamOne
 
             if (actualPNJID >= actualPnjList.Count)
             {
-                SwitchDay();
-                return;
+                DialogueManager.instance.DialogueBox.DOFade(0, 1f);
+                inNightMode = true;
+                nightEffect.StartNight();
             }
 
-            InitDialogue();
+            DialogueManager.instance.DialogueText.text = "";
+            charaEffect.ExitAnime();
         }
 
-        private void SwitchDay()
-        {
-            DialogueManager.instance.DialogueBox.SetActive(false);
-
-            List<PNJData> listTemp = GetTodayPnjList();
-
-            //Next Dialogue for PNJ
-            listTemp[0].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
-            listTemp[1].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
-
-            //Jour suivant
-            actualPNJID = 0;
-            actualDay = (actualDay + 1) % 2;
-        }
-
-        public void InitNewsPaper()
+        public void SwitchDay()
         {
             List<PNJData> listTemp = GetTodayPnjList();
 
             //News Paper
             newsPaper.gameObject.SetActive(true);
             newsPaper.InitNews(null, textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), null, textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
+            
+            //Next Dialogue for PNJ
+            listTemp[0].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
+            listTemp[1].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
+
+            //Jour suivant
+            actualPNJID = 0;
+            inNightMode = false;
+            actualDay = (actualDay + 1) % 2;
         }
 
         private List<PNJData> GetTodayPnjList()

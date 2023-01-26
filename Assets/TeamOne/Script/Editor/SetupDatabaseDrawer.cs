@@ -36,13 +36,13 @@ namespace TeamOne
                 if (GUILayout.Button("MAJ DIALOGUE"))
                 {
                     TextDatabase text_DB = AssetDatabase.LoadAssetAtPath<TextDatabase>("Assets/TeamOne/ScriptableObject/TextDatabase.asset");
-                    text_DB.CreateNewShape(myObject.JsonFile["values"].Count, myObject.JsonFile["values"][0].Count - 6);
+                    text_DB.CreateNewShape(myObject.JsonFile["values"].Count, myObject.JsonFile["values"][0].Count - 7);
 
-                    for (int i = 6; i < myObject.JsonFile["values"][0].Count; i++)
+                    for (int i = 7; i < myObject.JsonFile["values"][0].Count; i++)
                     {
                         for (int j = 0; j < myObject.JsonFile["values"].Count; j++)
                         {
-                            text_DB.rows[j].columns[i - 6] = JSON.Parse(myObject.JsonFile["values"][j][i].ToString());
+                            text_DB.rows[j].columns[i - 7] = JSON.Parse(myObject.JsonFile["values"][j][i].ToString());
                         }
                     }
 
@@ -62,7 +62,7 @@ namespace TeamOne
                         string key = myObject.JsonFile["values"][i][0];
                         string[] splitKey = key.Split('_');
 
-                        DialogueData dialogueDataTemp = CreateNewDialogueData(splitKey, i, myObject.JsonFile["values"][i][5]);
+                        DialogueData dialogueDataTemp = CreateNewDialogueData(splitKey, i, myObject.JsonFile["values"][i][5], myObject.JsonFile["values"][i][6]);
                         dialogueDataTemp.Key = key;
 
                         if (!ContainsDialogueDataID(D_DB.DialogueDb, JSON.Parse(myObject.JsonFile["values"][i][0])))
@@ -113,9 +113,9 @@ namespace TeamOne
             serializedObject.ApplyModifiedProperties();
         }
 
-        private DialogueData CreateNewDialogueData(string[] splitKey, int id, string nextKey)
+        private DialogueData CreateNewDialogueData(string[] splitKey, int id, string nextKey, string weaponStateKey)
         {
-            return new DialogueData(int.Parse(splitKey[2]), id, GetSpriteId(splitKey[1]), GetTextState(splitKey[3]), nextKey);
+            return new DialogueData(int.Parse(splitKey[2]), id, GetSpriteId(splitKey[1]), GetTextState(splitKey[3]), GetWeaponState(weaponStateKey), nextKey);
         }
 
         private int GetSpriteId(string id)
@@ -153,6 +153,27 @@ namespace TeamOne
                     return TextState.ADDON;
                 default:
                     return TextState.DEFAULT;
+            }
+        }
+
+        private WeaponState GetWeaponState(string id)
+        {
+            switch (id)
+            {
+                case "SHEARS":
+                    return WeaponState.SHEARS;
+                case "DAGGER":
+                    return WeaponState.DAGGER;
+                case "SWORD":
+                    return WeaponState.SWORD;
+                case "PICKAXE":
+                    return WeaponState.PICKAXE;
+                case "AXE":
+                    return WeaponState.AXE;
+                case "KATANA":
+                    return WeaponState.KATANA;
+                default:
+                    return WeaponState.NOTHING;
             }
         }
 
