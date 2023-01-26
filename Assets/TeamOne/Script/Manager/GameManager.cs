@@ -58,8 +58,6 @@ namespace TeamOne
         {
             if (!inNightMode)
             {
-                DialogueManager.instance.DialogueBox.DOFade(1, 1f);
-
                 actualPNJ = GetTodayPnjList()[actualPNJID];
                 charaEffect.InitCharacter(actualPNJ.AllSprites[actualPNJ.ActualDialogueData.SpriteId]);
             }

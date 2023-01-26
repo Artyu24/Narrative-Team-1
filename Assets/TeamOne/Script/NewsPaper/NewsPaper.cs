@@ -33,7 +33,6 @@ namespace TeamOne
 
         private void ExitAnime()
         {
-            DialogueManager.instance.DialogueBox.DOFade(1, 1f);
             Sequence exitPaperAnime= DOTween.Sequence();
             exitPaperAnime.Insert(0, transform.DOScale(new Vector3(0, 0, 0), 1f).SetEase(Ease.InBack));
             
