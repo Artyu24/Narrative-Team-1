@@ -24,13 +24,13 @@ namespace TeamOne
             EnterAnime.Join(sprite.DOFade(0f, 0));
             EnterAnime.Join(sprite.DOColor(Color.black, 0f));
             EnterAnime.Append(transform.DOMoveY(-1, 3f));
-            EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack));
+            EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack)).OnComplete(() => GameManager.instance.NextDialogue());
             EnterAnime.Insert(1.5f, sprite.DOFade(1f, 3f));
             EnterAnime.Join(sprite.DOColor(Color.white, 3f));
         }
 
         //elle tu l'appel quand le dialogue est finis
-        private void ExitAnime()
+        public void ExitAnime()
         {
             Sequence ExitAnime = DOTween.Sequence();
             ExitAnime.Insert(1, transform.DORotate(new Vector3(0, 0, -144), 3f).SetEase(Ease.InBack));

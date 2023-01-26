@@ -47,7 +47,7 @@ namespace TeamOne
         {
             ExitAnime();
             //PNJ START
-            GameManager.instance.NextDialogue();
+            GameManager.instance.InitDialogue();
         }
     }
 }
