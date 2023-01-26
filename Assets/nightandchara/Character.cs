@@ -31,9 +31,9 @@ namespace Team01
         private void ExitAnime()
         {
             Sequence ExitAnime = DOTween.Sequence();
-            ExitAnime.Insert(10, transform.DORotate(new Vector3(0, 0, -144), 3f).SetEase(Ease.InBack));
-            ExitAnime.Insert(10f, sprite.DOColor(Color.black, 2f));
-            ExitAnime.Insert(10.5f, sprite.DOFade(0f, 3f));
+            ExitAnime.Insert(1, transform.DORotate(new Vector3(0, 0, -144), 3f).SetEase(Ease.InBack));
+            ExitAnime.Insert(1f, sprite.DOColor(Color.black, 2f));
+            ExitAnime.Insert(1.5f, sprite.DOFade(0f, 3f));
         }
     }
 }
