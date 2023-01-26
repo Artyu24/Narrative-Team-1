@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pnjName: 
   pnjKeyName: VF
-  allSprites: []
+  allSprites:
+  - {fileID: 21300000, guid: 1dab0309fa3109340865ded5625863e3, type: 3}
   actualDialogueData:
     dialogueID: 1
     key: VF_A_1_D

@@ -35,16 +35,19 @@ namespace TeamOne
                 
                 if (GUILayout.Button("MAJ DIALOGUE"))
                 {
-                    TextDatabase DB = AssetDatabase.LoadAssetAtPath<TextDatabase>("Assets/TeamOne/ScriptableObject/TextDatabase.asset");
-                    DB.CreateNewShape(myObject.JsonFile["values"].Count, myObject.JsonFile["values"][0].Count - 6);
+                    TextDatabase text_DB = AssetDatabase.LoadAssetAtPath<TextDatabase>("Assets/TeamOne/ScriptableObject/TextDatabase.asset");
+                    text_DB.CreateNewShape(myObject.JsonFile["values"].Count, myObject.JsonFile["values"][0].Count - 6);
 
                     for (int i = 6; i < myObject.JsonFile["values"][0].Count; i++)
                     {
                         for (int j = 0; j < myObject.JsonFile["values"].Count; j++)
                         {
-                            DB.rows[j].columns[i - 6] = JSON.Parse(myObject.JsonFile["values"][j][i].ToString());
+                            text_DB.rows[j].columns[i - 6] = JSON.Parse(myObject.JsonFile["values"][j][i].ToString());
                         }
                     }
+
+                    EditorUtility.SetDirty(text_DB);
+                    AssetDatabase.SaveAssets();
                 }
 
                 if (GUILayout.Button("MAJ TREE"))

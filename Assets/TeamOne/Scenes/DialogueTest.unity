@@ -215,6 +215,8 @@ MonoBehaviour:
   dialogueDatabase: {fileID: 11400000, guid: 9b60cafb3a727254595d3b1f80f350f6, type: 2}
   textDatabase: {fileID: 11400000, guid: be2d2f8491ef548478390b55f7b8daf3, type: 2}
   newsPaper: {fileID: 1328422248}
+  charaEffect: {fileID: 1768120468}
+  nightEffect: {fileID: 0}
   pnjPhaseOneClone: []
   pnjPhaseTwoClone: []
 --- !u!1 &772374383
@@ -598,6 +600,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a410d268dc7ce144885d3b70a98d1873, type: 3}
+--- !u!114 &1768120468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5643856668103765755, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
+  m_PrefabInstance: {fileID: 1266575694}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7afb7eedb2be88e479be3a37358ee761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1963319239
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rows:
   - columns:
-    - Bonjour
+    - FR
+    - EN
+  - columns:
+    - "Bonjour Forgeron, sympa votre boutique m\xEAme si j'en ai vu des plus impressionnante
+      lors de mes voyages, je m'appelle [nom_paysanne_forte] . J'ai un probl\xE8me,
+      je suis maladroite. Et pour r\xE9parer les pots cass\xE9s je vais participer
+      \xE0 un concours de sculpture, mais mon couteau avec lequel je manipule l'argile
+      a rendu l'\xE2me. Je dois me pr\xE9parer pour ce grand \xE9v\xE8nement, cela
+      se passe dans un lieu de culte et j'en ai besoin au plus vite."
     - Hello
   - columns:
     - tu
@@ -23,17 +31,20 @@ MonoBehaviour:
     - vas
     - de
   - columns:
+    - jean-claude
+    - de
+  - columns:
     - bien
     - fou
   - columns:
     - ba
-    - je
+    - 'je '
   - columns:
     - oui
     - parle
   - columns:
     - et
-    - en
+    - 'en '
   - columns:
     - toi
     - anglais
@@ -45,7 +56,7 @@ MonoBehaviour:
     - shakespeare
   - columns:
     - tu
-    - et
+    - 'et '
   - columns:
     - vas
     - je
@@ -56,8 +67,799 @@ MonoBehaviour:
     - genre
     - pas
   - columns:
-    - je
+    - 'je '
     - ecrire
   - columns:
     - trouve
     - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - "Il me faut une machette, vite. De la meilleure qualit\xE9 que vous avez."
+    - shakespeare
+  - columns:
+    - Bonne nouvelle ! Il n'y a pas eu d'attaques d'animaux sauvages depuis 1 semaine.
+    - shakespeare
+  - columns:
+    - "Une r\xE9surgence d'animaux sauvages aux abords de la for\xEAt. Veuillez \xE9viter
+      les chemins en bordure. Pr\xE9cautions pour les chasseurs d'y aller en groupe."
+    - shakespeare
+  - columns:
+    - "Je m'appelle [PR]. Vos outils sont tr\xE8s durables, je vais vous prendre
+      une machette d'avance s'il vous pla\xEEt. Peut-\xEAtre que je peux me faire
+      un de ces mythiques Metadrax, haha !"
+    - shakespeare
+  - columns:
+    - "Le royaume semble en paix mais restez sur vos gardes : un serial killer r\xF4de
+      toujours et donne du fil \xE0 retordre \xE0 la police depuis 10 ans cette ann\xE9e."
+    - shakespeare
+  - columns:
+    - "Un chasseur exp\xE9riment\xE9 lance l'alerte. Il dit que la faune sauvage
+      de la for\xEAt se renforce \"Un Clipag a bris\xE9 mon arme favorite en un coup,
+      ils ont \xE9volu\xE9s\". Serait-ce l'heure de la nouvelle Grande Chasse ?"
+    - shakespeare
+  - columns:
+    - Bonjour, je veux faire une commande au nom de [PR]. Il me une machette par
+      jour.
+    - shakespeare
+  - columns:
+    - "Bonne nouvelle ! Il n'y a pas eu de blessures li\xE9es aux b\xEAtes sauvages
+      depuis 1 semaine. Un chasseur raconte : \"Depuis que [PR] m'a forc\xE9 \xE0
+      \xE9changer mon arme avec la sienne avec, je n'ai plus de peine \xE0 chasser\u2026\""
+    - shakespeare
+  - columns:
+    - "Le prix du lingot de faronium est mont\xE9 de 30% au cours de la semaine pass\xE9e.
+      Une future p\xE9nurie se pr\xE9pare-t-elle ?"
+    - shakespeare
+  - columns:
+    - "Hey ! Gr\xE2ce \xE0 vous, aucun ennemi ne me r\xE9siste ! Et j'ai un peu plus
+      de temps \xE0 accorder \xE0 ma fille\u2026 M\xEAme si c'est un peu tard pour
+      reprendre mon r\xF4le de p\xE8re. J'esp\xE8re r\xE9ussir \xE0 renouer des liens.
+      Il me faudrait une machette comme d'habitude s'il vous pla\xEEt."
+    - shakespeare
+  - columns:
+    - "Prudence ! Des citoyens bless\xE9s par des attaques d'animaux sauvages provenant
+      de la for\xEAt m\xE8nent des chasseurs en difficult\xE9."
+    - shakespeare
+  - columns:
+    - "Alerte Info : Invasions d'animaux sauvages, restez chez vous ! De nombreux
+      chasseurs gravement bless\xE9s en essayant de les repousser."
+    - shakespeare
+  - columns:
+    - "J'ai r\xE9ussi \xE0 lancer un projet de chasse pr\xE9ventive. Mon intuition
+      me dit qu'il nous faudrait une arme plus longue, pour plus de port\xE9e. "
+    - shakespeare
+  - columns:
+    - "Le roi est descendu f\xE9liciter les chasseurs pour leur retour sans aucun
+      bless\xE9s. Le chasseur \xE0 l'origine de cette id\xE9e fut acclam\xE9."
+    - shakespeare
+  - columns:
+    - "Les Mecagons \xE0 pattes longues ont fait des ravages lors de cette derni\xE8re
+      chasse. Beaucoup de bless\xE9s \xE0 d\xE9plorer. \"Nous n'avions pas anticip\xE9
+      ce genre d'attaques\" rapporte un chasseur."
+    - shakespeare
+  - columns:
+    - "On pr\xE9pare une chasse pr\xE9ventive. Vos derni\xE8res machettes ont \xE9t\xE9
+      excellentes. Il nous faut beaucoup d'armes. "
+    - shakespeare
+  - columns:
+    - "Les chasseurs sont heureux d'annoncer le succ\xE8s de leur derni\xE8re op\xE9ration,
+      malgr\xE9 quelques bless\xE9s au retour de cette chasse pr\xE9ventive. Les
+      Mecagons \xE0 pattes longues auraient pu devenir une s\xE9rieuse menace d'apr\xE8s
+      le rapport."
+    - shakespeare
+  - columns:
+    - "Les Mecagons \xE0 pattes longues ont fait des ravages lors de cette derni\xE8re
+      chasse. Beaucoup de bless\xE9s \xE0 d\xE9plorer. \"Nous n'avions pas anticip\xE9
+      ce genre d'attaques\" rapporte un chasseur."
+    - shakespeare
+  - columns:
+    - "On pr\xE9pare une grande chasse pour repousser la faune sauvage qui n'arr\xEAte
+      jamais de se renforcer. Il me faut vos meilleures lames je vous en prie, je
+      suis pr\xEAt \xE0 mettre le prix."
+    - shakespeare
+  - columns:
+    - "Malgr\xE9 la surprise des Mecagons \xE0 pattes longues la chasse fut un succ\xE8s.
+      Il y a malheureusement un certain nombre de bless\xE9s \xE0 d\xE9plorer. \"Nous
+      n'avions pas anticip\xE9 ce genre d'animaux mais le mal est repouss\xE9\" rapporte
+      un chasseur."
+    - shakespeare
+  - columns:
+    - "Les Mecagons \xE0 pattes longues ont fait rage lors de cette derni\xE8re chasse.
+      Beaucoup de bless\xE9s et m\xEAmes de pertes sont \xE0 d\xE9plorer. \"C'est
+      une catastrophe, personne n'avait anticip\xE9 une telle menace\" rapporte un
+      chasseur."
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - trouve
+    - shakespeare
+  - columns:
+    - "Bonjour monsieur le forgeron, moi c'est [VF]. Je je me permets de venir vous
+      voir parce que j'en ai marre d'\xEAtre faible et d'\xEAtre moqu\xE9 par tout
+      le monde. Je veux devenir un HOMME et pour commencer je me suis dit que qu'avoir
+      une arme m'aiderai beaucoup dans cette qu\xEAte surtout que des gens rodent
+      autour de chez moi, je dois me d\xE9fendre. Enfin si vous voulez bien m'aider,
+      bien sur ?!"
+    - Hello Mr. Blacksmith, my name is [VF]. I'm coming to see you because I'm tired
+      of being weak and being made fun of by everyone. I want to become a MAN and
+      to start with I thought that having a weapon would help me a lot in this quest
+      especially since there are people around my house, I have to defend myself.
+      That is if you want to help me, of course!
+  - columns:
+    - "Un homme a r\xE9ussi \xE0 repousser des cambrioleurs qui voulaient entrer
+      dans son domicile. Depuis cet \xE9v\xE8nement, le royaume se porte merveilleusement
+      bien et aucune agression n'a \xE9t\xE9 recens\xE9e depuis un long moment. "
+    - A man managed to repel burglars who wanted to enter his home. Since this event,
+      the kingdom is doing wonderfully well and no aggression has been recorded for
+      a long time.
+  - columns:
+    - "Un homme retrouv\xE9 presque sans vie dans sa maison suite \xE0 une attaque
+      de plusieurs bandits. Selon les sources, l'arme de la victime n'a pas tenu
+      le coup face aux assauts et \xE0 finit par c\xE9der. La victime a \xE9t\xE9
+      transf\xE9r\xE9 en lieu s\xFBr dans la clinique du royaume."
+    - A man found almost lifeless in his house after an attack by several bandits.
+      According to sources, the victim's blade did not hold up to the assaults and
+      eventually gave out. The victim was transferred to a safe place in the clinic
+      of the kingdom.
+  - columns:
+    - "Bonjour ! Merci beaucoup pour votre arme, je l'ai ador\xE9. J'ai rencontr\xE9
+      quelqu'un et 'aimerai bien avoir une meilleure arme pour qu'elle tombe amoureuse.
+      Je vais lui ramener la plus f\xE9roce des b\xEAtes, d'une raret\xE9 incroyable
+      ! Surtout qu'on s'est rencontr\xE9 aux abords du royaume et c'\xE9tait le coup
+      de foudre, le vrai ! Il faut \xE0 tout prix que je l'impressionne, donnez moi
+      quelque chose je vous en supplie ! "
+    - Hello ! Thank you very much for your weapon, I loved it. I met someone and
+      would love to have a better weapon for her to fall in love with me. I'm going
+      to bring her the most ferocious beast of all, incredibly rare! Especially since
+      we met on the outskirts of the kingdom and it was love at first sight, the
+      real thing! I have to impress her at all costs, give me something I beg you!
+  - columns:
+    - "Un homme est revenu au royaume hier soir couvert de cicatrices et de sang.
+      Il s'est attaqu\xE9 seul au grand Laconique, quel imb\xE9cile... "
+    - A man returned to the kingdom last night covered in scars and blood. He attacked
+      the great Laconic alone, what a fool...
+  - columns:
+    - "Les gardes du royaume ont emp\xEAch\xE9 un homme de chasser le Laconique qui
+      \xE8re dans la for\xEAt. Ils sont arriv\xE9s \xE0 temps, qui sait ce qui se
+      serait pass\xE9 dans le cas contraire ?"
+    - The guards of the kingdom prevented a man from hunting the Laconic who was
+      in the forest. They arrived in time, who knows what would have happened otherwise?
+  - columns:
+    - "Bonjour, vous vous souvenez de moi ? J'\xE9tais venu pour une arme il y a
+      quelque jours mais elle s'est bris\xE9e et me voil\xE0 dans cet \xE9tat. Il
+      m'en faudrait vraiment une nouvelle sinon je ne passerai pas la semaine, vous
+      voulez bien m'aider ? Et puis j'ai rencontr\xE9 une femme, elle a l'air plut\xF4t
+      r\xE9ceptive, je dois l'impressionner"
+    - Hi, do you remember me? I came for a blade a few days ago but it broke and
+      here I am in this state. I really need a new one or I won't make it through
+      the week, would you help me? And then I met a woman, she seems quite receptive,
+      I have to impress her
+  - columns:
+    - "Focus sur les maisons insolites du royaume : Une nouvelle maison a fait son
+      apparition r\xE9cemment. Son propri\xE9taire l'aurait tellement prot\xE9g\xE9
+      qu'elle serait devenue \"imp\xE9n\xE9trable\""
+    - 'Focus on the unusual houses of the kingdom: A new house has recently appeared.
+      Its owner would have protected it so much that it would have become "impenetrable"'
+  - columns:
+    - "ALERTE INFO : Une maison du royaume aurait \xE9t\xE9 r\xE9duite en poussi\xE8re
+      apr\xE8s les attaques d'un groupe de jeune voulant prouver \xE0 un autre groupe
+      qu'ils en \xE9taient capables. Les services de s\xE9curit\xE9 n'ont rien pu
+      faire. Cependant, aucun bless\xE9 n'a \xE9t\xE9 recens\xE9, les propri\xE9taires
+      n'\xE9taient pas l\xE0 au moment des faits"
+    - 'NEWS ALERT: A house in the kingdom was reportedly reduced to dust after attacks
+      by a group of young people wanting to prove to another group that they could
+      do it. The security services could not do anything. However, no injuries were
+      reported, the owners were not there at the time of the incident.'
+  - columns:
+    - "Un homme n'arr\xEAte pas de regarder ma femme. Donnez moi vite une arme que
+      je m'occupe de son cas. M\xEAme si je suis bless\xE9, je vais lui montrer ce
+      que fais un Homme, un vrai ! "
+    - A man keeps looking at my wife. Give me a blade quickly so I can take care
+      of him. Even if I'm wounded, I'll show her what a real man can do!
+  - columns:
+    - "ALERTE : Un homme a \xE9t\xE9 retrouv\xE9 poignard\xE9 \xE0 30 reprises dans
+      sa maison. Le criminel est activement recherch\xE9 par les autorit\xE9s, tout
+      indice concernant son identit\xE9 sera r\xE9compens\xE9"
+    - 'ALERT: A man was found stabbed 30 times in his home. The criminal is actively
+      sought by the authorities, any clue regarding his identity will be rewarded'
+  - columns:
+    - "Paix au royaume : Aucun crime ni altercation ne se sont pass\xE9s depuis des
+      jours au royaume. Le roi appelle \xE0 continuer dans cette voie "
+    - 'Peace in the kingdom: No crime or altercation has occurred for days in the
+      kingdom. The king calls to continue in this way'
+  - columns:
+    - "Bonjour. Heureusement que les gardes \xE9taient l\xE0 pour me sauver, j'ai
+      eu si peur\u2026 Mais maintenant je suis pr\xEAt, je vais aller affronter le
+      Laconique avec les gardes qui m'ont sauv\xE9. Donnez moi une bonne arme par
+      piti\xE9, c'est mon moment !"
+    - Hello. Luckily the guards were there to save me, I was so scared... But now
+      I'm ready, I'm going to face the Laconic with the guards who saved me. Please
+      give me a good weapon, this is my moment!
+  - columns:
+    - "Avec l'aide des gardes, un homme a r\xE9ussi \xE0 vaincre le Laconique qui
+      terroris\xE9 le royaume. Il a \xE9t\xE9 r\xE9mun\xE9rer \xE0 la hauteur de
+      son exploit. Il a d\xE9cid\xE9 de quitter le royaume pour vivre une vie paisible
+      isol\xE9 de tous"
+    - With the help of the guards, a man managed to defeat the Laconic that terrorized
+      the kingdom. He was rewarded for his feat. He decided to leave the kingdom
+      to live a peaceful life isolated from everyone.
+  - columns:
+    - "Avec l'aide des gardes, un homme est parti chass\xE9 le Laconique. Malheureusement
+      sa lame s'est bris\xE9e et a finit dans le c\u0153ur d'un garde. Il a pris
+      la fuite, laissant les autres gardes mourir tour \xE0 tour"
+    - With the help of the guards, a man went to hunt the Laconic. Unfortunately
+      his blade broke and ended up in the heart of a guard. He fled, leaving the
+      other guards to die in turn.
+  - columns:
+    - "Vous n'allez pas le croire. Gr\xE2ce \xE0 vous, j'ai impressionn\xE9 la femme
+      dont je vous ai parl\xE9 et elle est tomb\xE9e sous mon charme. J'avais pens\xE9
+      \xE0 lui acheter un m\xE9cacheval et lui confectionner une armure. Je suis
+      tr\xE8s maladroit et j'ai peur de blesser l'animal donc ce serait super d'avoir
+      une arme assez simple. Vous pouvez m'en donner une ?"
+    - You won't believe it. Thanks to you, I impressed the woman I told you about
+      and she fell under my beauty. I thought of buying her a mecahorse and making
+      her an armor. I'm very clumsy and I'm afraid to hurt the animal so it would
+      be great to have a fairly simple weapon. Can you give me one?
+  - columns:
+    - "Un des rares m\xE9cacheval du royaume a \xE9t\xE9 retrouv\xE9 \xE9ventr\xE9
+      devant la maison d'un homme. Il n'aurait pas \"fait expr\xE8s\". Comme si on
+      allait le croire\u2026 Il \xE9copera pour la peine d'une sacr\xE9e amende pour
+      son crime et un boycott est mis en place envers son mariage "
+    - One of the rare mecahorse of the kingdom was found disemboweled in front of
+      a man's house. He would not have "done it on purpose". As if anyone would believe
+      him... He will be fined a lot for his crime and a boycott is set up towards
+      his wedding.
+  - columns:
+    - "EVENEMENT : Le concours de la plus belle armure de m\xE9cacheval est termin\xE9.
+      Une femme a remport\xE9 la comp\xE9tition haut la main gr\xE2ce \xE0 une tenue
+      confectionn\xE9e par son mari. Leur mariage sera enti\xE8rement financ\xE9
+      par le royaume et tous les habitants y sont convi\xE9s"
+    - 'EVENT: The contest of the most beautiful armor of mecahorse is over. A woman
+      won the competition with a suit made by her husband. Their wedding will be
+      entirely financed by the kingdom and all the inhabitants are invited to attend.'
+  - columns:
+    - "Bonjour, vous avez d\xFB entendre la nouvelle. Un peu de joie dans cette catastrophe,
+      je me suis mis en couple avec la femme que j'aime. Maintenant que je n'ai plus
+      d'endroit o\xF9 loger, je dois trouver un nouveau lieu. Un ermite robot vit
+      dans la for\xEAt mais il me faudrait une arme pour me d\xE9fendre, il est tr\xE8s
+      hostile \xE0 ce qu'on dit. Vous pouvez m'aider ?"
+    - Hello, you must have heard the news. A little joy in this disaster, I've gotten
+      together with the woman I love. Now that I have no place to stay, I need to
+      find a new place. A robot hermit lives in the forest but I would need a weapon
+      to defend myself, he is very hostile. Can you help me?
+  - columns:
+    - "L'ermite robot qui parasitait depuis des ann\xE9es le royaume a \xE9t\xE9
+      assassin\xE9. L'assassin a \xE9t\xE9 f\xE9licit\xE9 par le roi qui lui a offert
+      un nouveau logement dans le royaume pour lui et sa femme. Il assistera \xE9galement
+      \xE0 leur mariage !"
+    - The robot hermit who had been parasitizing the kingdom for years was murdered.
+      The assassin was congratulated by the king who offered him a new home in the
+      kingdom for him and his wife. He will also attend their wedding!
+  - columns:
+    - "Un homme a \xE9t\xE9 retrouv\xE9 sans vie juste \xE0 c\xF4t\xE9 du royaume.
+      Il se serait fait d\xE9chiquet\xE9 par des loups sauvages alors qu'il se dirigeait
+      vers l'ermite vivant dans la for\xEAt."
+    - A man was found lifeless just outside the kingdom. He would have been mauled
+      by wild wolves as he walked towards the hermit living in the forest.
+  - columns:
+    - DONNEZ MOI UNE ARME ! VITE ! J'AI PAS MAL DE CHOSES A REGLER !
+    - GIVE ME A BLADE! FAST! I HAVE A LOT OF THINGS TO TAKE CARE OF!
+  - columns:
+    - "Les gardes du royaume ont retrouv\xE9 des dizaines de cadavres dans les rues.
+      Le coupable a \xE9t\xE9 appr\xE9hend\xE9 et tu\xE9 sur le champ "
+    - The kingdom's guards found dozens of dead bodies in the streets. The culprit
+      was apprehended and killed on the spot
+  - columns:
+    - "Nouvel arrivant dans l'h\xF4pital psychiatrique de la ville. Une femme a transf\xE9r\xE9
+      son mari dans la nuit car il \xE9tait devenu fou   "
+    - New arrival in the city's psychiatric hospital. A woman transferred her husband
+      in the night because he had gone crazy
+  - columns:
+    - "Bonjour ! Je n'ai pas c\xE9der \xE0 mes pulsions et je me porte mieux. J'ai
+      une derni\xE8re requ\xEAte pour vous, il me faut \xE0 tout prix une bonne arme.
+      Il me la faut absolument pour aller chasser du gibier pour ma femme, elle adore
+      \xE7a.           "
+    - Hello ! I didn't give in to my impulses and I'm doing better. I have one last
+      request for you, I need a good blade at all costs. I absolutely need it to
+      go hunting some venison for my wife, she loves it.
+  - columns:
+    - "Un apprenti chasseur r\xE9ussi l'exploit de terrasser une harde de sanglier
+      \xE0 lui tout seul. Son exploit \xE0 \xE9t\xE9 r\xE9compens\xE9 par le roi  "
+    - A hunter's apprentice succeeded in bringing down a herd of wild boar by himself.
+      His feat was rewarded by the king
+  - columns:
+    - "Un homme est actuellement au bord de la mort suite \xE0 une chasse qui a mal
+      tourn\xE9. L'homme a gri\xE8vement \xE9t\xE9 touch\xE9 par des sangliers"
+    - A man is currently on the verge of death following a hunt gone wrong. The man
+      was seriously hit by wild boars
+  - columns:
+    - "J'ai pris peur, je n'ai pas su comment r\xE9agir. Pour me faire pardonner
+      aupr\xE8s du royaume, il me faudrait une arme magnifique que j'offrirai au
+      roi en esp\xE9rant que son pardon me soit accept\xE9. Vous voulez bien m'aider
+      ?"
+    - I was afraid, I did not know how to react. In order to be forgiven by the kingdom,
+      I would need a magnificent weapon that I would offer to the king in the hope
+      that his forgiveness would be accepted. Will you help me?
+  - columns:
+    - "Le roi a re\xE7u une arme l\xE9gendaire de la part d'un villageois qui avait
+      combattu avec les gardes. Cet homme a \xE9t\xE9 adoub\xE9 et sera au service
+      du roi "
+    - The king received a legendary weapon from a villager who had fought with the
+      guards. This man was knighted and will serve the king
+  - columns:
+    - "Le roi a re\xE7u une arme bris\xE9e de la part d'un villageois. Voyant un
+      manque de respect dans cet acte, l'homme devra payer une somme \xE9lev\xE9e
+      au royaume.  "
+    - The king received a broken weapon from a villager. Seeing a lack of respect
+      in this act, the man will have to pay a large sum to the kingdom.
+  - columns:
+    - "Euh, je crois que j'ai fait une boulette, tout ne s'est pas pass\xE9 comme
+      pr\xE9vu. Avant de partir en lune de miel, je dois acheter un bijou pour ma
+      femme. Il me faut une arme pour me d\xE9fendre pendant le p\xE9riple. Aidez-moi
+      s'il vous plait !   "
+    - Uh, I think I made a mistake, everything did not go as planned. Before leaving
+      for my honeymoon, I have to buy a piece of jewelry for my wife. I need a weapon
+      to defend myself during the trip. Please help me!
+  - columns:
+    - "Un bijoutier du royaume a fait don de plusieurs de ses joyaux \xE0 un homme.
+      Le bijoutier a \xE9t\xE9 touch\xE9 par sa demande et lui a offert ses plus
+      belles cr\xE9ations  "
+    - A jeweler in the kingdom donated several of his jewels to a man. The jeweler
+      was touched by his request and offered him his most beautiful creations
+  - columns:
+    - "Un homme a tent\xE9 de voler dans une bijouterie. Il a \xE9t\xE9 appr\xE9hend\xE9
+      par les gardes et est contraint de quitter le royaume pendant quelques temps "
+    - A man tried to steal from a jewelry store. He was apprehended by the guards
+      and is forced to leave the kingdom for some time
+  - columns:
+    - "Bonjour, vous avez aim\xE9 le mariage ? C'\xE9tait grandiose et la prochaine
+      \xE9tape, c'est la lune de miel. Je compte \xE9changer une tr\xE8s belle arme
+      pour me faire de l'argent et choisir une belle destination pour notre voyage
+      de noce. Vous avez quelque chose de bien \xE0 me proposer ? "
+    - Hi, did you enjoy the wedding? It was great and the next step is the honeymoon.
+      I'm planning to exchange a very nice gun to make some money and choose a nice
+      destination for our honeymoon. Do you have anything good to offer me?
+  - columns:
+    - "La brocante annuelle s'est d\xE9roul\xE9 sans probl\xE8me et un homme a m\xEAme
+      r\xE9ussi \xE0 vendre une arme prestigieuse \xE0 un prix d\xE9mesur\xE9. Il
+      compte partir en voyage de noce dans un endroit paradisiaque gr\xE2ce \xE0
+      l'argent r\xE9colt\xE9 "
+    - The annual flea market went off without a hitch and one man even managed to
+      sell a prestigious weapon at an inordinate price. He plans to go on a honeymoon
+      in a paradisiacal place with the money collected
+  - columns:
+    - "La brocante annuelle a \xE9t\xE9 catastrophique et les ventes ont \xE9t\xE9
+      plus que d\xE9cevantes. Un homme souhaitant partir en voyage de noce dans un
+      super endroit va devoir se contenter de pas grand chose. Quel dommage..."
+    - The annual flea market was a disaster and the sales were more than disappointing.
+      A man wishing to go on a honeymoon to a great place will have to settle for
+      not much. What a shame...
+  - columns:
+    - "Vous avez appris la nouvelle ? Je me suis mari\xE9 ! On a pour projet de partir
+      en lune de miel mais avant \xE7a j'aimerai bien me faire beau et j'aurai donc
+      besoin d'une lame pour changer de coupe de cheveux. Vous avec quelque chose
+      en stock pour moi ? "
+    - Did you hear the news? I got married! We plan to go on our honeymoon but before
+      that I'd like to look good so I'll need a blade to change my haircut. Do you
+      have anything in stock for me?
+  - columns:
+    - "Un homme s'est bless\xE9 dans la soir\xE9e en essayant de se couper les cheveux.
+      Il gardera ses blessures \xE0 vie. Pas dou\xE9 le petit bonhomme\u2026 "
+    - A man injured himself in the evening while trying to cut his hair. He will
+      keep his wounds for life. Not gifted the little man...
+  - columns:
+    - "Info Fashion : Une nouvelle tendance capillaire fait son apparition en ce
+      moment. Un homme est \xE0 l'origine de ce mouvement et tout le royaume a ador\xE9.
+      Il devient en tr\xE8s peu de temps une v\xE9ritable star ! "
+    - 'Fashion Info: A new hair trend is making its appearance right now. One man
+      is at the origin of this movement and the whole kingdom loved it. He became
+      a real star in a very short time!'
+  - columns:
+    - "Bonjour Forgeron, sympa votre boutique m\xEAme si j'en ai vu des plus impressionnantes
+      lors de mes voyages, je m'appelle [FF] . J'ai un probl\xE8me, je suis maladroite.
+      Et pour r\xE9parer les pots cass\xE9s je vais participer \xE0 un concours de
+      sculpture, mais mon couteau avec lequel je manipule l'argile a rendu l'\xE2me.
+      Je dois me pr\xE9parer pour ce grand \xE9v\xE8nement, cela se passe dans un
+      lieu de culte et j'en ai besoin au plus vite."
+    - Hello Blacksmith, nice store even if I've seen more impressive ones during
+      my travels, my name is [FF] . I have a problem, I am clumsy. And to fix the
+      broken pots I'm going to participate in a sculpture contest, but my knife with
+      which I manipulate the clay has given up. I have to prepare for this big event,
+      it is in a place of worship and I need it as soon as possible.
+  - columns:
+    - "Le concours annuel de sculpture a \xE9t\xE9 remport\xE9 cette ann\xE9e par
+      [FF]"
+    - The annual sculpture contest was won this year by [FF]
+  - columns:
+    - "Le concours annuel de sculpture s'est fini sur une note sal\xE9e. Le couteau
+      d'une des participantes s'est cass\xE9 pendant le manipulation."
+    - The annual carving contest ended on a sour note. One participant's knife broke
+      during the manipulation.
+  - columns:
+    - "Bonjour forgeron, je tenais a vous remercier pour ce couteau, gr\xE2ce \xE0
+      lui, j'ai pu gagner haut la main, j'avais fait une sculpture d'un ours comme
+      quoi je suis toujours bonne sculptrice. Je reviens vers vous car j'ai accept\xE9
+      de travailler dans l'ancienne\nmine et il me faudrait une belle pioche pour
+      m'aider, pouvez vous m'en fournir une de bonne qualit\xE9 ?"
+    - Hello blacksmith, I wanted to thank you for this knife. Thanks to it, I was
+      able to win hands down, I had made a sculpture of a bear. I come back to you
+      because I accepted to work in the old mine and I need a nice pickaxe to help
+      me, can you provide me with a good quality one?
+  - columns:
+    - "Un gisement de mettalium a \xE9t\xE9 d\xE9couvert. La compagnie ferroviaire
+      a fait fortune"
+    - A mettalium deposit has been discovered. The railway company made a fortune
+  - columns:
+    - "La mine du sud \xE0 \xE9t\xE9 r\xE9ouverte"
+    - The southern mine has been reopened
+  - columns:
+    - "Bonjour, Forgeron, j'ai perdu mon duel de sculpture en finale, \xE0 croire
+      que les gens de se royaume n'aiment pas l'art contemporain de mon pays. J'ai
+      r\xE9alis\xE9 un bucheron qui coupe un arbre, mais bon\u2026 Maintenant je
+      vais devoir prendre ce travail long et p\xE9nible que j'ai refus\xE9, celui
+      de couper et porter des arbres a bout de bras, de la for\xEAt jusqu'\xE0 la
+      scierie et du coup vous pouvez me donner une hache pour me faciliter le travail
+      ? De plus j'ai entendu dire que la for\xEAt abritait des animaux tr\xE8s hostiles."
+    - Hello, Blacksmith, I lost my duel of sculpture in the final, to believe that
+      the people of this kingdom do not like the contemporary art of my country.
+      I made a woodcutter cutting a tree, but well... Now I'll have to take this
+      long and hard job that I refused, that of cutting and carrying trees at arm's
+      length, from the forest to the sawmill and so you can give me an axe to facilitate
+      my work? I have also heard that the forest is home to some very hostile animals.
+  - columns:
+    - "Une paysanne a \xE9t\xE9 attaqu\xE9e par 3 ours dans la for\xEAt de l'Ouest,
+      elle est revenue au village en portant \xE0 ses bras la carcasse des b\xEAtes
+      et des troncs d'arbre, elle n'avait aucune blessure sur elle une fois rentr\xE9e. "
+    - A peasant woman was attacked by 3 bears in the western forest, she returned
+      to the village carrying the carcass of the animals and tree trunks in her arms,
+      she had no wounds on her when she returned.
+  - columns:
+    - "Une paysanne \xE0 \xE9t\xE9 attaqu\xE9e par 3 ours dans la for\xEAt de l'Ouest,
+      elle est revenue au village en portant \xE0 ses bras la carcasse des b\xEAtes
+      et des troncs d'arbre, elle n'avait que quelques blessures sur elle une fois
+      revenue."
+    - A peasant woman was attacked by 3 bears in the western forest, she returned
+      to the village carrying the carcass of the animals and tree trunks in her arms,
+      she had only a few wounds on her when she returned.
+  - columns:
+    - "Forgeron, j'ai r\xE9ussi \xE0 faire fortune dans le mettalium, et cela gr\xE2ce
+      \xE0 vous et a vos \xE9quipements. Gr\xE2ce \xE0 l'argent gagn\xE9, je vais
+      pouvoir offrir une arme \xE0 mon ch\xE9ri, dans mon pays c'est une preuve d'amour.
+      Pouvez vous me faire une belle arme s'il vous plait ?  "
+    - Blacksmith, I managed to make a fortune in mettalium, and this thanks to you
+      and your equipment. With the money I earned, I will be able to offer a weapon
+      to my darling, in my country it is a proof of love. Can you make me a beautiful
+      weapon please?
+  - columns:
+    - "Une manifestation contre une femme a \xE9clat\xE9e dans les rues \xE0 cause
+      d'une arme port\xE9e qui serait digne des dieux"
+    - A demonstration against a woman broke out in the streets because of a weapon
+      carried that would be worthy of the gods
+  - columns:
+    - "Une \xE9meute \xE0 eu lieu dans le royaume \xE0 cause d'une femme portant
+      une arme rappelant la guerre."
+    - A riot took place in the kingdom because of a woman carrying a weapon reminiscent
+      of war.
+  - columns:
+    - "Forgeron, la mine \xE0 \xE9t\xE9 r\xE9ouverte et des bandits souhaitent s'en
+      emparer pour r\xE9cup\xE9rer des mat\xE9riaux et de l'\xE9quipement. Donnez
+      moi une arme pour que je les emp\xEAches de prendre la mine s'il vous plait
+      !"
+    - Blacksmith, the mine has been reopened and some bandits want to take it over
+      to get materials and equipment. Give me a weapon to stop them from taking the
+      mine please!
+  - columns:
+    - "La mine a \xE9t\xE9 attaqu\xE9e cette nuit mais une femme \xE0 d\xE9fendu
+      les lieux avec courage et sang-froid."
+    - The mine was attacked during the night but a woman defended the place with
+      courage and composure.
+  - columns:
+    - "Une femme de grande taille est port\xE9e disparue. Les autorit\xE9s du royaume
+      la recherche activement."
+    - A tall woman is missing. The authorities of the kingdom are actively looking
+      for her.
+  - columns:
+    - "Bonjour Forgeron, gr\xE2ce a votre aide, j'ai pu avoir de nouvelles taies
+      d'oreiller. Le reste de la peau des ours va me servir comme emballage cadeau
+      pour une personne que j'appr\xE9cie et je souhaite lui offrir une \xE9p\xE9e,
+      pouvez vous me la fournir ?    "
+    - Hello Blacksmith, thanks to your help, I was able to get new pillowcases. The
+      rest of the bearskin is going to be used as a gift wrap for a person I like
+      and I want to give him a sword, can you provide it to me?
+  - columns:
+    - Les ours se rapprochent de moins en moins du royaume et la paix semble revenir
+      au royaume.
+    - The bears are getting less and less close to the kingdom and peace seems to
+      return to the kingdom.
+  - columns:
+    - "Alerte : Invasion de puces dans les foyers du royaume. Prot\xE9gez vous !"
+    - 'Alert: Flea invasion in the homes of the kingdom. Protect yourself!'
+  - columns:
+    - "Forgeron, j'ai une seconde chance dans mon travail. Si je ne r\xE9ussi pas
+      cette fois ci, je ne sais pas ce que je deviendrai. Pouvez vous me donner une
+      nouvelle hache ?"
+    - Blacksmith, I have a second chance in my work. If I don't succeed this time,
+      I don't know what will become of me. Can you give me a new axe?
+  - columns:
+    - "La scierie connait un nouvel essor gr\xE2ce a leur nouvelle employ\xE9e."
+    - The sawmill has been given a new lease on life by their new employee.
+  - columns:
+    - "La scierie s'est effondr\xE9e a cause d'un employ\xE9. Une enqu\xEAte est
+      ouverte."
+    - The sawmill collapsed because of an employee. An investigation is opened.
+  - columns:
+    - "Forgeron, je me suis mari\xE9e et nous allons en lune de miel, mon mari [VF]
+      souhaite vraiment avoir une arme au cas ou il perdrait la sienne    "
+    - Blacksmith, I got married and we are going on our honeymoon, my husband [VF]
+      really wants a blade in case he loses his previous one
+  - columns:
+    - "La saison des mariages a commenc\xE9. La parade des chevaux commence d\xE8s
+      demain"
+    - The wedding season has begun. The horse parade starts tomorrow
+  - columns:
+    - "La parade des chevaux est annul\xE9e cette ann\xE9e \xE0 cause d'un diff\xE9rent
+      entre 2 mari\xE9s"
+    - The parade of horses is cancelled this year because of a dispute between 2
+      grooms
+  - columns:
+    - "Forgeron, les habitants de cette ville m'on pris l'arme que vous m'avez faite.
+      A cause de \xE7a, nous allons faire notre lune de miel en dehors du royaume.
+      Pouvez vous me faire une nouvelle arme pour que je l'accroche \xE0 notre cheval
+      ?"
+    - Blacksmith, the people of this town took the weapon you made for me. Because
+      of this, we are going to have our honeymoon outside the kingdom. Can you make
+      me a new weapon so that I can attach it to our horse?
+  - columns:
+    - "Les routes se sont bloqu\xE9es \xE0 cause d'un couple mari\xE9 qui parade
+      avec une arme digne des dieux"
+    - Roads blocked because of a married couple who parade with a weapon worthy of
+      the gods
+  - columns:
+    - "Une \xE9meute sanglante a fait rage au abords de la ville \xE0 cause d'un
+      couple paradant avec une arme choquant le voisinage."
+    - A bloody riot raged on the outskirts of the city because of a couple parading
+      around with a blade shocking the neighborhood.
+  - columns:
+    - "Bonjour Forgeron. Gr\xE2ce \xE0 vous, les bandits ne feront plus de mal a
+      personne mais je sens qu'ils vont venir pendant que moi et mon mari [VF] seront
+      en lune de miel. Puis-je vous demander de me donner une dague pour me d\xE9fendre
+      ?"
+    - Hello Blacksmith. Thanks to you, the bandits won't hurt anyone anymore but
+      I feel that they will come while me and my husband [VF] will be on honeymoon.
+      Can I ask you to give me a dagger to defend myself?
+  - columns:
+    - "Un couple a \xE9t\xE9 attaqu\xE9 en pleine lune de miel mais les assaillants
+      n'ont pas fait long feu"
+    - A couple was attacked in the middle of their honeymoon but the assailants did
+      not last long
+  - columns:
+    - "Un couple a \xE9t\xE9 attaqu\xE9 en pleine lune de miel, le mari de la femme
+      est d\xE9c\xE9d\xE9 la nuit de l'attaque"
+    - A couple was attacked on their honeymoon, the woman's husband died the night
+      of the attack
+  - columns:
+    - Forgeron, je vais ouvrir un commerce pour moi et mon mari [VF]. J'ai besoin
+      de petits couteau pour continuer a travailler.
+    - Blacksmith, I am going to open a business for me and my husband [VF]. I need
+      small knives to continue working.
+  - columns:
+    - Un magasin de taies d'oreiller a fait fortune dans tout le royaume
+    - A pillowcase store has made a fortune throughout the kingdom
+  - columns:
+    - "Un magasin fait scandale sur sa fa\xE7on de produire les taies d'oreiller.
+      Une enqu\xEAte est en actuellement en cours"
+    - A store is causing a scandal over the way it produces pillowcases. An investigation
+      is currently underway
+  - columns:
+    - "Forgeron, je vais partir du royaume jusqu'au moment ou les puces ne seront
+      plus un probl\xE8me au royaume. Je pars avec mon mari [VF] quelques jours et
+      j'aurai besoin d'une arme pour me d\xE9fendre des bandits qui tenteraient de
+      nous attaquer."
+    - Blacksmith, I will be leaving the kingdom until such time as fleas are no longer
+      a problem in the kingdom. I'm leaving with my husband [VF] for a few days and
+      I'll need a weapon to defend myself from bandits who would try to attack us.
+  - columns:
+    - "Un couple a \xE9t\xE9 attaqu\xE9 en pleine lune de miel, mais les assaillants
+      n'ont pas fait long feu"
+    - A couple was attacked in the middle of their honeymoon but the assailants did
+      not last long
+  - columns:
+    - "Un couple a \xE9t\xE9 attaqu\xE9 en pleine lune de miel, le mari de la femme
+      est d\xE9c\xE9d\xE9 la nuit de l'attaque"
+    - A couple was attacked on their honeymoon, the woman's husband died the night
+      of the attack
+  - columns:
+    - "Forgeron, le chef de la scierie m'a promu en tant que cheffe des convois.
+      J'ai besoin d'une \xE9p\xE9e pour diriger et d\xE9fendre les convois."
+    - Blacksmith, the head of the sawmill has promoted me to head of the convoys.
+      I need a sword to lead and defend the convoys.
+  - columns:
+    - "Plusieurs types de bois devraient arriver des 4 coins du monde jusqu'au royaume.
+      Tout cela gr\xE2ce \xE0 la scierie."
+    - Several types of wood should arrive from the 4 corners of the world to the
+      kingdom. All this thanks to the sawmill.
+  - columns:
+    - "Des convois se font attaquer par les bandits. La responsable des convois est
+      mise \xE0 pied. "
+    - Convoys are attacked by the bandits. The person in charge of the convoys is
+      laid off.
+  - columns:
+    - "Forgeron, je suis recherch\xE9e, AIDEZ MOI ! Je vais vivre en restant chez
+      mon mari d\xE9sormais. Donnez moi une arme pour me d\xE9fendre en cas d'agressions,
+      je vous en prie\u2026 "
+    - Blacksmith, I am being researched, HELP ME! I will live in my husband's house
+      from now on. Give me a weapon to defend myself in case of attacks, please...
+  - columns:
+    - "Les forces sp\xE9ciales sont toujours a la recherche du coupable."
+    - The special forces are still looking for the culprit.
+  - columns:
+    - "La responsable des \xE9v\xE8nements de la scierie \xE0 \xE9t\xE9 retrouv\xE9e
+      dans ses habitations."
+    - The person responsible for the events at the sawmill was found in her home.
+  - columns:
+    - "Forgeron, je dois quitter le pays. Donnez moi une arme pour me d\xE9fendre
+      car je pars pour mon pays au del\xE0 des montagnes. Un long p\xE9riple m'attend."
+    - Blacksmith, I must leave the country. Give me a weapon to defend myself because
+      I am leaving for my country beyond the mountains. A long journey awaits me.
+  - columns:
+    - "Les forces sp\xE9ciales sont toujours a la recherche du coupable."
+    - The special forces are still looking for the culprit.
+  - columns:
+    - "La responsable des \xE9v\xE8nements de la scierie \xE0 \xE9t\xE9 retrouv\xE9e
+      cette nuit en pleine tentative de fuite."
+    - The person responsible for the events at the sawmill was found last night in
+      the middle of an escape attempt.

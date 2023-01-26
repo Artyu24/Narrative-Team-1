@@ -21,6 +21,10 @@ namespace TeamOne
         [Header("NewsPaper")] 
         [SerializeField] private NewsPaper newsPaper;
 
+        [Header("GameFeel")] 
+        [SerializeField] private Character charaEffect;
+        [SerializeField] private Night nightEffect;
+
         [Header("Actual Data")]
         public List<PNJData> pnjPhaseOneClone;
         public List<PNJData> pnjPhaseTwoClone;
@@ -45,7 +49,13 @@ namespace TeamOne
 
         private void Start()
         {
-            NextDialogue();
+            InitDialogue();
+        }
+
+        public void InitDialogue()
+        {
+            actualPNJ = GetTodayPnjList()[actualPNJID];
+            charaEffect.InitCharacter(actualPNJ.AllSprites[actualPNJ.ActualDialogueData.SpriteId]);
         }
 
         public void NextDialogue()
@@ -53,7 +63,6 @@ namespace TeamOne
             if(!DialogueManager.instance.DialogueBox.activeInHierarchy)
                 DialogueManager.instance.DialogueBox.SetActive(true);
 
-            actualPNJ = GetTodayPnjList()[actualPNJID];
             DialogueManager.instance.InitDialogue(actualPNJ.ActualDialogueData);
         }
 
@@ -66,6 +75,7 @@ namespace TeamOne
                 key = actualPNJ.ActualDialogueData.BadChoiceKey;
 
             actualPNJ.ActualDialogueData = dialogueDatabase.GetDialogueData(key);
+            charaEffect.ExitAnime();
             NextPNJ();
         }
 
@@ -81,7 +91,7 @@ namespace TeamOne
                 return;
             }
 
-            NextDialogue();
+            InitDialogue();
         }
 
         private void SwitchDay()
