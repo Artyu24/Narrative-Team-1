@@ -5,12 +5,17 @@ using DG.Tweening;
 
 namespace TeamOne
 {
+     
     public class Night : MonoBehaviour
     {
         //[SerializeField] private float duration;
         [SerializeField] private SpriteRenderer spriteNight;
         [SerializeField] private SpriteRenderer spriteLogo;
-
+        private void Start()
+        {
+            StartNight();
+            AudioManager.instance.PlayRandom(SoundState.Night);
+        }
         public void StartNight()
         {
             Sequence NightAnime = DOTween.Sequence();

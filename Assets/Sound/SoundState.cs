@@ -5,6 +5,7 @@ using UnityEngine;
 public enum SoundState
 {
     Victory,
-    StartDrag,
-    DropPiece
+    Night,
+    FootStep,
+
 }
