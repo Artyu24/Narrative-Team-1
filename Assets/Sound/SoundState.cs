@@ -9,6 +9,8 @@ public enum SoundState
     FootStep,
     ButtonFR,
     ButtonENG,
-    
+    Sword,
+    newspaper,
+    click
 
 }
