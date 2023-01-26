@@ -62,7 +62,7 @@ namespace TeamOne
                         }
                     }
                     else
-                        Debug.Log("Nothing as been hited");
+                        return;
                     
                 }
             }
