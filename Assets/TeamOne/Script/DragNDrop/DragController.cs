@@ -6,7 +6,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace Team1
+namespace TeamOne
 {    public class DragController : MonoBehaviour
     {
         [SerializeField] private bool isDragActive = false;
@@ -90,8 +90,6 @@ namespace Team1
                 GameManager.instance.SwipeChoice(true);
             else if (lastDragged.ValidateLeft)
                 GameManager.instance.SwipeChoice(false);
-            else
-                FindObjectOfType<TextMeshProUGUI>().text = "<- WHAT DO YOU WANT TO DO ? ->";
 
             lastDragged = null;
         }

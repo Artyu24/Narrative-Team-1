@@ -1,10 +1,9 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
-using Team1;
 using UnityEngine;
 
-namespace Team1
+namespace TeamOne
 {
     public class Sword : Draggable
     {

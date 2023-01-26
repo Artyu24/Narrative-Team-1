@@ -19,6 +19,11 @@ namespace TeamOne
                 rows[i] = new Row(nbrColumn);
             }
         }
+
+        public string GetText(int id, int langage = 0)
+        {
+            return rows[id].columns[langage];
+        }
     }
 
     [System.Serializable]

@@ -18,6 +18,9 @@ namespace TeamOne
         public TextDatabase TextDatabase => textDatabase;
 
 
+        [Header("NewsPaper")] 
+        [SerializeField] private NewsPaper newsPaper;
+
         [Header("Actual Data")]
         public List<PNJData> pnjPhaseOneClone;
         public List<PNJData> pnjPhaseTwoClone;
@@ -45,8 +48,11 @@ namespace TeamOne
             NextDialogue();
         }
 
-        private void NextDialogue()
+        public void NextDialogue()
         {
+            if(!DialogueManager.instance.DialogueBox.activeInHierarchy)
+                DialogueManager.instance.DialogueBox.SetActive(true);
+
             actualPNJ = GetTodayPnjList()[actualPNJID];
             DialogueManager.instance.InitDialogue(actualPNJ.ActualDialogueData);
         }
@@ -71,8 +77,6 @@ namespace TeamOne
 
             if (actualPNJID >= actualPnjList.Count)
             {
-                actualPNJID = 0;
-                actualDay = (actualDay + 1) % 2;
                 SwitchDay();
                 return;
             }
@@ -82,7 +86,21 @@ namespace TeamOne
 
         private void SwitchDay()
         {
-            Debug.Log("Jour suivant");
+            DialogueManager.instance.DialogueBox.SetActive(false);
+
+            List<PNJData> listTemp = GetTodayPnjList();
+
+            //News Paper
+            newsPaper.gameObject.SetActive(true);
+            newsPaper.InitNews(null, textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), null, textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
+
+            //Next Dialogue for PNJ
+            listTemp[0].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
+            listTemp[1].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
+
+            //Jour suivant
+            actualPNJID = 0;
+            actualDay = (actualDay + 1) % 2;
         }
 
         private List<PNJData> GetTodayPnjList()
