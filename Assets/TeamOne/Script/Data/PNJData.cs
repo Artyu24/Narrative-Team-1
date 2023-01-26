@@ -8,9 +8,13 @@ namespace TeamOne
     [System.Serializable]
     public class PNJData : ScriptableObject
     {
+        [Header("Nom")]
         [SerializeField] private string pnjName;
+
+        [Header("Data")]
+        [SerializeField] private string pnjKeyName;
         [SerializeField] private List<Sprite> allSprites = new List<Sprite>();
-        public string PnjName => pnjName;
+        public string PnjKeyName => pnjKeyName;
         public List<Sprite> AllSprites => allSprites;
 
         [SerializeField] private DialogueData actualDialogueData;

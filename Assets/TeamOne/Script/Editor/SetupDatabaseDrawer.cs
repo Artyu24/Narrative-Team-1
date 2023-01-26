@@ -94,9 +94,9 @@ namespace TeamOne
                     
                     foreach (PNJData pnj in PNJ_DB.pnjDatabase)
                     {
-                        if (persoDialogueDataTemp.ContainsKey(pnj.PnjName))
+                        if (persoDialogueDataTemp.ContainsKey(pnj.PnjKeyName))
                         {
-                            pnj.ActualDialogueData = GetFirstDefaultDialogue(persoDialogueDataTemp[pnj.PnjName], 1);
+                            pnj.ActualDialogueData = GetFirstDefaultDialogue(persoDialogueDataTemp[pnj.PnjKeyName], 1);
                         }
                     }
 
