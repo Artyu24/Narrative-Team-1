@@ -1,0 +1,1401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc083a1f58870e4a84fbb168eead5e0, type: 3}
+  m_Name: DialogueDatabase
+  m_EditorClassIdentifier: 
+  dialogueDB:
+  - id: PF_A_1_D
+    data:
+      dialogueID: 1
+      key: PF_A_1_D
+      dialogueLine: 1
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_1_R
+      goodChoiceKey: PF_A_1_G
+      addonKey: PF_A_1_A
+  - id: PF_A_1_G
+    data:
+      dialogueID: 1
+      key: PF_A_1_G
+      dialogueLine: 2
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: PF_B_2_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_1_R
+    data:
+      dialogueID: 1
+      key: PF_A_1_R
+      dialogueLine: 3
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: PF_B_3_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_1_A
+    data:
+      dialogueID: 1
+      key: PF_A_1_A
+      dialogueLine: 4
+      spriteId: 0
+      actualTextState: 3
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_2_D
+    data:
+      dialogueID: 2
+      key: PF_A_2_D
+      dialogueLine: 5
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_2_R
+      goodChoiceKey: PF_A_2_G
+      addonKey: 
+  - id: PF_A_2_G
+    data:
+      dialogueID: 2
+      key: PF_A_2_G
+      dialogueLine: 6
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_2_R
+    data:
+      dialogueID: 2
+      key: PF_A_2_R
+      dialogueLine: 7
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_3_D
+    data:
+      dialogueID: 3
+      key: PF_A_3_D
+      dialogueLine: 8
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_3_R
+      goodChoiceKey: PF_A_3_G
+      addonKey: 
+  - id: PF_A_3_G
+    data:
+      dialogueID: 3
+      key: PF_A_3_G
+      dialogueLine: 9
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_3_R
+    data:
+      dialogueID: 3
+      key: PF_A_3_R
+      dialogueLine: 10
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_4_D
+    data:
+      dialogueID: 4
+      key: PF_A_4_D
+      dialogueLine: 11
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_4_R
+      goodChoiceKey: PF_A_4_G
+      addonKey: 
+  - id: PF_A_4_G
+    data:
+      dialogueID: 4
+      key: PF_A_4_G
+      dialogueLine: 12
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_4_R
+    data:
+      dialogueID: 4
+      key: PF_A_4_R
+      dialogueLine: 13
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_5_D
+    data:
+      dialogueID: 5
+      key: PF_A_5_D
+      dialogueLine: 14
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_5_R
+      goodChoiceKey: PF_A_5_G
+      addonKey: 
+  - id: PF_A_5_G
+    data:
+      dialogueID: 5
+      key: PF_A_5_G
+      dialogueLine: 15
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_5_R
+    data:
+      dialogueID: 5
+      key: PF_A_5_R
+      dialogueLine: 16
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_6_D
+    data:
+      dialogueID: 6
+      key: PF_A_6_D
+      dialogueLine: 17
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_6_R
+      goodChoiceKey: PF_A_6_G
+      addonKey: 
+  - id: PF_A_6_G
+    data:
+      dialogueID: 6
+      key: PF_A_6_G
+      dialogueLine: 18
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_6_R
+    data:
+      dialogueID: 6
+      key: PF_A_6_R
+      dialogueLine: 19
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_7_D
+    data:
+      dialogueID: 7
+      key: PF_A_7_D
+      dialogueLine: 20
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PF_A_7_R
+      goodChoiceKey: PF_A_7_G
+      addonKey: 
+  - id: PF_A_7_G
+    data:
+      dialogueID: 7
+      key: PF_A_7_G
+      dialogueLine: 21
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PF_A_7_R
+    data:
+      dialogueID: 7
+      key: PF_A_7_R
+      dialogueLine: 22
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_1_D
+    data:
+      dialogueID: 1
+      key: PR_A_1_D
+      dialogueLine: 23
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_1_R
+      goodChoiceKey: PR_A_1_G
+      addonKey: 
+  - id: PR_A_1_G
+    data:
+      dialogueID: 1
+      key: PR_A_1_G
+      dialogueLine: 24
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_1_R
+    data:
+      dialogueID: 1
+      key: PR_A_1_R
+      dialogueLine: 25
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_2_D
+    data:
+      dialogueID: 2
+      key: PR_A_2_D
+      dialogueLine: 26
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_2_R
+      goodChoiceKey: PR_A_2_G
+      addonKey: 
+  - id: PR_A_2_G
+    data:
+      dialogueID: 2
+      key: PR_A_2_G
+      dialogueLine: 27
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_2_R
+    data:
+      dialogueID: 2
+      key: PR_A_2_R
+      dialogueLine: 28
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_3_D
+    data:
+      dialogueID: 3
+      key: PR_A_3_D
+      dialogueLine: 29
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_3_R
+      goodChoiceKey: PR_A_3_G
+      addonKey: 
+  - id: PR_A_3_G
+    data:
+      dialogueID: 3
+      key: PR_A_3_G
+      dialogueLine: 30
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_3_R
+    data:
+      dialogueID: 3
+      key: PR_A_3_R
+      dialogueLine: 31
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_4_D
+    data:
+      dialogueID: 4
+      key: PR_A_4_D
+      dialogueLine: 32
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_4_R
+      goodChoiceKey: PR_A_4_G
+      addonKey: 
+  - id: PR_A_4_G
+    data:
+      dialogueID: 4
+      key: PR_A_4_G
+      dialogueLine: 33
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_4_R
+    data:
+      dialogueID: 4
+      key: PR_A_4_R
+      dialogueLine: 34
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_5_D
+    data:
+      dialogueID: 5
+      key: PR_A_5_D
+      dialogueLine: 35
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_5_R
+      goodChoiceKey: PR_A_5_G
+      addonKey: 
+  - id: PR_A_5_G
+    data:
+      dialogueID: 5
+      key: PR_A_5_G
+      dialogueLine: 36
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_5_R
+    data:
+      dialogueID: 5
+      key: PR_A_5_R
+      dialogueLine: 37
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_6_D
+    data:
+      dialogueID: 6
+      key: PR_A_6_D
+      dialogueLine: 38
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_6_R
+      goodChoiceKey: PR_A_6_G
+      addonKey: 
+  - id: PR_A_6_G
+    data:
+      dialogueID: 6
+      key: PR_A_6_G
+      dialogueLine: 39
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_6_R
+    data:
+      dialogueID: 6
+      key: PR_A_6_R
+      dialogueLine: 40
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_7_D
+    data:
+      dialogueID: 7
+      key: PR_A_7_D
+      dialogueLine: 41
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: PR_A_7_R
+      goodChoiceKey: PR_A_7_G
+      addonKey: 
+  - id: PR_A_7_G
+    data:
+      dialogueID: 7
+      key: PR_A_7_G
+      dialogueLine: 42
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_7_R
+    data:
+      dialogueID: 7
+      key: PR_A_7_R
+      dialogueLine: 43
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_1_D
+    data:
+      dialogueID: 1
+      key: VF_A_1_D
+      dialogueLine: 44
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_A_1_R
+      goodChoiceKey: VF_A_1_G
+      addonKey: 
+  - id: VF_A_1_G
+    data:
+      dialogueID: 1
+      key: VF_A_1_G
+      dialogueLine: 45
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: VF_A_2_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_1_R
+    data:
+      dialogueID: 1
+      key: VF_A_1_R
+      dialogueLine: 46
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: VF_B_3_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_2_D
+    data:
+      dialogueID: 2
+      key: VF_A_2_D
+      dialogueLine: 47
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_A_2_R
+      goodChoiceKey: VF_A_2_G
+      addonKey: 
+  - id: VF_A_2_G
+    data:
+      dialogueID: 2
+      key: VF_A_2_G
+      dialogueLine: 48
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: VF_B_4_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_2_R
+    data:
+      dialogueID: 2
+      key: VF_A_2_R
+      dialogueLine: 49
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: VF_A_5_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_3_D
+    data:
+      dialogueID: 3
+      key: VF_B_3_D
+      dialogueLine: 50
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_3_R
+      goodChoiceKey: VF_B_3_G
+      addonKey: 
+  - id: VF_B_3_G
+    data:
+      dialogueID: 3
+      key: VF_B_3_G
+      dialogueLine: 51
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: VF_B_6_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_3_R
+    data:
+      dialogueID: 3
+      key: VF_B_3_R
+      dialogueLine: 52
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: VF_B_7_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_4_D
+    data:
+      dialogueID: 4
+      key: VF_B_4_D
+      dialogueLine: 53
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_4_R
+      goodChoiceKey: VF_B_4_G
+      addonKey: 
+  - id: VF_B_4_G
+    data:
+      dialogueID: 4
+      key: VF_B_4_G
+      dialogueLine: 54
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: VF_B_8_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_4_R
+    data:
+      dialogueID: 4
+      key: VF_B_4_R
+      dialogueLine: 55
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: VF_B_9_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_5_D
+    data:
+      dialogueID: 5
+      key: VF_A_5_D
+      dialogueLine: 56
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_A_5_R
+      goodChoiceKey: VF_A_5_G
+      addonKey: 
+  - id: VF_A_5_G
+    data:
+      dialogueID: 5
+      key: VF_A_5_G
+      dialogueLine: 57
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_5_R
+    data:
+      dialogueID: 5
+      key: VF_A_5_R
+      dialogueLine: 58
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: VF_A_10_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_6_D
+    data:
+      dialogueID: 6
+      key: VF_B_6_D
+      dialogueLine: 59
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_6_R
+      goodChoiceKey: VF_B_6_G
+      addonKey: 
+  - id: VF_B_6_G
+    data:
+      dialogueID: 6
+      key: VF_B_6_G
+      dialogueLine: 60
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: VF_B_11_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_6_R
+    data:
+      dialogueID: 6
+      key: VF_B_6_R
+      dialogueLine: 61
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: VF_B_12_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_7_D
+    data:
+      dialogueID: 7
+      key: VF_B_7_D
+      dialogueLine: 62
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_7_R
+      goodChoiceKey: VF_B_7_G
+      addonKey: 
+  - id: VF_B_7_G
+    data:
+      dialogueID: 7
+      key: VF_B_7_G
+      dialogueLine: 63
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: VF_B_13_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_7_R
+    data:
+      dialogueID: 7
+      key: VF_B_7_R
+      dialogueLine: 64
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_8_D
+    data:
+      dialogueID: 8
+      key: VF_B_8_D
+      dialogueLine: 65
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_8_R
+      goodChoiceKey: VF_B_8_G
+      addonKey: 
+  - id: VF_B_8_G
+    data:
+      dialogueID: 8
+      key: VF_B_8_G
+      dialogueLine: 66
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_8_R
+    data:
+      dialogueID: 8
+      key: VF_B_8_R
+      dialogueLine: 67
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_9_D
+    data:
+      dialogueID: 9
+      key: VF_B_9_D
+      dialogueLine: 68
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_9_R
+      goodChoiceKey: VF_B_9_G
+      addonKey: 
+  - id: VF_B_9_G
+    data:
+      dialogueID: 9
+      key: VF_B_9_G
+      dialogueLine: 69
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_9_R
+    data:
+      dialogueID: 9
+      key: VF_B_9_R
+      dialogueLine: 70
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_10_D
+    data:
+      dialogueID: 10
+      key: VF_A_10_D
+      dialogueLine: 71
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_A_10_R
+      goodChoiceKey: VF_A_10_G
+      addonKey: 
+  - id: VF_A_10_G
+    data:
+      dialogueID: 10
+      key: VF_A_10_G
+      dialogueLine: 72
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_A_10_R
+    data:
+      dialogueID: 10
+      key: VF_A_10_R
+      dialogueLine: 73
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_11_D
+    data:
+      dialogueID: 11
+      key: VF_B_11_D
+      dialogueLine: 74
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_11_R
+      goodChoiceKey: VF_B_11_G
+      addonKey: 
+  - id: VF_B_11_G
+    data:
+      dialogueID: 11
+      key: VF_B_11_G
+      dialogueLine: 75
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_11_R
+    data:
+      dialogueID: 11
+      key: VF_B_11_R
+      dialogueLine: 76
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_12_D
+    data:
+      dialogueID: 12
+      key: VF_B_12_D
+      dialogueLine: 77
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_12_R
+      goodChoiceKey: VF_B_12_G
+      addonKey: 
+  - id: VF_B_12_G
+    data:
+      dialogueID: 12
+      key: VF_B_12_G
+      dialogueLine: 78
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_12_R
+    data:
+      dialogueID: 12
+      key: VF_B_12_R
+      dialogueLine: 79
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_13_D
+    data:
+      dialogueID: 13
+      key: VF_B_13_D
+      dialogueLine: 80
+      spriteId: 1
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: VF_B_13_R
+      goodChoiceKey: VF_B_13_G
+      addonKey: 
+  - id: VF_B_13_G
+    data:
+      dialogueID: 13
+      key: VF_B_13_G
+      dialogueLine: 81
+      spriteId: 1
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: VF_B_13_R
+    data:
+      dialogueID: 13
+      key: VF_B_13_R
+      dialogueLine: 82
+      spriteId: 1
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_1_D
+    data:
+      dialogueID: 1
+      key: FF_A_1_D
+      dialogueLine: 83
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_1_R
+      goodChoiceKey: FF_A_1_G
+      addonKey: 
+  - id: FF_A_1_G
+    data:
+      dialogueID: 1
+      key: FF_A_1_G
+      dialogueLine: 84
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: FF_A_2_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_1_R
+    data:
+      dialogueID: 1
+      key: FF_A_1_R
+      dialogueLine: 85
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: FF_A_3_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_2_G
+    data:
+      dialogueID: 2
+      key: FF_A_2_G
+      dialogueLine: 87
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_2_R
+    data:
+      dialogueID: 2
+      key: FF_A_2_R
+      dialogueLine: 88
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_3_D
+    data:
+      dialogueID: 3
+      key: FF_A_3_D
+      dialogueLine: 89
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_3_R
+      goodChoiceKey: FF_A_3_G
+      addonKey: 
+  - id: FF_A_3_G
+    data:
+      dialogueID: 3
+      key: FF_A_3_G
+      dialogueLine: 90
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_3_R
+    data:
+      dialogueID: 3
+      key: FF_A_3_R
+      dialogueLine: 91
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_4_D
+    data:
+      dialogueID: 4
+      key: FF_A_4_D
+      dialogueLine: 92
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_4_R
+      goodChoiceKey: FF_A_4_G
+      addonKey: 
+  - id: FF_A_4_G
+    data:
+      dialogueID: 4
+      key: FF_A_4_G
+      dialogueLine: 93
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_4_R
+    data:
+      dialogueID: 4
+      key: FF_A_4_R
+      dialogueLine: 94
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_5_D
+    data:
+      dialogueID: 5
+      key: FF_A_5_D
+      dialogueLine: 95
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_5_R
+      goodChoiceKey: FF_A_5_G
+      addonKey: 
+  - id: FF_A_5_G
+    data:
+      dialogueID: 5
+      key: FF_A_5_G
+      dialogueLine: 96
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_5_R
+    data:
+      dialogueID: 5
+      key: FF_A_5_R
+      dialogueLine: 97
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_6_D
+    data:
+      dialogueID: 6
+      key: FF_A_6_D
+      dialogueLine: 98
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_6_R
+      goodChoiceKey: FF_A_6_G
+      addonKey: 
+  - id: FF_A_6_G
+    data:
+      dialogueID: 6
+      key: FF_A_6_G
+      dialogueLine: 99
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_6_R
+    data:
+      dialogueID: 6
+      key: FF_A_6_R
+      dialogueLine: 100
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_7_D
+    data:
+      dialogueID: 7
+      key: FF_A_7_D
+      dialogueLine: 101
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_7_R
+      goodChoiceKey: FF_A_7_G
+      addonKey: 
+  - id: FF_A_7_G
+    data:
+      dialogueID: 7
+      key: FF_A_7_G
+      dialogueLine: 102
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_7_R
+    data:
+      dialogueID: 7
+      key: FF_A_7_R
+      dialogueLine: 103
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_8_D
+    data:
+      dialogueID: 8
+      key: FF_A_8_D
+      dialogueLine: 104
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_8_R
+      goodChoiceKey: FF_A_8_G
+      addonKey: 
+  - id: FF_A_8_G
+    data:
+      dialogueID: 8
+      key: FF_A_8_G
+      dialogueLine: 105
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_8_R
+    data:
+      dialogueID: 8
+      key: FF_A_8_R
+      dialogueLine: 106
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_9_D
+    data:
+      dialogueID: 9
+      key: FF_A_9_D
+      dialogueLine: 107
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_9_R
+      goodChoiceKey: FF_A_9_G
+      addonKey: 
+  - id: FF_A_9_G
+    data:
+      dialogueID: 9
+      key: FF_A_9_G
+      dialogueLine: 108
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_9_R
+    data:
+      dialogueID: 9
+      key: FF_A_9_R
+      dialogueLine: 109
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_10_D
+    data:
+      dialogueID: 10
+      key: FF_A_10_D
+      dialogueLine: 110
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_10_R
+      goodChoiceKey: FF_A_10_G
+      addonKey: 
+  - id: FF_A_10_G
+    data:
+      dialogueID: 10
+      key: FF_A_10_G
+      dialogueLine: 111
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_10_R
+    data:
+      dialogueID: 10
+      key: FF_A_10_R
+      dialogueLine: 112
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_11_D
+    data:
+      dialogueID: 11
+      key: FF_A_11_D
+      dialogueLine: 113
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_11_R
+      goodChoiceKey: FF_A_11_G
+      addonKey: 
+  - id: FF_A_11_G
+    data:
+      dialogueID: 11
+      key: FF_A_11_G
+      dialogueLine: 114
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_11_R
+    data:
+      dialogueID: 11
+      key: FF_A_11_R
+      dialogueLine: 115
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_12_D
+    data:
+      dialogueID: 12
+      key: FF_A_12_D
+      dialogueLine: 116
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_12_R
+      goodChoiceKey: FF_A_12_G
+      addonKey: 
+  - id: FF_A_12_G
+    data:
+      dialogueID: 12
+      key: FF_A_12_G
+      dialogueLine: 117
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_12_R
+    data:
+      dialogueID: 12
+      key: FF_A_12_R
+      dialogueLine: 118
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_13_D
+    data:
+      dialogueID: 13
+      key: FF_A_13_D
+      dialogueLine: 119
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_13_R
+      goodChoiceKey: FF_A_13_G
+      addonKey: 
+  - id: FF_A_13_G
+    data:
+      dialogueID: 13
+      key: FF_A_13_G
+      dialogueLine: 120
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_13_R
+    data:
+      dialogueID: 13
+      key: FF_A_13_R
+      dialogueLine: 121
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_14_D
+    data:
+      dialogueID: 14
+      key: FF_A_14_D
+      dialogueLine: 122
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_14_R
+      goodChoiceKey: FF_A_14_G
+      addonKey: 
+  - id: FF_A_14_G
+    data:
+      dialogueID: 14
+      key: FF_A_14_G
+      dialogueLine: 123
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_14_R
+    data:
+      dialogueID: 14
+      key: FF_A_14_R
+      dialogueLine: 124
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_15_A
+    data:
+      dialogueID: 15
+      key: FF_A_15_A
+      dialogueLine: 125
+      spriteId: 0
+      actualTextState: 3
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_15_G
+    data:
+      dialogueID: 15
+      key: FF_A_15_G
+      dialogueLine: 126
+      spriteId: 0
+      actualTextState: 1
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: FF_A_15_R
+    data:
+      dialogueID: 15
+      key: FF_A_15_R
+      dialogueLine: 127
+      spriteId: 0
+      actualTextState: 2
+      nextChoiceKey: 
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
