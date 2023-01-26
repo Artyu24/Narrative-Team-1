@@ -9,11 +9,8 @@ namespace Team01
         //[SerializeField] private float duration;
         [SerializeField] private SpriteRenderer spriteNight;
         [SerializeField] private SpriteRenderer spriteLogo;
-        private void Start()
-        {
-            StartNightAnime();
-        }
-        public void StartNightAnime()
+
+        public void StartNight()
         {
             Sequence NightAnime = DOTween.Sequence();
 
