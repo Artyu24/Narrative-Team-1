@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8906657f0421af468775106be95b407, type: 3}
   m_Name: PNJ_PR
   m_EditorClassIdentifier: 
-  pnjName: 
+  pnjName: Denis
+  basePnjName: Denis
   pnjKeyName: PR
   allSprites:
   - {fileID: 21300000, guid: 0c7046cea31b5dd46bf2bae6b30ce410, type: 3}

@@ -10,6 +10,9 @@ namespace TeamOne
     {
         [Header("Nom")]
         [SerializeField] private string pnjName;
+        public string PnjName { get { return pnjName; } set { pnjName = value; } }
+        [SerializeField] private string basePnjName;
+        public string BasePnjName { get { return basePnjName; } }
 
         [Header("Data")]
         [SerializeField] private string pnjKeyName;

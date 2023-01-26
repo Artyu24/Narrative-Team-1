@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8906657f0421af468775106be95b407, type: 3}
   m_Name: PNJ_PF
   m_EditorClassIdentifier: 
-  pnjName: 
+  pnjName: Aria
+  basePnjName: Aria
   pnjKeyName: PF
   allSprites:
   - {fileID: 21300000, guid: c02855d4aab07304f98b4766c7ac29ba, type: 3}
