@@ -90,11 +90,15 @@ MonoBehaviour:
       he will catch a lot of bad guys. As a surprise, can you give me a big, pretty
       sword for him?
   - columns:
-    - 
-    - 
+    - "La chasse devenue concluante gr\xE2ce au nouveau mat\xE9riel. Un festin \xE0
+      l'honneur des chasseurs se produira dans quelques jours"
+    - The hunt became successful thanks to the new equipment. A feast in honor of
+      the hunters will take place in a few days
   - columns:
-    - 
-    - 
+    - "Le prix de la viande est devenue plus ch\xE8re dans le royaume a cause d'une
+      pi\xE8tre qualit\xE9"
+    - The price of meat has become more expensive in the kingdom because of poor
+      quality
   - columns:
     - "Monsieur, monsieur vous pouvez me donner une nouvelle dague, c'est mon p\xE8re
       qui m'envoie vous en demander une."
@@ -125,14 +129,21 @@ MonoBehaviour:
     - After an altercation between two students, a seriously injured child was reported
       at an elementary school.
   - columns:
-    - 
-    - 
+    - "Je sais me d\xE9fendre mais est-ce que je sais chasser ? Je sais que vous
+      me comprenez vous, m'aiderez vous encore une fois ?"
+    - I know how to defend myself but do I know how to hunt? I know you understand
+      me, will you help me again?
   - columns:
-    - 
-    - 
+    - "Le compte de Crypta a \xE9t\xE9 froidement assassin\xE9 la nuit derni\xE8re.
+      Le coupable aurait r\xE9ussi \xE0 se faufiler \xE0 travers toutes les d\xE9fenses
+      de son duplex sans se faire r\xE9p\xE9rer."
+    - Crypta's account was coldly murdered last night. The culprit allegedly managed
+      to slip through all the defenses of his duplex without being detected.
   - columns:
-    - 
-    - 
+    - "Alerte info : [PF] Une petite fille de 10 ans est port\xE9e disparue. Contactez
+      le num\xE9ro suivant si vous avez des informations."
+    - 'News alert: [PF] A 10 year old girl is missing. Contact the following number
+      if you have any information.'
   - columns:
     - "*Snif* Ils sont vraiment pas gentils. Je vais leur montrer ce que je sais
       faire puisqu'ils me croient pas ! Donnez moi une super arme s'il vous pla\xEEt
@@ -151,23 +162,38 @@ MonoBehaviour:
     - Vandalism to the training room has driven away customers. The training room
       will be closed for renovation
   - columns:
-    - 
-    - 
+    - "Vous avez vu ? Les chasseurs sont devenu plus c\xE9l\xE8bres, moi aussi je
+      veux devenir chasseuse plus tard, vous pouvez me donner une \xE9p\xE9e s'il
+      vous plait ?"
+    - Did you see? The hunters have become more famous, I also want to become a hunter
+      later, can you give me a sword please?
   - columns:
-    - 
-    - 
+    - "Une nouvelle t\xEAte chez les chasseurs, une petite fille fait ces preuves
+      en chassant du petit gibier."
+    - A new face among the hunters, a little girl proves herself by hunting small
+      beasts.
   - columns:
-    - 
-    - 
+    - "Une petite fille a tent\xE9 de se faire remarquer par les chasseurs, et a
+      risqu\xE9 sa vie pour impressionner, elle a gravement \xE9t\xE9 bless\xE9 au
+      visage , mais sa vie n'est pas en danger"
+    - A little girl tried to be noticed by the hunters, and risked her life to impress,
+      she was seriously injured in the face, but her life is not in danger
   - columns:
-    - 
-    - 
+    - A cause de moi, les chasseurs vont devoir chasser davantage. J'aimerai bien
+      les aider, pouvez vous me donner une arme s'il vous plait ?
+    - Because of me, the hunters will have to hunt more. I would like to help them,
+      can you give me a blade please?
   - columns:
-    - 
-    - 
+    - "Une nouvelle t\xEAte chez les chasseurs, une petite fille fait ces preuves
+      en chassant du petit gibier."
+    - A new face among the hunters, a little girl proves herself by hunting small
+      beasts.
   - columns:
-    - 
-    - 
+    - "Une petite fille a tent\xE9 de se faire remarquer par les chasseurs, et a
+      risqu\xE9 sa vie pour impressionner, elle a gravement \xE9t\xE9 bless\xE9 au
+      visage , mais sa vie n'est pas en danger"
+    - A little girl tried to be noticed by the hunters, and risked her life to impress,
+      she was seriously injured in the face, but her life is not in danger
   - columns:
     - "Monsieur monsieur, vous savez je prends exemple sur mon p\xE8re. Je m'entraine
       a \xEAtre comme lui et c'est pour \xE7a que j'ai besoin d'une arme rien qu'\xE0

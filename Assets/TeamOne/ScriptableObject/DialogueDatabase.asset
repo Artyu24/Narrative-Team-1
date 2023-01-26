@@ -56,7 +56,7 @@ MonoBehaviour:
       dialogueLine: 4
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 4
       nextChoiceKey: 
       badChoiceKey: PF_A_2_R
       goodChoiceKey: PF_A_2_G
@@ -92,7 +92,7 @@ MonoBehaviour:
       dialogueLine: 7
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 1
       nextChoiceKey: 
       badChoiceKey: PF_A_3_R
       goodChoiceKey: PF_A_3_G
@@ -128,7 +128,7 @@ MonoBehaviour:
       dialogueLine: 10
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: PF_A_4_R
       goodChoiceKey: PF_A_4_G
@@ -164,7 +164,7 @@ MonoBehaviour:
       dialogueLine: 13
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: PF_A_5_R
       goodChoiceKey: PF_A_5_G
@@ -200,7 +200,7 @@ MonoBehaviour:
       dialogueLine: 16
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: PF_A_6_R
       goodChoiceKey: PF_A_6_G
@@ -236,7 +236,7 @@ MonoBehaviour:
       dialogueLine: 19
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: PF_A_7_R
       goodChoiceKey: PF_A_7_G
@@ -272,7 +272,7 @@ MonoBehaviour:
       dialogueLine: 22
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PF_A_8_R
       goodChoiceKey: PF_A_8_G
@@ -308,7 +308,7 @@ MonoBehaviour:
       dialogueLine: 25
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: PF_A_9_R
       goodChoiceKey: PF_A_9_G
@@ -344,7 +344,7 @@ MonoBehaviour:
       dialogueLine: 28
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: PF_A_10_R
       goodChoiceKey: PF_A_10_G
@@ -380,7 +380,7 @@ MonoBehaviour:
       dialogueLine: 31
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: PF_A_11_R
       goodChoiceKey: PF_A_11_G
@@ -416,7 +416,7 @@ MonoBehaviour:
       dialogueLine: 34
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: PF_A_12_R
       goodChoiceKey: PF_A_12_G
@@ -452,7 +452,7 @@ MonoBehaviour:
       dialogueLine: 37
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: PF_A_13_R
       goodChoiceKey: PF_A_13_G
@@ -488,7 +488,7 @@ MonoBehaviour:
       dialogueLine: 40
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 1
       nextChoiceKey: 
       badChoiceKey: PF_A_14_R
       goodChoiceKey: PF_A_14_G
@@ -524,7 +524,7 @@ MonoBehaviour:
       dialogueLine: 43
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 1
       nextChoiceKey: 
       badChoiceKey: PF_A_15_R
       goodChoiceKey: PF_A_15_G
@@ -560,7 +560,7 @@ MonoBehaviour:
       dialogueLine: 46
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_1_R
       goodChoiceKey: PR_A_1_G
@@ -596,7 +596,7 @@ MonoBehaviour:
       dialogueLine: 49
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_2_R
       goodChoiceKey: PR_A_2_G
@@ -632,7 +632,7 @@ MonoBehaviour:
       dialogueLine: 52
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_3_R
       goodChoiceKey: PR_A_3_G
@@ -668,7 +668,7 @@ MonoBehaviour:
       dialogueLine: 55
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_4_R
       goodChoiceKey: PR_A_4_G
@@ -704,7 +704,7 @@ MonoBehaviour:
       dialogueLine: 58
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: PR_A_5_R
       goodChoiceKey: PR_A_5_G
@@ -740,7 +740,7 @@ MonoBehaviour:
       dialogueLine: 61
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_6_R
       goodChoiceKey: PR_A_6_G
@@ -776,7 +776,7 @@ MonoBehaviour:
       dialogueLine: 64
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: PR_A_7_R
       goodChoiceKey: PR_A_7_G
@@ -812,7 +812,7 @@ MonoBehaviour:
       dialogueLine: 67
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_8_R
       goodChoiceKey: PR_A_8_G
@@ -848,7 +848,7 @@ MonoBehaviour:
       dialogueLine: 70
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_B_9_R
       goodChoiceKey: PR_B_9_G
@@ -884,7 +884,7 @@ MonoBehaviour:
       dialogueLine: 73
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 1
       nextChoiceKey: 
       badChoiceKey: PR_A_10_R
       goodChoiceKey: PR_A_10_G
@@ -920,7 +920,7 @@ MonoBehaviour:
       dialogueLine: 76
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_11_R
       goodChoiceKey: PR_A_11_G
@@ -956,7 +956,7 @@ MonoBehaviour:
       dialogueLine: 79
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: PR_A_12_R
       goodChoiceKey: PR_A_12_G
@@ -992,7 +992,7 @@ MonoBehaviour:
       dialogueLine: 82
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_A_13_R
       goodChoiceKey: PR_A_13_G
@@ -1028,7 +1028,7 @@ MonoBehaviour:
       dialogueLine: 85
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: PR_A_14_R
       goodChoiceKey: PR_A_14_G
@@ -1064,7 +1064,7 @@ MonoBehaviour:
       dialogueLine: 88
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: PR_B_15_R
       goodChoiceKey: PR_B_15_G
@@ -1100,7 +1100,7 @@ MonoBehaviour:
       dialogueLine: 91
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: VF_A_1_R
       goodChoiceKey: VF_A_1_G
@@ -1136,7 +1136,7 @@ MonoBehaviour:
       dialogueLine: 94
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: VF_A_2_R
       goodChoiceKey: VF_A_2_G
@@ -1172,7 +1172,7 @@ MonoBehaviour:
       dialogueLine: 97
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: VF_B_3_R
       goodChoiceKey: VF_B_3_G
@@ -1208,7 +1208,7 @@ MonoBehaviour:
       dialogueLine: 100
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: VF_B_4_R
       goodChoiceKey: VF_B_4_G
@@ -1244,7 +1244,7 @@ MonoBehaviour:
       dialogueLine: 103
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: VF_A_5_R
       goodChoiceKey: VF_A_5_G
@@ -1280,7 +1280,7 @@ MonoBehaviour:
       dialogueLine: 106
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: VF_B_6_R
       goodChoiceKey: VF_B_6_G
@@ -1316,7 +1316,7 @@ MonoBehaviour:
       dialogueLine: 109
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: VF_B_7_R
       goodChoiceKey: VF_B_7_G
@@ -1352,7 +1352,7 @@ MonoBehaviour:
       dialogueLine: 112
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: VF_B_8_R
       goodChoiceKey: VF_B_8_G
@@ -1388,7 +1388,7 @@ MonoBehaviour:
       dialogueLine: 115
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: VF_B_9_R
       goodChoiceKey: VF_B_9_G
@@ -1424,7 +1424,7 @@ MonoBehaviour:
       dialogueLine: 118
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: VF_A_10_R
       goodChoiceKey: VF_A_10_G
@@ -1460,7 +1460,7 @@ MonoBehaviour:
       dialogueLine: 121
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: VF_B_11_R
       goodChoiceKey: VF_B_11_G
@@ -1496,7 +1496,7 @@ MonoBehaviour:
       dialogueLine: 124
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: VF_B_12_R
       goodChoiceKey: VF_B_12_G
@@ -1532,7 +1532,7 @@ MonoBehaviour:
       dialogueLine: 127
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: VF_B_13_R
       goodChoiceKey: VF_B_13_G
@@ -1568,7 +1568,7 @@ MonoBehaviour:
       dialogueLine: 130
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: FF_A_1_R
       goodChoiceKey: FF_A_1_G
@@ -1604,7 +1604,7 @@ MonoBehaviour:
       dialogueLine: 133
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 4
       nextChoiceKey: 
       badChoiceKey: FF_A_2_R
       goodChoiceKey: FF_A_2_G
@@ -1640,7 +1640,7 @@ MonoBehaviour:
       dialogueLine: 136
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: FF_A_3_R
       goodChoiceKey: FF_A_3_G
@@ -1676,7 +1676,7 @@ MonoBehaviour:
       dialogueLine: 139
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: FF_A_4_R
       goodChoiceKey: FF_A_4_G
@@ -1712,7 +1712,7 @@ MonoBehaviour:
       dialogueLine: 142
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: FF_A_5_R
       goodChoiceKey: FF_A_5_G
@@ -1748,7 +1748,7 @@ MonoBehaviour:
       dialogueLine: 145
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: FF_A_6_R
       goodChoiceKey: FF_A_6_G
@@ -1784,7 +1784,7 @@ MonoBehaviour:
       dialogueLine: 148
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 5
       nextChoiceKey: 
       badChoiceKey: FF_B_7_R
       goodChoiceKey: FF_B_7_G
@@ -1820,7 +1820,7 @@ MonoBehaviour:
       dialogueLine: 151
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: FF_A_8_R
       goodChoiceKey: FF_A_8_G
@@ -1856,7 +1856,7 @@ MonoBehaviour:
       dialogueLine: 154
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: FF_A_9_R
       goodChoiceKey: FF_A_9_G
@@ -1892,7 +1892,7 @@ MonoBehaviour:
       dialogueLine: 157
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: FF_A_10_R
       goodChoiceKey: FF_A_10_G
@@ -1928,7 +1928,7 @@ MonoBehaviour:
       dialogueLine: 160
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 2
       nextChoiceKey: 
       badChoiceKey: FF_A_11_R
       goodChoiceKey: FF_A_11_G
@@ -1964,7 +1964,7 @@ MonoBehaviour:
       dialogueLine: 163
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: FF_A_12_R
       goodChoiceKey: FF_A_12_G
@@ -2000,7 +2000,7 @@ MonoBehaviour:
       dialogueLine: 166
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 3
       nextChoiceKey: 
       badChoiceKey: FF_B_13_R
       goodChoiceKey: FF_B_13_G
@@ -2036,7 +2036,7 @@ MonoBehaviour:
       dialogueLine: 169
       spriteId: 1
       actualTextState: 0
-      actualWeaponState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
       badChoiceKey: FF_B_14_R
       goodChoiceKey: FF_B_14_G
@@ -2065,17 +2065,17 @@ MonoBehaviour:
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
-  - id: FF_B_15_A
+  - id: FF_B_15_D
     data:
-      key: FF_B_15_A
+      key: FF_B_15_D
       dialogueID: 15
       dialogueLine: 172
       spriteId: 1
-      actualTextState: 3
-      actualWeaponState: 0
+      actualTextState: 0
+      actualWeaponState: 6
       nextChoiceKey: 
-      badChoiceKey: 
-      goodChoiceKey: 
+      badChoiceKey: FF_B_15_R
+      goodChoiceKey: FF_B_15_G
       addonKey: 
   - id: FF_B_15_G
     data:

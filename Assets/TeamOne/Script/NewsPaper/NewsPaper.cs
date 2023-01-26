@@ -10,14 +10,10 @@ namespace TeamOne
     {
         [SerializeField]private GameObject article1,article2;
 
-        public void InitNews(Sprite SpriteArticle1, string textArticle1, Sprite SpriteArticle2,string textArticle2)
+        public void InitNews(string textArticle1, string textArticle2)
         {
-            if(SpriteArticle1 != null)
-                article1.GetComponentInChildren<SpriteRenderer>().sprite = SpriteArticle1;
             if (textArticle1 != null)
                 article1.GetComponentInChildren<TextMeshPro>().text = textArticle1;
-            if(SpriteArticle1 != null)
-                article2.GetComponentInChildren<SpriteRenderer>().sprite = SpriteArticle2;
             if (textArticle2 != null)
                 article2.GetComponentInChildren<TextMeshPro>().text = textArticle2;
 
@@ -30,7 +26,7 @@ namespace TeamOne
             enterPaperAnime.Insert(0, transform.DOScale(new Vector3(0, 0, 0), 0f));
             enterPaperAnime.Join(transform.DORotate(new Vector3(0, 0, 600), 0));
             enterPaperAnime.Join(transform.DOMoveY(-8, 0));
-            enterPaperAnime.Append(transform.DORotate(new Vector3(0, 0, -10.96f), 1f));
+            enterPaperAnime.Append(transform.DORotate(new Vector3(0, 0, 0), 1f));
             enterPaperAnime.Join(transform.DOScale(new Vector3(4.15f, 4.15f, 4.15f), 1f));
             enterPaperAnime.Join(transform.DOMoveY(1, 2f).SetEase(Ease.OutExpo));
         }

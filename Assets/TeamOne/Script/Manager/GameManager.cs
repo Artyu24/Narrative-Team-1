@@ -73,7 +73,7 @@ namespace TeamOne
         public void SwipeChoice(bool choice)
         {
             string key = "";
-            if (choice)
+            if (!choice)
                 key = actualPNJ.ActualDialogueData.GoodChoiceKey;
             else
                 key = actualPNJ.ActualDialogueData.BadChoiceKey;
@@ -91,7 +91,6 @@ namespace TeamOne
 
             if (actualPNJID >= actualPnjList.Count)
             {
-                DialogueManager.instance.DialogueBox.DOFade(0, 1f);
                 inNightMode = true;
                 nightEffect.StartNight();
             }
@@ -106,7 +105,7 @@ namespace TeamOne
 
             //News Paper
             newsPaper.gameObject.SetActive(true);
-            newsPaper.InitNews(null, textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), null, textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
+            newsPaper.InitNews(textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
             
             //Next Dialogue for PNJ
             listTemp[0].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
