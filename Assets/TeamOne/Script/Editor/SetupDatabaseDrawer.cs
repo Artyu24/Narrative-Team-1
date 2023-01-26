@@ -35,7 +35,7 @@ namespace TeamOne
                 
                 if (GUILayout.Button("MAJ DIALOGUE"))
                 {
-                    TextDatabase DB = AssetDatabase.LoadAssetAtPath<TextDatabase>("Assets/ScriptableObject/TextDatabase.asset");
+                    TextDatabase DB = AssetDatabase.LoadAssetAtPath<TextDatabase>("Assets/TeamOne/ScriptableObject/TextDatabase.asset");
                     DB.CreateNewShape(myObject.JsonFile["values"].Count, myObject.JsonFile["values"][0].Count - 6);
 
                     for (int i = 6; i < myObject.JsonFile["values"][0].Count; i++)
@@ -49,7 +49,7 @@ namespace TeamOne
 
                 if (GUILayout.Button("MAJ TREE"))
                 {
-                    DialogueDatabase D_DB = AssetDatabase.LoadAssetAtPath<DialogueDatabase>("Assets/ScriptableObject/DialogueDatabase.asset");
+                    DialogueDatabase D_DB = AssetDatabase.LoadAssetAtPath<DialogueDatabase>("Assets/TeamOne/ScriptableObject/DialogueDatabase.asset");
                     D_DB.DialogueDb.Clear();
 
                     Dictionary<string, List<IdSortTemp>> persoDialogueDataTemp = new Dictionary<string, List<IdSortTemp>>();
@@ -90,7 +90,7 @@ namespace TeamOne
                         }
                     }
 
-                    PNJDatabase PNJ_DB = AssetDatabase.LoadAssetAtPath<PNJDatabase>("Assets/ScriptableObject/PNJDatabase.asset");
+                    PNJDatabase PNJ_DB = AssetDatabase.LoadAssetAtPath<PNJDatabase>("Assets/TeamOne/ScriptableObject/PNJDatabase.asset");
                     
                     foreach (PNJData pnj in PNJ_DB.pnjDatabase)
                     {

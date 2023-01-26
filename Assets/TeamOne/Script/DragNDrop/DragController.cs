@@ -90,8 +90,6 @@ namespace TeamOne
                 GameManager.instance.SwipeChoice(true);
             else if (lastDragged.ValidateLeft)
                 GameManager.instance.SwipeChoice(false);
-            else
-                FindObjectOfType<TextMeshProUGUI>().text = "<- WHAT DO YOU WANT TO DO ? ->";
 
             lastDragged = null;
         }
