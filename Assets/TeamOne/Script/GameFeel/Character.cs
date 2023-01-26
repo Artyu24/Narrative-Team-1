@@ -24,7 +24,8 @@ namespace TeamOne
             EnterAnime.Join(sprite.DOFade(0f, 0));
             EnterAnime.Join(sprite.DOColor(Color.black, 0f));
             EnterAnime.Append(transform.DOMoveY(-1, 3f));
-            EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack)).OnComplete(() => GameManager.instance.NextDialogue());
+            //EnterAnime.Insert(1.5, GameManager.instance.NextDialogue());
+            EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack));
             EnterAnime.Insert(1.5f, sprite.DOFade(1f, 3f));
             EnterAnime.Join(sprite.DOColor(Color.white, 3f));
         }
@@ -35,7 +36,7 @@ namespace TeamOne
             Sequence ExitAnime = DOTween.Sequence();
             ExitAnime.Insert(1, transform.DORotate(new Vector3(0, 0, -144), 3f).SetEase(Ease.InBack));
             ExitAnime.Insert(1f, sprite.DOColor(Color.black, 2f));
-            ExitAnime.Insert(1.5f, sprite.DOFade(0f, 3f));
+            ExitAnime.Insert(1.5f, sprite.DOFade(0f, 3f)).OnComplete(() => GameManager.instance.InitDialogue());
         }
     }
 }

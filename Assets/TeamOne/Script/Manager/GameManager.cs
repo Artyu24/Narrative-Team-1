@@ -100,10 +100,6 @@ namespace TeamOne
 
             List<PNJData> listTemp = GetTodayPnjList();
 
-            //News Paper
-            newsPaper.gameObject.SetActive(true);
-            newsPaper.InitNews(null, textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), null, textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
-
             //Next Dialogue for PNJ
             listTemp[0].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
             listTemp[1].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
@@ -111,6 +107,15 @@ namespace TeamOne
             //Jour suivant
             actualPNJID = 0;
             actualDay = (actualDay + 1) % 2;
+        }
+
+        public void InitNewsPaper()
+        {
+            List<PNJData> listTemp = GetTodayPnjList();
+
+            //News Paper
+            newsPaper.gameObject.SetActive(true);
+            newsPaper.InitNews(null, textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), null, textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
         }
 
         private List<PNJData> GetTodayPnjList()
