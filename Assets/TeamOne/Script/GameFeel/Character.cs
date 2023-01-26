@@ -2,7 +2,8 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Team01
+
+namespace TeamOne
 {
     public class Character : MonoBehaviour
     {
@@ -14,6 +15,7 @@ namespace Team01
             sprite.sprite = charasprite;
             EnterAnime();
         }
+
         private void EnterAnime()
         {
             Sequence EnterAnime = DOTween.Sequence();

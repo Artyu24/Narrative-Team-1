@@ -12,18 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8906657f0421af468775106be95b407, type: 3}
   m_Name: PNJ_PF
   m_EditorClassIdentifier: 
-  pnjName: PF
+  pnjName: 
+  pnjKeyName: PF
   allSprites:
   - {fileID: 21300000, guid: 70632ddfe8e71b04b8f90ef7e29a9e98, type: 3}
   - {fileID: 21300000, guid: 64eb0648ca0d11944a9517d8662508fd, type: 3}
   - {fileID: 21300000, guid: 372e7b39fc8f34549ac25d8757965a2c, type: 3}
   actualDialogueData:
-    dialogueID: 0
-    key: 
-    dialogueLine: 0
+    dialogueID: 1
+    key: PF_A_1_D
+    dialogueLine: 1
     spriteId: 0
     actualTextState: 0
     nextChoiceKey: 
-    badChoiceKey: 
-    goodChoiceKey: 
-    addonKey: 
+    badChoiceKey: PF_A_1_R
+    goodChoiceKey: PF_A_1_G
+    addonKey: PF_A_1_A

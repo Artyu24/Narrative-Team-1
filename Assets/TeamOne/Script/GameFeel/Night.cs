@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-namespace Team01
+
+namespace TeamOne
 {
     public class Night : MonoBehaviour
     {
@@ -22,6 +23,5 @@ namespace Team01
             NightAnime.Append(spriteLogo.DOFade(0, 1));
             NightAnime.Append(spriteNight.DOFade(0, 2));
         }
-
     }
 }

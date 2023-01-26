@@ -647,7 +647,7 @@ MonoBehaviour:
       dialogueLine: 58
       spriteId: 0
       actualTextState: 2
-      nextChoiceKey: PR_A_9_D
+      nextChoiceKey: PR_B_9_D
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
@@ -746,7 +746,7 @@ MonoBehaviour:
       dialogueLine: 67
       spriteId: 0
       actualTextState: 2
-      nextChoiceKey: PR_A_15_D
+      nextChoiceKey: PR_B_15_D
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
@@ -1476,6 +1476,17 @@ MonoBehaviour:
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
+  - id: FF_A_2_D
+    data:
+      dialogueID: 2
+      key: FF_A_2_D
+      dialogueLine: 134
+      spriteId: 0
+      actualTextState: 0
+      nextChoiceKey: 
+      badChoiceKey: FF_A_2_R
+      goodChoiceKey: FF_A_2_G
+      addonKey: 
   - id: FF_A_2_G
     data:
       dialogueID: 2
@@ -1527,7 +1538,7 @@ MonoBehaviour:
       dialogueLine: 139
       spriteId: 0
       actualTextState: 2
-      nextChoiceKey: FF_A_7_D
+      nextChoiceKey: FF_B_7_D
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
@@ -1648,7 +1659,7 @@ MonoBehaviour:
       dialogueLine: 150
       spriteId: 1
       actualTextState: 1
-      nextChoiceKey: FF_A_13_D
+      nextChoiceKey: FF_B_13_D
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 

@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8906657f0421af468775106be95b407, type: 3}
   m_Name: PNJ_FF
   m_EditorClassIdentifier: 
-  pnjName: FF
+  pnjName: 
+  pnjKeyName: FF
   allSprites: []
   actualDialogueData:
-    dialogueID: 0
-    key: 
-    dialogueLine: 0
+    dialogueID: 1
+    key: FF_A_1_D
+    dialogueLine: 131
     spriteId: 0
     actualTextState: 0
     nextChoiceKey: 
-    badChoiceKey: 
-    goodChoiceKey: 
+    badChoiceKey: FF_A_1_R
+    goodChoiceKey: FF_A_1_G
     addonKey: 
