@@ -1096,6 +1096,9 @@ MonoBehaviour:
   validateRight: 0
   validateLeft: 0
   middleOffset: 10
+  badSprite: []
+  goodSprite: []
+  neutralSprite: []
 --- !u!61 &1976335930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1372,42 +1375,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2086829720}
     m_Modifications:
-    - target: {fileID: 506195587850281116, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5.0986977
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 213
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -40
-      objectReference: {fileID: 0}
-    - target: {fileID: 506195587977814078, guid: 006e473a690a81746af36c6b6599880e, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 506195589723988871, guid: 006e473a690a81746af36c6b6599880e, type: 3}
       propertyPath: m_Name
       value: SettingsMenu
