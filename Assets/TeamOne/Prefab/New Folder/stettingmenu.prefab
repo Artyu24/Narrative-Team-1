@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 506195589723988921}
   - component: {fileID: 506195589723988920}
   m_Layer: 5
-  m_Name: UI
+  m_Name: stettingmenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241f40db33ae55f4bb84216250c39955, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laguageValue: 0
+  languageValue: 0
   ButtonEng: {fileID: 506195589222714517}
   ButtonFR: {fileID: 506195588520829501}
   menu: {fileID: 506195587850281116}
