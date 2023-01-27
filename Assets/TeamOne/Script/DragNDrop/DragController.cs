@@ -87,9 +87,16 @@ namespace TeamOne
                 lastDragged.transform.DOMove(lastDragged.InitPos, 1); lastDragged.transform.rotation = lastDragged.InitRot;
 
             if (lastDragged.ValidateRight)
+            {
                 GameManager.instance.SwipeChoice(true);
+                lastDragged.gameObject.SetActive(false);
+                Debug.Log(lastDragged.gameObject);
+            }
             else if (lastDragged.ValidateLeft)
+            {
                 GameManager.instance.SwipeChoice(false);
+                lastDragged.gameObject.SetActive(false);
+            }
 
             lastDragged = null;
         }

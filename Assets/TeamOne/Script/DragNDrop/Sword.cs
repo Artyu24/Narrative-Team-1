@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,13 +13,20 @@ namespace TeamOne
         private SpriteRenderer spriteRenderer;
 
         [SerializeField] private Sprite[] badSprite;
-        [SerializeField] private Sprite[] goodSprite;
-        [SerializeField] private Sprite[] neutralSprite;
+        [SerializeField] private SpriteRenderer BadSr;
 
-        private int weapon;        
+        [SerializeField] private Sprite[] goodSprite;
+        [SerializeField] private SpriteRenderer goodSr;
+
+        [SerializeField] private Sprite[] neutralSprite;
+        [SerializeField] private SpriteRenderer neutralSr;
+
+        [SerializeField] private int weapon;        
 
         public void InitChoice()
         {
+            Debug.Log(GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState);
+
             switch (GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState)
             {
                 case WeaponState.SHEARS:

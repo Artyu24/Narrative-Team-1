@@ -20,6 +20,8 @@ public class DialogueManager : MonoBehaviour
     private string actualSentence;
     private string playerName;
 
+    [SerializeField] private GameObject choice;
+
     private void Awake()
     {
         if (instance == null)
@@ -65,6 +67,8 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return new WaitForSeconds(0.03f);
         }
+        choice.SetActive(true);
+        choice.GetComponent<Sword>().InitChoice();
     }
 
     private void FixText(ref string texte)
