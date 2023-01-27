@@ -691,6 +691,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChoseNameBox
       objectReference: {fileID: 0}
+    - target: {fileID: 5506388112971618525, guid: d52514b1731b71b44aa7efbe64ddf246, type: 3}
+      propertyPath: m_text
+      value: Confirmer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506388112971618525, guid: d52514b1731b71b44aa7efbe64ddf246, type: 3}
+      propertyPath: m_fontSize
+      value: 29.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506388113812981164, guid: d52514b1731b71b44aa7efbe64ddf246, type: 3}
+      propertyPath: m_text
+      value: Ne pas changer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506388113812981164, guid: d52514b1731b71b44aa7efbe64ddf246, type: 3}
+      propertyPath: m_fontSize
+      value: 25.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506388114251306186, guid: d52514b1731b71b44aa7efbe64ddf246, type: 3}
+      propertyPath: m_text
+      value: Entrer le texte...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d52514b1731b71b44aa7efbe64ddf246, type: 3}
 --- !u!224 &1321409555 stripped

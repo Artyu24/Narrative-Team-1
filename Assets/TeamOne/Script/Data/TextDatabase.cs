@@ -22,7 +22,7 @@ namespace TeamOne
 
         public string GetText(int id, int langage = 0)
         {
-            return rows[id].columns[langage];
+            return rows[id].columns[DialogueManager.instance.langageID];
         }
     }
 
