@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6845965513418693411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6845965513418693409}
+  - component: {fileID: 6845965513418693410}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6845965513418693409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845965513418693411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.46965867, y: -0.03634517, z: 0.024320533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6845965513418693410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845965513418693411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8e37880de25e349b6727678c346101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundOn: {fileID: 21300000, guid: 8d512cc330502da4fa4f8bbbd4dd2337, type: 3}
+  soundOff: {fileID: 21300000, guid: 604b04f52a0b57f4bb4412737dbc0a26, type: 3}
+  buttonImage: {fileID: 0}
+  sounds:
+  - name: NightSound
+    clip: {fileID: 8300000, guid: e71f4d83d69dc314d95d90b66f3613e7, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 1
+  - name: buttonSoundFR
+    clip: {fileID: 8300000, guid: ce708a8e87913b54e8d2496b309364f9, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 3
+  - name: buttonSoundFR
+    clip: {fileID: 8300000, guid: 9c6cf857b973d4f49b8bfa35fce4621e, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 4
+  - name: FootStep
+    clip: {fileID: 8300000, guid: 6a0ab31cf19f3a7428fcbb79cf702e83, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 2
+  - name: swordswipe
+    clip: {fileID: 8300000, guid: 0019b0063042c0941a473b515530ef4d, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 5
+  - name: swordswipe2
+    clip: {fileID: 8300000, guid: 118e0581ab6baa640b5240271a9e164b, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 5
+  - name: swordswipe3
+    clip: {fileID: 8300000, guid: 719c049a583a3d94488c4b85c1831f21, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 5
+  - name: swordswipe4
+    clip: {fileID: 8300000, guid: 9b22112848a2083499fec33076a933b6, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 5
+  - name: Newspaper
+    clip: {fileID: 8300000, guid: 5f57277e2debc1d46913a1fe0a1edd89, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 5
+  - name: Click
+    clip: {fileID: 8300000, guid: 399df71a43ea7014dbe7e71ffd20ba65, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 7
+  - name: Click2
+    clip: {fileID: 8300000, guid: 5c998eb0c35081d49a9b1a85be31402e, type: 3}
+    volume: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 7
