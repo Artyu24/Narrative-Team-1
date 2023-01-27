@@ -365,6 +365,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772374383}
   m_CullTransparentMesh: 1
+--- !u!1001 &1020133571
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804909, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_Name
+      value: Choice
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+--- !u!1 &1020133572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3601527233249804909, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+  m_PrefabInstance: {fileID: 1020133571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1020133573 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3601527233249804903, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+  m_PrefabInstance: {fileID: 1020133571}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020133572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf987345eff04ec4a861486b3fdd9cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1037405893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1074,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2333520464836834597, guid: 79e281b1c5326b24c9ba28e0ab3f225f, type: 3}
+      propertyPath: lastDragged
+      value: 
+      objectReference: {fileID: 1020133573}
     - target: {fileID: 2333520464836834598, guid: 79e281b1c5326b24c9ba28e0ab3f225f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1237,6 +1314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 1481628225}
   dialogueText: {fileID: 772374385}
+  choice: {fileID: 1020133572}
 --- !u!1001 &4000521039553669903
 PrefabInstance:
   m_ObjectHideFlags: 0
