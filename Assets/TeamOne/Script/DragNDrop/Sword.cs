@@ -50,8 +50,8 @@ namespace TeamOne
             }
 
             BadSr.sprite = badSprite[weapon];
-            goodSr.sprite = neutralSprite[weapon];
-            neutralSr.sprite = goodSprite[weapon];
+            goodSr.sprite = goodSprite[weapon];
+            neutralSr.sprite = neutralSprite[weapon];
         }
 
         // Start is called before the first frame update
