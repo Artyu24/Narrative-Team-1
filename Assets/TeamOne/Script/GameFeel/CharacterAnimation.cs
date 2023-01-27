@@ -23,7 +23,7 @@ namespace TeamOne
             EnterAnime.Join(transform.DOMoveY(-3, 0f));
             EnterAnime.Join(charaRenderer.DOFade(0f, 0));
             EnterAnime.Join(charaRenderer.DOColor(Color.black, 0f));
-            Tween a = transform.DOMoveY(-1, 3f).OnComplete(() => GameManager.instance.NextDialogue());
+            Tween a = transform.DOMoveY(-0.45f, 3f).OnComplete(() => GameManager.instance.NextDialogue());
             EnterAnime.Append(a);
             EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack));
             EnterAnime.Insert(1.5f, charaRenderer.DOFade(1f, 3f));
