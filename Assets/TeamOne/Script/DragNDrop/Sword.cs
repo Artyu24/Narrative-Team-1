@@ -10,6 +10,42 @@ namespace TeamOne
         [SerializeField][Range(0,50)] private float middleOffset = 10;
 
         private SpriteRenderer spriteRenderer;
+
+        [SerializeField] private Sprite[] badSprite;
+        [SerializeField] private Sprite[] goodSprite;
+        [SerializeField] private Sprite[] neutralSprite;
+
+        private int weapon;        
+
+        public void InitChoice()
+        {
+            switch (GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState)
+            {
+                case WeaponState.SHEARS:
+                    weapon = 0;
+                    return;
+                case WeaponState.DAGGER:
+                    weapon = 1;
+                    return;
+                case WeaponState.AXE:
+                    weapon = 2;
+                    return;
+                case WeaponState.SWORD:
+                    weapon = 3;
+                    return;
+                case WeaponState.PICKAXE:
+                    weapon = 4;
+                    return;
+                case WeaponState.KATANA:
+                    weapon = 5;
+                    return;
+            }
+
+            transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = badSprite[weapon];
+            transform.GetChild(1).GetComponent<SpriteRenderer>().sprite = neutralSprite[weapon];
+            transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = goodSprite[weapon];
+        }
+
         // Start is called before the first frame update
         void Start()
         {
@@ -32,15 +68,21 @@ namespace TeamOne
 
         private void OnRightSide()
         {
-            spriteRenderer.DOColor(Color.red, .5f);            
+            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(255, .25f);
         }
         private void OnLeftSide()
         {
-            spriteRenderer.DOColor(Color.green, .5f);
+            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(255, .25f);
+            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .25f);
         }
         private void OnMiddleSide()
         {
-            spriteRenderer.DOColor(Color.blue, .5f);
+            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(255, .25f);
+            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .25f);
         }        
     }
 }
