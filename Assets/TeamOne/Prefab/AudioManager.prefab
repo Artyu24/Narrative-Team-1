@@ -51,66 +51,84 @@ MonoBehaviour:
   - name: NightSound
     clip: {fileID: 8300000, guid: e71f4d83d69dc314d95d90b66f3613e7, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 1
   - name: buttonSoundFR
     clip: {fileID: 8300000, guid: ce708a8e87913b54e8d2496b309364f9, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 3
   - name: buttonSoundFR
     clip: {fileID: 8300000, guid: 9c6cf857b973d4f49b8bfa35fce4621e, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 4
   - name: FootStep
     clip: {fileID: 8300000, guid: 6a0ab31cf19f3a7428fcbb79cf702e83, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 2
   - name: swordswipe
     clip: {fileID: 8300000, guid: 0019b0063042c0941a473b515530ef4d, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 5
   - name: swordswipe2
     clip: {fileID: 8300000, guid: 118e0581ab6baa640b5240271a9e164b, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 5
   - name: swordswipe3
     clip: {fileID: 8300000, guid: 719c049a583a3d94488c4b85c1831f21, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 5
   - name: swordswipe4
     clip: {fileID: 8300000, guid: 9b22112848a2083499fec33076a933b6, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 5
   - name: Newspaper
     clip: {fileID: 8300000, guid: 5f57277e2debc1d46913a1fe0a1edd89, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 5
   - name: Click
     clip: {fileID: 8300000, guid: 399df71a43ea7014dbe7e71ffd20ba65, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 7
   - name: Click2
     clip: {fileID: 8300000, guid: 5c998eb0c35081d49a9b1a85be31402e, type: 3}
     volume: 1
+    loop: 0
     audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
     source: {fileID: 0}
     actualSound: 7
+  - name: Background
+    clip: {fileID: 8300000, guid: bb3d5797d8e35c748ac08cff3c5d627f, type: 3}
+    volume: 0.024
+    loop: 1
+    audioMixer: {fileID: 24300002, guid: 8f61712b3c8ffe346a1085de238725c0, type: 2}
+    source: {fileID: 0}
+    actualSound: 0

@@ -20,7 +20,7 @@ namespace TeamOne
             NightAnime.Insert(0, spriteNight.DOFade(0, 0));
             NightAnime.Insert(0, spriteLogo.DOFade(0, 0f));
             NightAnime.Append(spriteNight.DOFade(1, 2f));
-            Tween b = spriteLogo.DOFade(1, 1);
+            Tween b = spriteLogo.DOFade(1, 1).OnComplete(() => AudioManager.instance.PlayRandom(SoundState.Night));
             NightAnime.Append(b);
             NightAnime.AppendInterval(2f);
             Tween a = spriteLogo.DOFade(0, 1).OnComplete(() => GameManager.instance.SwitchDay());
