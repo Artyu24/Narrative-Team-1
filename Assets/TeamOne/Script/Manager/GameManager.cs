@@ -30,6 +30,7 @@ namespace TeamOne
         public List<PNJData> pnjPhaseOneClone;
         public List<PNJData> pnjPhaseTwoClone;
         private PNJData actualPNJ;
+        public PNJData ActualPNJ => actualPNJ;
         private int actualPNJID = 0;
         private int actualDay = 0;
         private bool inNightMode = false;
