@@ -31,27 +31,27 @@ namespace TeamOne
             {
                 case WeaponState.SHEARS:
                     weapon = 0;
-                    return;
+                    break;
                 case WeaponState.DAGGER:
                     weapon = 1;
-                    return;
+                    break;
                 case WeaponState.AXE:
                     weapon = 2;
-                    return;
+                    break;
                 case WeaponState.SWORD:
                     weapon = 3;
-                    return;
+                    break;
                 case WeaponState.PICKAXE:
                     weapon = 4;
-                    return;
+                    break;
                 case WeaponState.KATANA:
                     weapon = 5;
-                    return;
+                    break;
             }
 
-            transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = badSprite[weapon];
-            transform.GetChild(1).GetComponent<SpriteRenderer>().sprite = neutralSprite[weapon];
-            transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = goodSprite[weapon];
+            BadSr.sprite = badSprite[weapon];
+            goodSr.sprite = neutralSprite[weapon];
+            neutralSr.sprite = goodSprite[weapon];
         }
 
         // Start is called before the first frame update

@@ -167,6 +167,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &325819606 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3601527232482999566, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+  m_PrefabInstance: {fileID: 1103236010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &479551850 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3601527232346407126, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+  m_PrefabInstance: {fileID: 1103236010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &594105115
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +229,11 @@ MonoBehaviour:
   nightEffect: {fileID: 721243594}
   pnjPhaseOneClone: []
   pnjPhaseTwoClone: []
+--- !u!212 &672915310 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3601527233440372921, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+  m_PrefabInstance: {fileID: 1103236010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &721243594 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 631893457093383543, guid: 7a2d93a992cf43949b2e0adf3fd5a65e, type: 3}
@@ -421,12 +436,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3601527232346407126, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527232346407126, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527232346407126, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527232482999566, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3601527232482999566, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527232482999566, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3601527233249804899, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
       propertyPath: m_RootOrder
@@ -472,13 +503,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804903, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: BadSr
+      value: 
+      objectReference: {fileID: 325819606}
+    - target: {fileID: 3601527233249804903, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: goodSr
+      value: 
+      objectReference: {fileID: 479551850}
+    - target: {fileID: 3601527233249804903, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: neutralSr
+      value: 
+      objectReference: {fileID: 672915310}
     - target: {fileID: 3601527233249804909, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
       propertyPath: m_Name
       value: Choice
       objectReference: {fileID: 0}
+    - target: {fileID: 3601527233249804909, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233440372921, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3601527233440372921, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601527233440372921, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcaabf4c8e662404997da569fbb56e80, type: 3}
