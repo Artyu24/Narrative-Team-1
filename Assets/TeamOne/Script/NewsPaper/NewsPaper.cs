@@ -12,12 +12,13 @@ namespace TeamOne
 
         public void InitNews(string textArticle1, string textArticle2)
         {
+            DialogueManager.instance.FixText(ref textArticle1);
+            DialogueManager.instance.FixText(ref textArticle2);
             if (textArticle1 != null)
                 article1.GetComponentInChildren<TextMeshPro>().text = textArticle1;
             if (textArticle2 != null)
                 article2.GetComponentInChildren<TextMeshPro>().text = textArticle2;
-            DialogueManager.instance.FixText(ref textArticle1);
-            DialogueManager.instance.FixText(ref textArticle2);
+
             EnterAnime();
         }
 
