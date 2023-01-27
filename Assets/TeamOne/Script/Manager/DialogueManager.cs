@@ -69,6 +69,6 @@ public class DialogueManager : MonoBehaviour
 
     private void FixText(ref string texte)
     {
-        //texte = texte.Replace("PLAYER", playerName).Replace("POKEPL", CombatManager.instance.playerPoke.data.name).Replace("POKEEN", CombatManager.instance.enemiePoke.data.name).Replace("ATKPL", CombatManager.instance.PlayerAttackName).Replace("ATKEN", CombatManager.instance.EnemieAttackName);
+        texte = texte.Replace("[PF]", GameManager.instance.PnjDatabase.pnjDatabase[1].PnjName).Replace("[FF]", GameManager.instance.PnjDatabase.pnjDatabase[0].PnjName).Replace("[PR]", GameManager.instance.PnjDatabase.pnjDatabase[2].PnjName).Replace("[VF]", GameManager.instance.PnjDatabase.pnjDatabase[3].PnjName);
     }
 }

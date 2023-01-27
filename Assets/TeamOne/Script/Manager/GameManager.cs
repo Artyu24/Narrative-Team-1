@@ -49,11 +49,6 @@ namespace TeamOne
             }
         }
 
-        private void Start()
-        {
-            InitDialogue();
-        }
-
         public void InitDialogue()
         {
             if (!inNightMode)

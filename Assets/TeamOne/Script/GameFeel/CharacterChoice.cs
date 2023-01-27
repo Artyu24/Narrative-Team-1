@@ -9,7 +9,7 @@ namespace TeamOne
     {
         [SerializeField] private SpriteRenderer sprite;
         public bool exitFinished = false;
-        [SerializeField] private ChoseName choseName;
+        [SerializeField] private ChooseName _chooseName;
 
         //elle tu l'appel au momen ou le perso spawnS
         public void InitCharacter(Sprite charasprite)
@@ -25,20 +25,26 @@ namespace TeamOne
             EnterAnime.Join(transform.DOMoveY(-3, 0f));
             EnterAnime.Join(sprite.DOFade(0f, 0));
             EnterAnime.Join(sprite.DOColor(Color.black, 0f));
-            EnterAnime.Append(transform.DOMoveY(-1, 3f));
+            Tween a = transform.DOMoveY(-1, 3f).OnComplete(() =>
+            {
+                _chooseName.UI.DOFade(1, 1);
+                _chooseName.UI.interactable = true;
+            });
+            EnterAnime.Append(a);
             EnterAnime.Join(transform.DORotate(new Vector3(0, 0, 0), 3f).SetEase(Ease.OutBack));
-            EnterAnime.Insert(1.5f, sprite.DOFade(1f, 3f)).OnComplete(() => choseName.UI.SetActive(true));
+            EnterAnime.Insert(1.5f, sprite.DOFade(1f, 3f));
             EnterAnime.Join(sprite.DOColor(Color.white, 3f));            
         }
 
         //elle tu l'appel quand le dialogue est finis
         public void ExitAnime()
         {
-            choseName.UI.SetActive(false);
+            _chooseName.UI.DOFade(0, 1);
+            _chooseName.UI.interactable = false;
             Sequence ExitAnime = DOTween.Sequence();
             ExitAnime.Insert(1, transform.DORotate(new Vector3(0, 0, -144), 3f).SetEase(Ease.InBack));
             ExitAnime.Insert(1f, sprite.DOColor(Color.black, 2f));
-            ExitAnime.Insert(1.5f, sprite.DOFade(0f, 3f)).OnComplete(() => choseName.SetUpCharacter());
+            ExitAnime.Insert(1.5f, sprite.DOFade(0f, 3f)).OnComplete(() => _chooseName.SetUpCharacter());
         }
     }
 }

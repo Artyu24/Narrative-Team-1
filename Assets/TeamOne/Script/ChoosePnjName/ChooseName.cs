@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace TeamOne
 {
-    public class ChoseName : MonoBehaviour
+    public class ChooseName : MonoBehaviour
     {
         [SerializeField] private PNJDatabase pnj;
         private int currentCharacter = 0;
@@ -17,7 +17,7 @@ namespace TeamOne
         [SerializeField] private TextMeshProUGUI dialogue;
         [SerializeField] private TMP_InputField nameInputField;
         [SerializeField] private TextMeshProUGUI namePreview;
-        [SerializeField] public GameObject UI;
+        [SerializeField] public CanvasGroup UI;
 
         private void Start()
         {
@@ -68,16 +68,17 @@ namespace TeamOne
             if (true)//FR
             {
                 dialogue.DOFade(0, 1.5f);
-                dialogue.text = $"Bonjour,\r\n\r\nJe m'appel {pnj.pnjDatabase[currentCharacter].BasePnjName} mais comment toi tu veux m'appeler ?";
+                dialogue.text = $"Bonjour,\r\n\r\nJe m'appelle {pnj.pnjDatabase[currentCharacter].BasePnjName} mais comment toi tu veux m'appeler ?";
                 dialogue.DOFade(255, 1.5f);
             }
 
-           nameInputField.text = "";
+            nameInputField.text = "";
         }
 
         public void EndChoosingNames()
         {
             gameObject.SetActive(false);
+            GameManager.instance.InitDialogue();
         }
     }
 }
