@@ -16,7 +16,8 @@ namespace TeamOne
                 article1.GetComponentInChildren<TextMeshPro>().text = textArticle1;
             if (textArticle2 != null)
                 article2.GetComponentInChildren<TextMeshPro>().text = textArticle2;
-
+            DialogueManager.instance.FixText(ref textArticle1);
+            DialogueManager.instance.FixText(ref textArticle2);
             EnterAnime();
         }
 

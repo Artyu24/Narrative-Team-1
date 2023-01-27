@@ -71,7 +71,7 @@ public class DialogueManager : MonoBehaviour
         choice.GetComponent<Sword>().InitChoice();
     }
 
-    private void FixText(ref string texte)
+    public void FixText(ref string texte)
     {
         texte = texte.Replace("[PF]", GameManager.instance.PnjDatabase.pnjDatabase[1].PnjName).Replace("[FF]", GameManager.instance.PnjDatabase.pnjDatabase[0].PnjName).Replace("[PR]", GameManager.instance.PnjDatabase.pnjDatabase[2].PnjName).Replace("[VF]", GameManager.instance.PnjDatabase.pnjDatabase[3].PnjName);
     }
