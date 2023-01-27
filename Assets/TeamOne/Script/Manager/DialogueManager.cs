@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
     //Cree une liste ranger dans l ordre d apparition les objets present
     public Queue<string> sentences = new Queue<string>();
     private string actualSentence;
-    private string playerName;
+    public int langageID;
 
     [SerializeField] private GameObject choice;
 
@@ -30,7 +30,7 @@ public class DialogueManager : MonoBehaviour
 
     public void InitDialogue(DialogueData dialogue)
     {
-        StartDialogue(GameManager.instance.TextDatabase.rows[dialogue.DialogueLine].columns[0]);
+        StartDialogue(GameManager.instance.TextDatabase.rows[dialogue.DialogueLine].columns[langageID]);
     }
 
     public void StartDialogue(string dialogue)

@@ -6,11 +6,10 @@ namespace TeamOne
 {
     public class MenuButtons : MonoBehaviour
     {
-        public int laguageValue;
         [SerializeField]private GameObject menu;
         public void SetLanguage(int id)
         {
-            laguageValue = id;
+            DialogueManager.instance.langageID = id;
         }
         public void CloseMenu()
         {

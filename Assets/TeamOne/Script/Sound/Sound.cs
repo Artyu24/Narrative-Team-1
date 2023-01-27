@@ -8,6 +8,7 @@ public class Sound
     public AudioClip clip;
     [Range(0f, 1f)]
     public float volume;
+    public bool loop = false;
     public AudioMixerGroup audioMixer;
     [HideInInspector]
     public AudioSource source;
