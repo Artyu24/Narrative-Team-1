@@ -14,6 +14,9 @@ namespace TeamOne
         private Vector3 worldPosition;
         [SerializeField] private Draggable lastDragged;
 
+        [SerializeField] private GameObject dialogue;
+        [SerializeField] private GameObject blackScreen;
+
         private void Awake()
         {
             DragController[] controller = FindObjectsOfType<DragController>();
@@ -73,6 +76,12 @@ namespace TeamOne
             isDragActive = true;
             lastDragged.GetComponent<Sword>().idle = false;
             lastDragged.transform.position = new Vector3(0, -4, 0);
+            blackScreen.GetComponent<SpriteRenderer>().DOColor(new Vector4(0, 0, 0, .7f), 1);
+            if (dialogue != null)
+                dialogue.GetComponent<TextMeshProUGUI>().DOColor(new Vector4(255, 255, 255, .4f), 1);
+            else
+                Debug.LogError("Renseigner le text de dialogue dans DragController");
+
         }
 
         private void Drag()
@@ -83,6 +92,13 @@ namespace TeamOne
 
         private void Drop() 
         {
+            blackScreen.GetComponent<SpriteRenderer>().DOColor(new Vector4(0, 0, 0, 0), 1);
+            if (dialogue != null)
+                dialogue.GetComponent<TextMeshProUGUI>().DOColor(new Vector4(255, 255, 255, 255), 1);
+            else
+                Debug.LogError("Renseigner le text de dialogue dans DragController");
+
+
             lastDragged.GetComponent<Sword>().idle = false;
             isDragActive = false;
 
