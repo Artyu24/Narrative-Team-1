@@ -137,7 +137,16 @@ namespace TeamOne
 
             //News Paper
             newsPaper.gameObject.SetActive(true);
-            newsPaper.InitNews(textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
+            string one = "";
+            string two = "";
+            for (int i = 0; i < listTemp.Count; i++)
+            {
+                if (i == 0)
+                    one = textDatabase.GetText(listTemp[i].ActualDialogueData.DialogueLine);
+                if (i == 1)
+                    two = textDatabase.GetText(listTemp[i].ActualDialogueData.DialogueLine);
+            }
+            newsPaper.InitNews(one, two);
             
             //Next Dialogue for PNJ
             for (int i = 0; i < listTemp.Count; i++)

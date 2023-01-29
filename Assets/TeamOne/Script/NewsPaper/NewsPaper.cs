@@ -12,12 +12,28 @@ namespace TeamOne
 
         public void InitNews(string textArticle1, string textArticle2)
         {
-            DialogueManager.instance.FixText(ref textArticle1);
-            DialogueManager.instance.FixText(ref textArticle2);
             if (textArticle1 != null)
+            {
+                DialogueManager.instance.FixText(ref textArticle1);
                 article1.GetComponentInChildren<TextMeshPro>().text = textArticle1;
+            }
+            else
+            {
+                if (textArticle2 != null)
+                {
+                    DialogueManager.instance.FixText(ref textArticle2);
+                    article1.GetComponentInChildren<TextMeshPro>().text = textArticle2;
+                    article2.GetComponentInChildren<TextMeshPro>().text = "";
+                    EnterAnime();
+                    return;
+                }
+            }
+
             if (textArticle2 != null)
+            {
+                DialogueManager.instance.FixText(ref textArticle2);
                 article2.GetComponentInChildren<TextMeshPro>().text = textArticle2;
+            }
 
             EnterAnime();
         }

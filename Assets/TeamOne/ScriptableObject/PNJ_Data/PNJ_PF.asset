@@ -16,14 +16,19 @@ MonoBehaviour:
   basePnjName: Aria
   pnjKeyName: PF
   allSprites:
-  - {fileID: 21300000, guid: c02855d4aab07304f98b4766c7ac29ba, type: 3}
+  - {fileID: 21300000, guid: 91c3928d37bb1a741bfe0c27c0e3e1ae, type: 3}
+  - {fileID: 21300000, guid: bd6fb6574626e204bbda6c3c6e837227, type: 3}
+  - {fileID: 21300000, guid: 5556cbbec6a679546b9b044dddab5a25, type: 3}
+  - {fileID: 21300000, guid: af667409f136f7249bf9f0d106438cc7, type: 3}
+  - {fileID: 21300000, guid: f9375c4888dcfc744be2e96fe9ee1e8a, type: 3}
   actualDialogueData:
-    dialogueID: 1
     key: PF_A_1_D
+    dialogueID: 1
     dialogueLine: 1
     spriteId: 0
     actualTextState: 0
+    actualWeaponState: 1
     nextChoiceKey: 
     badChoiceKey: PF_A_1_R
     goodChoiceKey: PF_A_1_G
-    addonKey: PF_A_1_A
+    addonKey: 

@@ -16,14 +16,21 @@ MonoBehaviour:
   basePnjName: Denis
   pnjKeyName: PR
   allSprites:
-  - {fileID: 21300000, guid: 0c7046cea31b5dd46bf2bae6b30ce410, type: 3}
-  - {fileID: 21300000, guid: 6ee4760df8488554cbcc1ae6f2434ba8, type: 3}
+  - {fileID: 21300000, guid: 52f56687609d6ec42b45da9cb48b202d, type: 3}
+  - {fileID: 21300000, guid: b96477e7297c18e4490d7e72e9d3d9aa, type: 3}
+  - {fileID: 21300000, guid: 92dca43ed426bd34db4e2d78044eeb30, type: 3}
+  - {fileID: 21300000, guid: 1f080c600b7687544b4ff9d4075483d7, type: 3}
+  - {fileID: 21300000, guid: 7fec69392a3298b4c9376814ad7a2dab, type: 3}
+  - {fileID: 21300000, guid: 971774b2d0a418648979e02f117c6da5, type: 3}
+  - {fileID: 21300000, guid: dd53a9075057b6d4abe9cc16f02be42a, type: 3}
+  - {fileID: 21300000, guid: 961740afd534f4447be988aa589f6d7b, type: 3}
   actualDialogueData:
-    dialogueID: 1
     key: PR_A_1_D
+    dialogueID: 1
     dialogueLine: 47
     spriteId: 0
     actualTextState: 0
+    actualWeaponState: 0
     nextChoiceKey: 
     badChoiceKey: PR_A_1_R
     goodChoiceKey: PR_A_1_G

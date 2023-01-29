@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 5506388112964980340}
   - component: {fileID: 5506388112964980341}
   - component: {fileID: 5506388112964980343}
+  - component: {fileID: 8369293939829826086}
   m_Layer: 5
   m_Name: ChoseNameBox
   m_TagString: Untagged
@@ -229,6 +230,19 @@ MonoBehaviour:
   nameInputField: {fileID: 5506388114501472064}
   namePreview: {fileID: 5506388114251306186}
   UI: {fileID: 6845696142329775491}
+  all: {fileID: 8369293939829826086}
+--- !u!225 &8369293939829826086
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5506388112964980339}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &5506388112971618523
 GameObject:
   m_ObjectHideFlags: 0

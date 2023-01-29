@@ -142,6 +142,10 @@ namespace TeamOne
                     return 4;
                 case "F":
                     return 5;
+                case "G":
+                    return 6;
+                case "H":
+                    return 7;
                 default: 
                     return 0;
             }
