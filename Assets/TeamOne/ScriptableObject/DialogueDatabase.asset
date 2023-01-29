@@ -56,7 +56,7 @@ MonoBehaviour:
       dialogueLine: 4
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 4
+      actualWeaponState: 1
       nextChoiceKey: 
       badChoiceKey: PF_A_2_R
       goodChoiceKey: PF_A_2_G
@@ -553,39 +553,39 @@ MonoBehaviour:
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
-  - id: PR_A_1_D
+  - id: PF_A_16_D
     data:
-      key: PR_A_1_D
-      dialogueID: 1
+      key: PF_A_16_D
+      dialogueID: 16
       dialogueLine: 46
       spriteId: 0
       actualTextState: 0
-      actualWeaponState: 5
+      actualWeaponState: 1
       nextChoiceKey: 
-      badChoiceKey: PR_A_1_R
-      goodChoiceKey: PR_A_1_G
+      badChoiceKey: PF_A_16_R
+      goodChoiceKey: PF_A_16_G
       addonKey: 
-  - id: PR_A_1_G
+  - id: PF_A_16_G
     data:
-      key: PR_A_1_G
-      dialogueID: 1
+      key: PF_A_16_G
+      dialogueID: 16
       dialogueLine: 47
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
-      nextChoiceKey: PR_A_2_D
+      nextChoiceKey: 
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
-  - id: PR_A_1_R
+  - id: PF_A_16_R
     data:
-      key: PR_A_1_R
-      dialogueID: 1
+      key: PF_A_16_R
+      dialogueID: 16
       dialogueLine: 48
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
-      nextChoiceKey: PR_A_3_D
+      nextChoiceKey: 
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 

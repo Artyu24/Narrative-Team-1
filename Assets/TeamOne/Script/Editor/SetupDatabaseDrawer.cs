@@ -103,8 +103,16 @@ namespace TeamOne
                         }
                     }
 
+                    AddonDatabase Addon_DB = AssetDatabase.LoadAssetAtPath<AddonDatabase>("Assets/TeamOne/ScriptableObject/AddonDatabase.asset");
+                    
+                    for (int i = 1; i < myObject.JsonAddonFile["values"].Count; i++)
+                    {
+                        Addon_DB.addonDataList.Add(new AddonData(JSON.Parse(myObject.JsonAddonFile["values"][i][0]), JSON.Parse(myObject.JsonAddonFile["values"][i][1]), JSON.Parse(myObject.JsonAddonFile["values"][i][2])));
+                    }
+
                     EditorUtility.SetDirty(D_DB);
                     EditorUtility.SetDirty(PNJ_DB);
+                    EditorUtility.SetDirty(Addon_DB);
                     AssetDatabase.SaveAssets();
                 }
             }

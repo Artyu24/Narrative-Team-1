@@ -23,6 +23,18 @@ namespace TeamOne
 
             return null;
         }
+
+        public void ChangeDialogueTree(AddonData data)
+        {
+            foreach (DialogueDataID dataID in dialogueDB)
+            {
+                if (dataID.data.NextChoiceKey == data.oldKey)
+                {
+                    dataID.data.NextChoiceKey = data.newKey;
+                    return;
+                }
+            }
+        }
     }
 
     [Serializable]

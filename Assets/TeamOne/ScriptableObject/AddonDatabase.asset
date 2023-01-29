@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89adc8c4eccbd7841a5979d208a7d719, type: 3}
+  m_Name: AddonDatabase
+  m_EditorClassIdentifier: 
+  addonDataList:
+  - changingKey: PR_A_2_G
+    oldKey: VF_A_2_D
+    newKey: VF_A_10_D

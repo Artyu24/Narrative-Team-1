@@ -28,7 +28,7 @@ MonoBehaviour:
     - 'NEWS ALERT: The kingdom''s cemetery found without flowers this morning. The
       authorities are actively looking for the author.'
   - columns:
-    - "Une avanc\xE9e m\xE9dicale ! Les scientifiques ont r\xE9ussis \xE0 soigner
+    - "Une avanc\xE9e m\xE9dicale ! Les scientifiques ont r\xE9ussi \xE0 soigner
       une maladie chronique \xE0 l'aide de p\xE9tales !"
     - A medical breakthrough! Scientists have succeeded in curing a chronic disease
       with the help of petals!
@@ -67,7 +67,7 @@ MonoBehaviour:
       animaux ont courus vers nous ! Il m'a dit de rentrer \xE0 la maison mais je
       l'ai vu se battre contre eux ! Je veux devenir comme lui il me faut une arme
       !"
-    - My daddy is too strong, we were walking near the forest and some big animals
+    - My daddy is so strong, we were walking near the forest and some big animals
       ran towards us! He told me to go home but I saw him fighting them! I want to
       become like him, I need a weapon!
   - columns:
@@ -116,13 +116,13 @@ MonoBehaviour:
   - columns:
     - "Je suis pas tr\xE8s forte \xE0 l'\xE9cole\u2026 Il me faut une lame pour le
       cours de cr\xE9ations\u2026 Je veux vraiment r\xE9ussir s'il vous pla\xEEt."
-    - I'm not very good at school... I need a blade for the design class... I really
-      want to pass please.
+    - I'm no good at school... I need a blade for the design class... I really want
+      to pass please.
   - columns:
     - "Concours manuel des \xE9coles primaire, le premier prix a \xE9t\xE9 remport\xE9
       par une jeune fille du royaume"
-    - Manual competition for primary schools, the first prize was won by a young
-      girl from the kingdom
+    - Competition of manual art for primary schools, the first prize was won by a
+      young girl from the kingdom
   - columns:
     - "Apr\xE8s une altercation entre deux \xE9l\xE8ves, un enfant gri\xE8vement
       bless\xE9 a \xE9t\xE9 d\xE9clar\xE9 dans une \xE9cole primaire."
@@ -137,7 +137,7 @@ MonoBehaviour:
     - "Le compte de Crypta a \xE9t\xE9 froidement assassin\xE9 la nuit derni\xE8re.
       Le coupable aurait r\xE9ussi \xE0 se faufiler \xE0 travers toutes les d\xE9fenses
       de son duplex sans se faire r\xE9p\xE9rer."
-    - Crypta's account was coldly murdered last night. The culprit allegedly managed
+    - The Duke of Crypta was coldly murdered last night. The culprit allegedly managed
       to slip through all the defenses of his duplex without being detected.
   - columns:
     - "Alerte info : [PF] Une petite fille de 10 ans est port\xE9e disparue. Contactez
@@ -259,16 +259,18 @@ MonoBehaviour:
       an induced coma, the child at the origin of this event will receive more severe
       sanctions
   - columns:
-    - "Il me faut une machette, vite. De la meilleure qualit\xE9 que vous avez."
-    - I need a machete, fast. The best quality you have.
+    - "Mon papa il est trop fort, je l'ai vu rentrer avec pleins d'animaux sous les
+      bras alors que tous les autres \xE9taient bless\xE9s ! Je veux devenir comme
+      lui il me faut une arme ! "
+    - My daddy is so strong, I saw him come back from the forest with many animals
+      under the arm ! Meanwhile all the other hunters were injured. I want to become
+      like him, I need a weapon!
   - columns:
-    - Bonne nouvelle ! Il n'y a pas eu d'attaques d'animaux sauvages depuis 1 semaine.
-    - Good news ! There have been no wild animal attacks for the last few weeks.
+    - 
+    - 
   - columns:
-    - "Une r\xE9surgence d'animaux sauvages aux abords de la for\xEAt. Veuillez \xE9viter
-      les chemins en bordure. Pr\xE9cautions pour les chasseurs d'y aller en groupe."
-    - A resurgence of wildlife at the edge of the forest. Please avoid the roads
-      on the edge. Caution for hunters to go in groups.
+    - 
+    - 
   - columns:
     - "Je m'appelle [PR]. Vos outils sont tr\xE8s durables, je vais vous prendre
       une machette d'avance s'il vous pla\xEEt. Peut-\xEAtre que je peux me faire

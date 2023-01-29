@@ -14,10 +14,9 @@ namespace TeamOne
         [SerializeField] private PNJDatabase pnjDatabase;
         [SerializeField] private DialogueDatabase dialogueDatabase;
         [SerializeField] private TextDatabase textDatabase;
+        [SerializeField] private AddonDatabase addonDatabase;
         public PNJDatabase PnjDatabase => pnjDatabase;
-        public DialogueDatabase DialogueDatabase => dialogueDatabase;
         public TextDatabase TextDatabase => textDatabase;
-
 
         [Header("NewsPaper")] 
         [SerializeField] private NewsPaper newsPaper;
@@ -29,6 +28,7 @@ namespace TeamOne
         [Header("Actual Data")]
         public List<PNJData> pnjPhaseOneClone;
         public List<PNJData> pnjPhaseTwoClone;
+        private DialogueDatabase dialogueDBCopy;
         private PNJData actualPNJ;
         public PNJData ActualPNJ => actualPNJ;
         private int actualPNJID = 0;
@@ -48,6 +48,8 @@ namespace TeamOne
             {
                 pnjPhaseTwoClone.Add(Instantiate(data));
             }
+
+            dialogueDBCopy = Instantiate(dialogueDatabase);
         }
 
         public void InitDialogue()
@@ -72,7 +74,13 @@ namespace TeamOne
             else
                 key = actualPNJ.ActualDialogueData.BadChoiceKey;
 
-            actualPNJ.ActualDialogueData = dialogueDatabase.GetDialogueData(key);
+            if (addonDatabase.IsChangeHere(key))
+            {
+                AddonData data = addonDatabase.GetAddonData(key);
+                dialogueDBCopy.ChangeDialogueTree(data);
+            }
+
+            actualPNJ.ActualDialogueData = dialogueDBCopy.GetDialogueData(key);
             charaEffect.ExitAnime();
             NextPNJ();
         }
@@ -102,8 +110,8 @@ namespace TeamOne
             newsPaper.InitNews(textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
             
             //Next Dialogue for PNJ
-            listTemp[0].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
-            listTemp[1].ActualDialogueData = dialogueDatabase.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
+            listTemp[0].ActualDialogueData = dialogueDBCopy.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
+            listTemp[1].ActualDialogueData = dialogueDBCopy.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
 
             //Jour suivant
             actualPNJID = 0;

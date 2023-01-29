@@ -28,7 +28,7 @@ namespace TeamOne
         [SerializeField] private string goodChoiceKey;
         [SerializeField] private string addonKey;
 
-        public string NextChoiceKey => nextChoiceKey;
+        public string NextChoiceKey { get => nextChoiceKey; set => nextChoiceKey = value; }
         public string BadChoiceKey { get => badChoiceKey; set => badChoiceKey = value; }
         public string GoodChoiceKey { get => goodChoiceKey; set => goodChoiceKey = value; }
         public string AddonKey { get => addonKey; set => addonKey = value; }
