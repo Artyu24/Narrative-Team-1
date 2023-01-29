@@ -19,8 +19,11 @@ namespace TeamOne
         [SerializeField] private List<Sprite> allSprites = new List<Sprite>();
         public string PnjKeyName => pnjKeyName;
         public List<Sprite> AllSprites => allSprites;
-
+        
         [SerializeField] private DialogueData actualDialogueData;
         public DialogueData ActualDialogueData { get => actualDialogueData; set => actualDialogueData = value; }
+        
+        private bool isFinish;
+        public bool IsFinish { get => isFinish; set => isFinish = value; }
     }
 }

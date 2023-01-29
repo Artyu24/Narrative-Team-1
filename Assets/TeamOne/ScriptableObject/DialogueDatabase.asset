@@ -573,7 +573,7 @@ MonoBehaviour:
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
-      nextChoiceKey: 
+      nextChoiceKey: PR_A_5_D
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
@@ -585,7 +585,7 @@ MonoBehaviour:
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
-      nextChoiceKey: 
+      nextChoiceKey: PR_A_6_D
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 

@@ -63,13 +63,12 @@ MonoBehaviour:
     - "Ouverture d'un nouveau bar \xE0 chats dans le quartier de Qualipo"
     - New opening of a cat bar in the Qualipo district
   - columns:
-    - "Mon papa il est trop fort, on se baladait pr\xE8s de la for\xEAt et des gros
-      animaux ont courus vers nous ! Il m'a dit de rentrer \xE0 la maison mais je
-      l'ai vu se battre contre eux ! Je veux devenir comme lui il me faut une arme
-      !"
-    - My daddy is so strong, we were walking near the forest and some big animals
-      ran towards us! He told me to go home but I saw him fighting them! I want to
-      become like him, I need a weapon!
+    - "Mon papa il est trop fort, je l'ai vu rentrer avec pleins d'animaux sous les
+      bras, en comparaison les autres chasseurs faisent piti\xE9 ! Je veux devenir
+      forte comme lui il me faut une arme !"
+    - My daddy is so strong! I saw him come out of the forest with many animals under
+      his arms! He made his coworkers look so bad haha! I want to become strong like
+      him, I need a weapon!
   - columns:
     - "Un groupe d'adolescents retrouv\xE9s mutil\xE9s dans un parc peu fr\xE9quent\xE9.
       Les familles sont d\xE9vast\xE9es. La police n'a aucune piste dans cette affaire."
@@ -259,18 +258,24 @@ MonoBehaviour:
       an induced coma, the child at the origin of this event will receive more severe
       sanctions
   - columns:
-    - "Mon papa il est trop fort, je l'ai vu rentrer avec pleins d'animaux sous les
-      bras alors que tous les autres \xE9taient bless\xE9s ! Je veux devenir comme
-      lui il me faut une arme ! "
-    - My daddy is so strong, I saw him come back from the forest with many animals
-      under the arm ! Meanwhile all the other hunters were injured. I want to become
-      like him, I need a weapon!
+    - "Mon papa il est trop fort, on se baladait pr\xE8s de la for\xEAt et des gros
+      animaux ont courus vers nous ! Il m'a dit de rentrer \xE0 la maison mais je
+      l'ai vu se battre contre eux ! Je veux devenir comme lui il me faut une arme
+      !"
+    - My daddy is so strong, we were walking near the forest and some big animals
+      ran towards us! He told me to go home but I saw him fighting them! I want to
+      become like him, I need a weapon!
   - columns:
-    - 
-    - 
+    - "Un groupe d'adolescents retrouv\xE9s mutil\xE9s dans un parc peu fr\xE9quent\xE9.
+      Les familles sont d\xE9vast\xE9es. La police n'a aucune piste dans cette affaire."
+    - A group of teenagers found mutilated in a park not very frequented. The families
+      are devastated. The police have no leads in this case.
   - columns:
-    - 
-    - 
+    - "Une petite fille d\xE9termin\xE9e voulait acc\xE9der \xE0 la salle d'entra\xEEnement
+      de m\xE9tal. \"Je veux chasser les animaux comme papa ! Jvous jure je sais
+      faire je sais faire !\""
+    - A determined little girl wanted to access to the metal training room. "I want
+      to hunt animals like daddy! I swear I know how to do it!"
   - columns:
     - "Je m'appelle [PR]. Vos outils sont tr\xE8s durables, je vais vous prendre
       une machette d'avance s'il vous pla\xEEt. Peut-\xEAtre que je peux me faire

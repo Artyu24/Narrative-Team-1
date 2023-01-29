@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using TeamOne;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace TeamOne
 {
@@ -57,6 +58,24 @@ namespace TeamOne
             if (!inNightMode)
             {
                 actualPNJ = GetTodayPnjList()[actualPNJID];
+
+                if (IsGameFinish())
+                {
+                    //End Game
+                    return;
+                }
+                else if (IsDayFinish(GetTodayPnjList()))
+                {
+                    actualDay = (actualDay + 1) % 2;
+                    actualPNJ = GetTodayPnjList()[actualPNJID];
+                }
+
+                if (actualPNJ.IsFinish)
+                {
+                    actualPNJID++;
+                    actualPNJ = GetTodayPnjList()[actualPNJID];
+                }
+
                 charaEffect.InitCharacter(actualPNJ.AllSprites[actualPNJ.ActualDialogueData.SpriteId]);
             }
         }
@@ -96,6 +115,11 @@ namespace TeamOne
                 inNightMode = true;
                 nightEffect.StartNight();
             }
+            else if (actualPnjList[actualPNJID].IsFinish)
+            {
+                NextPNJ();
+                return;
+            }
 
             DialogueManager.instance.DialogueText.text = "";
             charaEffect.ExitAnime();
@@ -110,8 +134,16 @@ namespace TeamOne
             newsPaper.InitNews(textDatabase.GetText(listTemp[0].ActualDialogueData.DialogueLine), textDatabase.GetText(listTemp[1].ActualDialogueData.DialogueLine));
             
             //Next Dialogue for PNJ
-            listTemp[0].ActualDialogueData = dialogueDBCopy.GetDialogueData(listTemp[0].ActualDialogueData.NextChoiceKey);
-            listTemp[1].ActualDialogueData = dialogueDBCopy.GetDialogueData(listTemp[1].ActualDialogueData.NextChoiceKey);
+            for (int i = 0; i < listTemp.Count; i++)
+            {
+                DialogueData data = dialogueDBCopy.GetDialogueData(listTemp[i].ActualDialogueData.NextChoiceKey);
+                if(data != null)
+                    listTemp[i].ActualDialogueData = data;
+                else
+                {
+                    listTemp[i].IsFinish = true;
+                }
+            }
 
             //Jour suivant
             actualPNJID = 0;
@@ -129,6 +161,27 @@ namespace TeamOne
                 actualPnjList = pnjPhaseTwoClone;
 
             return actualPnjList;
+        }
+
+        private bool IsDayFinish(List<PNJData> pnjTodayList)
+        {
+            foreach (PNJData pnj in pnjTodayList)
+            {
+                if (!pnj.IsFinish)
+                    return false;
+            }
+
+            return true;
+        }
+
+        private bool IsGameFinish()
+        {
+            bool isEnding = true;
+
+            isEnding = IsDayFinish(pnjPhaseOneClone);
+            isEnding = IsDayFinish(pnjPhaseTwoClone);
+
+            return isEnding;
         }
     }
 }
