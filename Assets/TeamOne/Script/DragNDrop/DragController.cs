@@ -71,6 +71,8 @@ namespace TeamOne
         private void InitDrag()
         {
             isDragActive = true;
+            lastDragged.GetComponent<Sword>().idle = false;
+            lastDragged.transform.position = new Vector3(0, -4, 0);
         }
 
         private void Drag()
@@ -81,6 +83,7 @@ namespace TeamOne
 
         private void Drop() 
         {
+            lastDragged.GetComponent<Sword>().idle = false;
             isDragActive = false;
 
             if (lastDragged.hasToReturn)
@@ -89,12 +92,13 @@ namespace TeamOne
             if (lastDragged.ValidateRight)
             {
                 GameManager.instance.SwipeChoice(true);
+                lastDragged.GetComponent<Sword>().badParticle.SetActive(false);
                 lastDragged.gameObject.SetActive(false);
-                Debug.Log(lastDragged.gameObject);
             }
             else if (lastDragged.ValidateLeft)
             {
                 GameManager.instance.SwipeChoice(false);
+                lastDragged.GetComponent<Sword>().goodParticle.SetActive(false);
                 lastDragged.gameObject.SetActive(false);
             }
 
