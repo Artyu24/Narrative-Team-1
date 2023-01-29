@@ -170,6 +170,7 @@ MonoBehaviour:
   - name: NightSound
     clip: {fileID: 8300000, guid: e71f4d83d69dc314d95d90b66f3613e7, type: 3}
     volume: 0.5
+    loop: 0
     audioMixer: {fileID: 0}
     source: {fileID: 0}
     actualSound: 1
@@ -544,14 +545,18 @@ PrefabInstance:
     - target: {fileID: 5643856667828697295, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3a538e23a923f194782857226aacc8ce, type: 3}
+      objectReference: {fileID: 21300000, guid: 6f9145f2e9cb62345bb070617e2059d4, type: 3}
+    - target: {fileID: 5643856667828697295, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765754, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765754, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765756, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_RootOrder
@@ -571,7 +576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765756, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99984777
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765756, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_LocalRotation.x
@@ -583,7 +588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765756, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.01745245
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765756, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -595,7 +600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5643856668103765756, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9a3c1809a7d74949a24d37cac898172, type: 3}
