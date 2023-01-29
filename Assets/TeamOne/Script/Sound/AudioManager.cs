@@ -51,7 +51,7 @@ namespace TeamOne
 
         private void Start()
         {
-            PlayRandom(SoundState.Victory);
+            PlayRandom(SoundState.MainTheme);
         }
 
         public void Stop(SoundState soundState)
@@ -97,10 +97,15 @@ namespace TeamOne
             soundActivate = !soundActivate;
 
             if (soundActivate)
+            {
                 buttonImage.sprite = soundOn;
-            
+                PlayRandom(SoundState.MainTheme);
+            }
             else
+            {
                 buttonImage.sprite = soundOff;
+                Stop(SoundState.MainTheme);
+            }
         }
     }
 }

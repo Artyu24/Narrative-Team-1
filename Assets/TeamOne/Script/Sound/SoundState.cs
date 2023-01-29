@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum SoundState
 {
-    Victory,
+    MainTheme,
     Night,
     FootStep,
     ButtonFR,
