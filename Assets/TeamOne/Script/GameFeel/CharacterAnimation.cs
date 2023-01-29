@@ -28,6 +28,7 @@ namespace TeamOne
         }
         private void EnterAnime()
         {
+            idleAnime.Kill();
             Sequence EnterAnime = DOTween.Sequence();
             EnterAnime.Insert(0, transform.DORotate(new Vector3(0, 0, 144), 0f));
             EnterAnime.Join(transform.DOMoveY(-3, 0f));
