@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using TeamOne;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 namespace TeamOne
@@ -25,6 +26,7 @@ namespace TeamOne
         [Header("GameFeel")] 
         [SerializeField] private CharacterAnimation charaEffect;
         [SerializeField] private Night nightEffect;
+        [SerializeField] private CanvasGroup endGame;
 
         [Header("Actual Data")]
         public List<PNJData> pnjPhaseOneClone;
@@ -61,7 +63,11 @@ namespace TeamOne
 
                 if (IsGameFinish())
                 {
-                    //End Game
+                    endGame.interactable = true;
+
+                    Sequence seq = DOTween.Sequence();
+                    seq.Append(endGame.DOFade(1, 2f));
+                    //seq.AppendInterval(3f).OnComplete(() => SceneManager.LoadScene("TA SCENE ICI FRANCKO"));
                     return;
                 }
                 else if (IsDayFinish(GetTodayPnjList()))
