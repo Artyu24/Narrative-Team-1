@@ -26,8 +26,14 @@ namespace TeamOne
         public GameObject goodParticle;
         public GameObject badParticle;
 
+        public bool idle = false;
+        private bool tempIdle = true;
+        public Sequence IdleAnim;
+
         public void InitChoice()
         {
+            Debug.Log(GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState);
+            idle = true;
             switch (GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState)
             {
                 case WeaponState.SHEARS:
@@ -61,12 +67,24 @@ namespace TeamOne
         // Start is called before the first frame update
         void Start()
         {
-            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer = GetComponent<SpriteRenderer>();            
         }
 
         // Update is called once per frame
         void Update()
         {
+            if (idle && tempIdle) 
+            {
+                tempIdle = false;
+                IdleAnim = DOTween.Sequence().SetLoops(-1);
+                IdleAnim.Append(transform.DOLocalMoveX(.5f, 1));
+                IdleAnim.Append(transform.DOLocalMoveX(0f, 1));
+                IdleAnim.Append(transform.DOLocalMoveX(-.5f, 1));
+                IdleAnim.Append(transform.DOLocalMoveX(0f, 1));
+                IdleAnim.Append(transform.DOLocalMoveX(0f, 2f)).OnComplete(() => tempIdle = true);//Wait
+            }
+
+
             Vector3 _tPos = Camera.main.WorldToScreenPoint(transform.position);
             if (_tPos.x < Screen.width / 2 - (Screen.width * middleOffset / 100))//Left
                 OnLeftSide();
@@ -80,27 +98,27 @@ namespace TeamOne
 
         private void OnRightSide()
         {
-            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .25f);
-            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .25f);
-            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(255, .25f);
+            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .1f);
+            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .1f);
+            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(255, .1f);
 
             goodParticle.SetActive(false);
             badParticle.SetActive(true);
         }
         private void OnLeftSide()
         {
-            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(255, .25f);
-            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .25f);
-            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(255, .1f);
+            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .1f);
+            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .1f);
 
             goodParticle.SetActive(true);
             badParticle.SetActive(false);
         }
         private void OnMiddleSide()
         {
-            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .25f);
-            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(255, .25f);
-            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+            transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .1f);
+            transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(255, .1f);
+            transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .1f);
 
             goodParticle.SetActive(false);
             badParticle.SetActive(false);

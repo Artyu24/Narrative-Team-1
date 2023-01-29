@@ -71,6 +71,8 @@ namespace TeamOne
         private void InitDrag()
         {
             isDragActive = true;
+            lastDragged.GetComponent<Sword>().idle = false;
+            lastDragged.transform.position = new Vector3(0, -4, 0);
         }
 
         private void Drag()
@@ -81,6 +83,7 @@ namespace TeamOne
 
         private void Drop() 
         {
+            lastDragged.GetComponent<Sword>().idle = false;
             isDragActive = false;
 
             if (lastDragged.hasToReturn)
