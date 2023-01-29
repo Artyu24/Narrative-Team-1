@@ -589,11 +589,47 @@ MonoBehaviour:
       badChoiceKey: 
       goodChoiceKey: 
       addonKey: 
+  - id: PR_A_1_D
+    data:
+      key: PR_A_1_D
+      dialogueID: 1
+      dialogueLine: 49
+      spriteId: 0
+      actualTextState: 0
+      actualWeaponState: 5
+      nextChoiceKey: 
+      badChoiceKey: PR_A_1_R
+      goodChoiceKey: PR_A_1_G
+      addonKey: 
+  - id: PR_A_1_G
+    data:
+      key: PR_A_1_G
+      dialogueID: 1
+      dialogueLine: 50
+      spriteId: 0
+      actualTextState: 1
+      actualWeaponState: 0
+      nextChoiceKey: PR_A_2_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
+  - id: PR_A_1_R
+    data:
+      key: PR_A_1_R
+      dialogueID: 1
+      dialogueLine: 51
+      spriteId: 0
+      actualTextState: 2
+      actualWeaponState: 0
+      nextChoiceKey: PR_A_3_D
+      badChoiceKey: 
+      goodChoiceKey: 
+      addonKey: 
   - id: PR_A_2_D
     data:
       key: PR_A_2_D
       dialogueID: 2
-      dialogueLine: 49
+      dialogueLine: 52
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -605,7 +641,7 @@ MonoBehaviour:
     data:
       key: PR_A_2_G
       dialogueID: 2
-      dialogueLine: 50
+      dialogueLine: 53
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -617,7 +653,7 @@ MonoBehaviour:
     data:
       key: PR_A_2_R
       dialogueID: 2
-      dialogueLine: 51
+      dialogueLine: 54
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -629,7 +665,7 @@ MonoBehaviour:
     data:
       key: PR_A_3_D
       dialogueID: 3
-      dialogueLine: 52
+      dialogueLine: 55
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -641,7 +677,7 @@ MonoBehaviour:
     data:
       key: PR_A_3_G
       dialogueID: 3
-      dialogueLine: 53
+      dialogueLine: 56
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -653,7 +689,7 @@ MonoBehaviour:
     data:
       key: PR_A_3_R
       dialogueID: 3
-      dialogueLine: 54
+      dialogueLine: 57
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -665,7 +701,7 @@ MonoBehaviour:
     data:
       key: PR_A_4_D
       dialogueID: 4
-      dialogueLine: 55
+      dialogueLine: 58
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -677,7 +713,7 @@ MonoBehaviour:
     data:
       key: PR_A_4_G
       dialogueID: 4
-      dialogueLine: 56
+      dialogueLine: 59
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -689,7 +725,7 @@ MonoBehaviour:
     data:
       key: PR_A_4_R
       dialogueID: 4
-      dialogueLine: 57
+      dialogueLine: 60
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -701,7 +737,7 @@ MonoBehaviour:
     data:
       key: PR_A_5_D
       dialogueID: 5
-      dialogueLine: 58
+      dialogueLine: 61
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 6
@@ -713,7 +749,7 @@ MonoBehaviour:
     data:
       key: PR_A_5_G
       dialogueID: 5
-      dialogueLine: 59
+      dialogueLine: 62
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -725,7 +761,7 @@ MonoBehaviour:
     data:
       key: PR_A_5_R
       dialogueID: 5
-      dialogueLine: 60
+      dialogueLine: 63
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -737,7 +773,7 @@ MonoBehaviour:
     data:
       key: PR_A_6_D
       dialogueID: 6
-      dialogueLine: 61
+      dialogueLine: 64
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -749,7 +785,7 @@ MonoBehaviour:
     data:
       key: PR_A_6_G
       dialogueID: 6
-      dialogueLine: 62
+      dialogueLine: 65
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -761,7 +797,7 @@ MonoBehaviour:
     data:
       key: PR_A_6_R
       dialogueID: 6
-      dialogueLine: 63
+      dialogueLine: 66
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -773,7 +809,7 @@ MonoBehaviour:
     data:
       key: PR_A_7_D
       dialogueID: 7
-      dialogueLine: 64
+      dialogueLine: 67
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -785,7 +821,7 @@ MonoBehaviour:
     data:
       key: PR_A_7_G
       dialogueID: 7
-      dialogueLine: 65
+      dialogueLine: 68
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -797,7 +833,7 @@ MonoBehaviour:
     data:
       key: PR_A_7_R
       dialogueID: 7
-      dialogueLine: 66
+      dialogueLine: 69
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -809,7 +845,7 @@ MonoBehaviour:
     data:
       key: PR_A_8_D
       dialogueID: 8
-      dialogueLine: 67
+      dialogueLine: 70
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -821,7 +857,7 @@ MonoBehaviour:
     data:
       key: PR_A_8_G
       dialogueID: 8
-      dialogueLine: 68
+      dialogueLine: 71
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -833,7 +869,7 @@ MonoBehaviour:
     data:
       key: PR_A_8_R
       dialogueID: 8
-      dialogueLine: 69
+      dialogueLine: 72
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -845,7 +881,7 @@ MonoBehaviour:
     data:
       key: PR_B_9_D
       dialogueID: 9
-      dialogueLine: 70
+      dialogueLine: 73
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 5
@@ -857,7 +893,7 @@ MonoBehaviour:
     data:
       key: PR_B_9_G
       dialogueID: 9
-      dialogueLine: 71
+      dialogueLine: 74
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -869,7 +905,7 @@ MonoBehaviour:
     data:
       key: PR_B_9_R
       dialogueID: 9
-      dialogueLine: 72
+      dialogueLine: 75
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -881,7 +917,7 @@ MonoBehaviour:
     data:
       key: PR_A_10_D
       dialogueID: 10
-      dialogueLine: 73
+      dialogueLine: 76
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 1
@@ -893,7 +929,7 @@ MonoBehaviour:
     data:
       key: PR_A_10_G
       dialogueID: 10
-      dialogueLine: 74
+      dialogueLine: 77
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -905,7 +941,7 @@ MonoBehaviour:
     data:
       key: PR_A_10_R
       dialogueID: 10
-      dialogueLine: 75
+      dialogueLine: 78
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -917,7 +953,7 @@ MonoBehaviour:
     data:
       key: PR_A_11_D
       dialogueID: 11
-      dialogueLine: 76
+      dialogueLine: 79
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -929,7 +965,7 @@ MonoBehaviour:
     data:
       key: PR_A_11_G
       dialogueID: 11
-      dialogueLine: 77
+      dialogueLine: 80
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -941,7 +977,7 @@ MonoBehaviour:
     data:
       key: PR_A_11_R
       dialogueID: 11
-      dialogueLine: 78
+      dialogueLine: 81
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -953,7 +989,7 @@ MonoBehaviour:
     data:
       key: PR_A_12_D
       dialogueID: 12
-      dialogueLine: 79
+      dialogueLine: 82
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 2
@@ -965,7 +1001,7 @@ MonoBehaviour:
     data:
       key: PR_A_12_G
       dialogueID: 12
-      dialogueLine: 80
+      dialogueLine: 83
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -977,7 +1013,7 @@ MonoBehaviour:
     data:
       key: PR_A_12_R
       dialogueID: 12
-      dialogueLine: 81
+      dialogueLine: 84
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -989,7 +1025,7 @@ MonoBehaviour:
     data:
       key: PR_A_13_D
       dialogueID: 13
-      dialogueLine: 82
+      dialogueLine: 85
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -1001,7 +1037,7 @@ MonoBehaviour:
     data:
       key: PR_A_13_G
       dialogueID: 13
-      dialogueLine: 83
+      dialogueLine: 86
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1013,7 +1049,7 @@ MonoBehaviour:
     data:
       key: PR_A_13_R
       dialogueID: 13
-      dialogueLine: 84
+      dialogueLine: 87
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1025,7 +1061,7 @@ MonoBehaviour:
     data:
       key: PR_A_14_D
       dialogueID: 14
-      dialogueLine: 85
+      dialogueLine: 88
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 6
@@ -1037,7 +1073,7 @@ MonoBehaviour:
     data:
       key: PR_A_14_G
       dialogueID: 14
-      dialogueLine: 86
+      dialogueLine: 89
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1049,7 +1085,7 @@ MonoBehaviour:
     data:
       key: PR_A_14_R
       dialogueID: 14
-      dialogueLine: 87
+      dialogueLine: 90
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1061,7 +1097,7 @@ MonoBehaviour:
     data:
       key: PR_B_15_D
       dialogueID: 15
-      dialogueLine: 88
+      dialogueLine: 91
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 5
@@ -1073,7 +1109,7 @@ MonoBehaviour:
     data:
       key: PR_B_15_G
       dialogueID: 15
-      dialogueLine: 89
+      dialogueLine: 92
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1085,7 +1121,7 @@ MonoBehaviour:
     data:
       key: PR_B_15_R
       dialogueID: 15
-      dialogueLine: 90
+      dialogueLine: 93
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1097,7 +1133,7 @@ MonoBehaviour:
     data:
       key: VF_A_1_D
       dialogueID: 1
-      dialogueLine: 91
+      dialogueLine: 94
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 2
@@ -1109,7 +1145,7 @@ MonoBehaviour:
     data:
       key: VF_A_1_G
       dialogueID: 1
-      dialogueLine: 92
+      dialogueLine: 95
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1121,7 +1157,7 @@ MonoBehaviour:
     data:
       key: VF_A_1_R
       dialogueID: 1
-      dialogueLine: 93
+      dialogueLine: 96
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1133,7 +1169,7 @@ MonoBehaviour:
     data:
       key: VF_A_2_D
       dialogueID: 2
-      dialogueLine: 94
+      dialogueLine: 97
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1145,7 +1181,7 @@ MonoBehaviour:
     data:
       key: VF_A_2_G
       dialogueID: 2
-      dialogueLine: 95
+      dialogueLine: 98
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1157,7 +1193,7 @@ MonoBehaviour:
     data:
       key: VF_A_2_R
       dialogueID: 2
-      dialogueLine: 96
+      dialogueLine: 99
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1169,7 +1205,7 @@ MonoBehaviour:
     data:
       key: VF_B_3_D
       dialogueID: 3
-      dialogueLine: 97
+      dialogueLine: 100
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 3
@@ -1181,7 +1217,7 @@ MonoBehaviour:
     data:
       key: VF_B_3_G
       dialogueID: 3
-      dialogueLine: 98
+      dialogueLine: 101
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1193,7 +1229,7 @@ MonoBehaviour:
     data:
       key: VF_B_3_R
       dialogueID: 3
-      dialogueLine: 99
+      dialogueLine: 102
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1205,7 +1241,7 @@ MonoBehaviour:
     data:
       key: VF_B_4_D
       dialogueID: 4
-      dialogueLine: 100
+      dialogueLine: 103
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 6
@@ -1217,7 +1253,7 @@ MonoBehaviour:
     data:
       key: VF_B_4_G
       dialogueID: 4
-      dialogueLine: 101
+      dialogueLine: 104
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1229,7 +1265,7 @@ MonoBehaviour:
     data:
       key: VF_B_4_R
       dialogueID: 4
-      dialogueLine: 102
+      dialogueLine: 105
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1241,7 +1277,7 @@ MonoBehaviour:
     data:
       key: VF_A_5_D
       dialogueID: 5
-      dialogueLine: 103
+      dialogueLine: 106
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1253,7 +1289,7 @@ MonoBehaviour:
     data:
       key: VF_A_5_G
       dialogueID: 5
-      dialogueLine: 104
+      dialogueLine: 107
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1265,7 +1301,7 @@ MonoBehaviour:
     data:
       key: VF_A_5_R
       dialogueID: 5
-      dialogueLine: 105
+      dialogueLine: 108
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1277,7 +1313,7 @@ MonoBehaviour:
     data:
       key: VF_B_6_D
       dialogueID: 6
-      dialogueLine: 106
+      dialogueLine: 109
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 2
@@ -1289,7 +1325,7 @@ MonoBehaviour:
     data:
       key: VF_B_6_G
       dialogueID: 6
-      dialogueLine: 107
+      dialogueLine: 110
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1301,7 +1337,7 @@ MonoBehaviour:
     data:
       key: VF_B_6_R
       dialogueID: 6
-      dialogueLine: 108
+      dialogueLine: 111
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1313,7 +1349,7 @@ MonoBehaviour:
     data:
       key: VF_B_7_D
       dialogueID: 7
-      dialogueLine: 109
+      dialogueLine: 112
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 5
@@ -1325,7 +1361,7 @@ MonoBehaviour:
     data:
       key: VF_B_7_G
       dialogueID: 7
-      dialogueLine: 110
+      dialogueLine: 113
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1337,7 +1373,7 @@ MonoBehaviour:
     data:
       key: VF_B_7_R
       dialogueID: 7
-      dialogueLine: 111
+      dialogueLine: 114
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1349,7 +1385,7 @@ MonoBehaviour:
     data:
       key: VF_B_8_D
       dialogueID: 8
-      dialogueLine: 112
+      dialogueLine: 115
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 6
@@ -1361,7 +1397,7 @@ MonoBehaviour:
     data:
       key: VF_B_8_G
       dialogueID: 8
-      dialogueLine: 113
+      dialogueLine: 116
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1373,7 +1409,7 @@ MonoBehaviour:
     data:
       key: VF_B_8_R
       dialogueID: 8
-      dialogueLine: 114
+      dialogueLine: 117
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1385,7 +1421,7 @@ MonoBehaviour:
     data:
       key: VF_B_9_D
       dialogueID: 9
-      dialogueLine: 115
+      dialogueLine: 118
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 5
@@ -1397,7 +1433,7 @@ MonoBehaviour:
     data:
       key: VF_B_9_G
       dialogueID: 9
-      dialogueLine: 116
+      dialogueLine: 119
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1409,7 +1445,7 @@ MonoBehaviour:
     data:
       key: VF_B_9_R
       dialogueID: 9
-      dialogueLine: 117
+      dialogueLine: 120
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1421,7 +1457,7 @@ MonoBehaviour:
     data:
       key: VF_A_10_D
       dialogueID: 10
-      dialogueLine: 118
+      dialogueLine: 121
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1433,7 +1469,7 @@ MonoBehaviour:
     data:
       key: VF_A_10_G
       dialogueID: 10
-      dialogueLine: 119
+      dialogueLine: 122
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1445,7 +1481,7 @@ MonoBehaviour:
     data:
       key: VF_A_10_R
       dialogueID: 10
-      dialogueLine: 120
+      dialogueLine: 123
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1457,7 +1493,7 @@ MonoBehaviour:
     data:
       key: VF_B_11_D
       dialogueID: 11
-      dialogueLine: 121
+      dialogueLine: 124
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 6
@@ -1469,7 +1505,7 @@ MonoBehaviour:
     data:
       key: VF_B_11_G
       dialogueID: 11
-      dialogueLine: 122
+      dialogueLine: 125
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1481,7 +1517,7 @@ MonoBehaviour:
     data:
       key: VF_B_11_R
       dialogueID: 11
-      dialogueLine: 123
+      dialogueLine: 126
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1493,7 +1529,7 @@ MonoBehaviour:
     data:
       key: VF_B_12_D
       dialogueID: 12
-      dialogueLine: 124
+      dialogueLine: 127
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 6
@@ -1505,7 +1541,7 @@ MonoBehaviour:
     data:
       key: VF_B_12_G
       dialogueID: 12
-      dialogueLine: 125
+      dialogueLine: 128
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1517,7 +1553,7 @@ MonoBehaviour:
     data:
       key: VF_B_12_R
       dialogueID: 12
-      dialogueLine: 126
+      dialogueLine: 129
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1529,7 +1565,7 @@ MonoBehaviour:
     data:
       key: VF_B_13_D
       dialogueID: 13
-      dialogueLine: 127
+      dialogueLine: 130
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 2
@@ -1541,7 +1577,7 @@ MonoBehaviour:
     data:
       key: VF_B_13_G
       dialogueID: 13
-      dialogueLine: 128
+      dialogueLine: 131
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1553,7 +1589,7 @@ MonoBehaviour:
     data:
       key: VF_B_13_R
       dialogueID: 13
-      dialogueLine: 129
+      dialogueLine: 132
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1565,7 +1601,7 @@ MonoBehaviour:
     data:
       key: FF_A_1_D
       dialogueID: 1
-      dialogueLine: 130
+      dialogueLine: 133
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 2
@@ -1577,7 +1613,7 @@ MonoBehaviour:
     data:
       key: FF_A_1_G
       dialogueID: 1
-      dialogueLine: 131
+      dialogueLine: 134
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1589,7 +1625,7 @@ MonoBehaviour:
     data:
       key: FF_A_1_R
       dialogueID: 1
-      dialogueLine: 132
+      dialogueLine: 135
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1601,7 +1637,7 @@ MonoBehaviour:
     data:
       key: FF_A_2_D
       dialogueID: 2
-      dialogueLine: 133
+      dialogueLine: 136
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 4
@@ -1613,7 +1649,7 @@ MonoBehaviour:
     data:
       key: FF_A_2_G
       dialogueID: 2
-      dialogueLine: 134
+      dialogueLine: 137
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1625,7 +1661,7 @@ MonoBehaviour:
     data:
       key: FF_A_2_R
       dialogueID: 2
-      dialogueLine: 135
+      dialogueLine: 138
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1637,7 +1673,7 @@ MonoBehaviour:
     data:
       key: FF_A_3_D
       dialogueID: 3
-      dialogueLine: 136
+      dialogueLine: 139
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 5
@@ -1649,7 +1685,7 @@ MonoBehaviour:
     data:
       key: FF_A_3_G
       dialogueID: 3
-      dialogueLine: 137
+      dialogueLine: 140
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1661,7 +1697,7 @@ MonoBehaviour:
     data:
       key: FF_A_3_R
       dialogueID: 3
-      dialogueLine: 138
+      dialogueLine: 141
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1673,7 +1709,7 @@ MonoBehaviour:
     data:
       key: FF_A_4_D
       dialogueID: 4
-      dialogueLine: 139
+      dialogueLine: 142
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 2
@@ -1685,7 +1721,7 @@ MonoBehaviour:
     data:
       key: FF_A_4_G
       dialogueID: 4
-      dialogueLine: 140
+      dialogueLine: 143
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1697,7 +1733,7 @@ MonoBehaviour:
     data:
       key: FF_A_4_R
       dialogueID: 4
-      dialogueLine: 141
+      dialogueLine: 144
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1709,7 +1745,7 @@ MonoBehaviour:
     data:
       key: FF_A_5_D
       dialogueID: 5
-      dialogueLine: 142
+      dialogueLine: 145
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1721,7 +1757,7 @@ MonoBehaviour:
     data:
       key: FF_A_5_G
       dialogueID: 5
-      dialogueLine: 143
+      dialogueLine: 146
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1733,7 +1769,7 @@ MonoBehaviour:
     data:
       key: FF_A_5_R
       dialogueID: 5
-      dialogueLine: 144
+      dialogueLine: 147
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1745,7 +1781,7 @@ MonoBehaviour:
     data:
       key: FF_A_6_D
       dialogueID: 6
-      dialogueLine: 145
+      dialogueLine: 148
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1757,7 +1793,7 @@ MonoBehaviour:
     data:
       key: FF_A_6_G
       dialogueID: 6
-      dialogueLine: 146
+      dialogueLine: 149
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1769,7 +1805,7 @@ MonoBehaviour:
     data:
       key: FF_A_6_R
       dialogueID: 6
-      dialogueLine: 147
+      dialogueLine: 150
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1781,7 +1817,7 @@ MonoBehaviour:
     data:
       key: FF_B_7_D
       dialogueID: 7
-      dialogueLine: 148
+      dialogueLine: 151
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 5
@@ -1793,7 +1829,7 @@ MonoBehaviour:
     data:
       key: FF_B_7_G
       dialogueID: 7
-      dialogueLine: 149
+      dialogueLine: 152
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -1805,7 +1841,7 @@ MonoBehaviour:
     data:
       key: FF_B_7_R
       dialogueID: 7
-      dialogueLine: 150
+      dialogueLine: 153
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -1817,7 +1853,7 @@ MonoBehaviour:
     data:
       key: FF_A_8_D
       dialogueID: 8
-      dialogueLine: 151
+      dialogueLine: 154
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 6
@@ -1829,7 +1865,7 @@ MonoBehaviour:
     data:
       key: FF_A_8_G
       dialogueID: 8
-      dialogueLine: 152
+      dialogueLine: 155
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1841,7 +1877,7 @@ MonoBehaviour:
     data:
       key: FF_A_8_R
       dialogueID: 8
-      dialogueLine: 153
+      dialogueLine: 156
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1853,7 +1889,7 @@ MonoBehaviour:
     data:
       key: FF_A_9_D
       dialogueID: 9
-      dialogueLine: 154
+      dialogueLine: 157
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1865,7 +1901,7 @@ MonoBehaviour:
     data:
       key: FF_A_9_G
       dialogueID: 9
-      dialogueLine: 155
+      dialogueLine: 158
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1877,7 +1913,7 @@ MonoBehaviour:
     data:
       key: FF_A_9_R
       dialogueID: 9
-      dialogueLine: 156
+      dialogueLine: 159
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1889,7 +1925,7 @@ MonoBehaviour:
     data:
       key: FF_A_10_D
       dialogueID: 10
-      dialogueLine: 157
+      dialogueLine: 160
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 2
@@ -1901,7 +1937,7 @@ MonoBehaviour:
     data:
       key: FF_A_10_G
       dialogueID: 10
-      dialogueLine: 158
+      dialogueLine: 161
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1913,7 +1949,7 @@ MonoBehaviour:
     data:
       key: FF_A_10_R
       dialogueID: 10
-      dialogueLine: 159
+      dialogueLine: 162
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1925,7 +1961,7 @@ MonoBehaviour:
     data:
       key: FF_A_11_D
       dialogueID: 11
-      dialogueLine: 160
+      dialogueLine: 163
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 2
@@ -1937,7 +1973,7 @@ MonoBehaviour:
     data:
       key: FF_A_11_G
       dialogueID: 11
-      dialogueLine: 161
+      dialogueLine: 164
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1949,7 +1985,7 @@ MonoBehaviour:
     data:
       key: FF_A_11_R
       dialogueID: 11
-      dialogueLine: 162
+      dialogueLine: 165
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1961,7 +1997,7 @@ MonoBehaviour:
     data:
       key: FF_A_12_D
       dialogueID: 12
-      dialogueLine: 163
+      dialogueLine: 166
       spriteId: 0
       actualTextState: 0
       actualWeaponState: 3
@@ -1973,7 +2009,7 @@ MonoBehaviour:
     data:
       key: FF_A_12_G
       dialogueID: 12
-      dialogueLine: 164
+      dialogueLine: 167
       spriteId: 0
       actualTextState: 1
       actualWeaponState: 0
@@ -1985,7 +2021,7 @@ MonoBehaviour:
     data:
       key: FF_A_12_R
       dialogueID: 12
-      dialogueLine: 165
+      dialogueLine: 168
       spriteId: 0
       actualTextState: 2
       actualWeaponState: 0
@@ -1997,7 +2033,7 @@ MonoBehaviour:
     data:
       key: FF_B_13_D
       dialogueID: 13
-      dialogueLine: 166
+      dialogueLine: 169
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 3
@@ -2009,7 +2045,7 @@ MonoBehaviour:
     data:
       key: FF_B_13_G
       dialogueID: 13
-      dialogueLine: 167
+      dialogueLine: 170
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -2021,7 +2057,7 @@ MonoBehaviour:
     data:
       key: FF_B_13_R
       dialogueID: 13
-      dialogueLine: 168
+      dialogueLine: 171
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -2033,7 +2069,7 @@ MonoBehaviour:
     data:
       key: FF_B_14_D
       dialogueID: 14
-      dialogueLine: 169
+      dialogueLine: 172
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 6
@@ -2045,7 +2081,7 @@ MonoBehaviour:
     data:
       key: FF_B_14_G
       dialogueID: 14
-      dialogueLine: 170
+      dialogueLine: 173
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -2057,7 +2093,7 @@ MonoBehaviour:
     data:
       key: FF_B_14_R
       dialogueID: 14
-      dialogueLine: 171
+      dialogueLine: 174
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0
@@ -2069,7 +2105,7 @@ MonoBehaviour:
     data:
       key: FF_B_15_D
       dialogueID: 15
-      dialogueLine: 172
+      dialogueLine: 175
       spriteId: 1
       actualTextState: 0
       actualWeaponState: 6
@@ -2081,7 +2117,7 @@ MonoBehaviour:
     data:
       key: FF_B_15_G
       dialogueID: 15
-      dialogueLine: 173
+      dialogueLine: 176
       spriteId: 1
       actualTextState: 1
       actualWeaponState: 0
@@ -2093,7 +2129,7 @@ MonoBehaviour:
     data:
       key: FF_B_15_R
       dialogueID: 15
-      dialogueLine: 174
+      dialogueLine: 177
       spriteId: 1
       actualTextState: 2
       actualWeaponState: 0

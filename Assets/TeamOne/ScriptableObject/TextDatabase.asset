@@ -277,6 +277,17 @@ MonoBehaviour:
     - A determined little girl wanted to access to the metal training room. "I want
       to hunt animals like daddy! I swear I know how to do it!"
   - columns:
+    - "Il me faut une machette, vite. De la meilleure qualit\xE9 que vous avez."
+    - I need an axe, quick. The best quality you have.
+  - columns:
+    - Bonne nouvelle ! Il n'y a pas eu d'attaques d'animaux sauvages depuis 1 semaine.
+    - Good news! There have been no attacks of wild animals for the past week.
+  - columns:
+    - "Une r\xE9surgence d'animaux sauvages aux abords de la for\xEAt. Veuillez \xE9viter
+      les chemins en bordure. Pr\xE9cautions pour les chasseurs d'y aller en groupe."
+    - A resurgence of wildlife at the edge of the forest. Please avoid the roads
+      on the edge. Caution for hunters to go in groups.
+  - columns:
     - "Je m'appelle [PR]. Vos outils sont tr\xE8s durables, je vais vous prendre
       une machette d'avance s'il vous pla\xEEt. Peut-\xEAtre que je peux me faire
       un de ces mythiques Metadrax, haha !"
@@ -541,7 +552,7 @@ MonoBehaviour:
     - A hunter found dead in the forest, his blade broken. He leaves a little orphan
       girl behind.
   - columns:
-    - "Bonjour monsieur le forgeron, moi c'est [VF]. Je je me permets de venir vous
+    - "Bonjour monsieur le forgeron, moi c'est [VF]. Je me permets de venir vous
       voir parce que j'en ai marre d'\xEAtre faible et d'\xEAtre moqu\xE9 par tout
       le monde. Je veux devenir un HOMME et pour commencer je me suis dit que qu'avoir
       une arme m'aiderai beaucoup dans cette qu\xEAte surtout que des gens rodent
