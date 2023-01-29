@@ -295,10 +295,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Confirm Name
+  m_text: Confirmer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
-  m_sharedMaterial: {fileID: -2665402718322778731, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
+  m_sharedMaterial: {fileID: -6909255545881030645, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.5
+  m_fontSize: 24.6
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -670,10 +670,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Keep this Name
+  m_text: Ne pas changer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
-  m_sharedMaterial: {fileID: -2665402718322778731, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
+  m_sharedMaterial: {fileID: -6909255545881030645, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.35
+  m_fontSize: 20.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -807,8 +807,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
-  m_sharedMaterial: {fileID: -2665402718322778731, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
+  m_sharedMaterial: {fileID: -6909255545881030645, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -946,8 +946,8 @@ MonoBehaviour:
     Je m''appelle GERTRUDE mais comment toi tu veux m''appeler
     ?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
-  m_sharedMaterial: {fileID: -2665402718322778731, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
+  m_sharedMaterial: {fileID: -6909255545881030645, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.7
+  m_fontSize: 48.8
   m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1214,10 +1214,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Entrer le texte...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
-  m_sharedMaterial: {fileID: -2665402718322778731, guid: b026f55caaea2914ea03ed72531ceece, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
+  m_sharedMaterial: {fileID: -6909255545881030645, guid: 18b4d5ccb97c5e74ca1c6f2be36e42dd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
