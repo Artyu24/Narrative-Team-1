@@ -16,14 +16,21 @@ MonoBehaviour:
   basePnjName: Gunter
   pnjKeyName: VF
   allSprites:
-  - {fileID: 21300000, guid: e1fa728cadf276b43ab740bf6d4b9435, type: 3}
-  - {fileID: 21300000, guid: 054683d45afe830489b417341f32b132, type: 3}
+  - {fileID: 21300000, guid: ca6097280eb9cb34aa45678cd85c379c, type: 3}
+  - {fileID: 21300000, guid: 98e6fb443d4bf9546904bde6f29980c9, type: 3}
+  - {fileID: 21300000, guid: d543397bed76cc74082934eb41817436, type: 3}
+  - {fileID: 21300000, guid: db274003b052f9440a9c978df93f086a, type: 3}
+  - {fileID: 21300000, guid: 105d03d590021814681dee5f5e39f316, type: 3}
+  - {fileID: 21300000, guid: 0f5bc3f21a8ac6f429de5be56a53f31f, type: 3}
+  - {fileID: 21300000, guid: ce62e978e792f5d498f2ce124bb5d8e3, type: 3}
+  - {fileID: 21300000, guid: 41825de09d76df746b95bb539d3bddc6, type: 3}
   actualDialogueData:
-    dialogueID: 1
     key: VF_A_1_D
+    dialogueID: 1
     dialogueLine: 92
     spriteId: 0
     actualTextState: 0
+    actualWeaponState: 0
     nextChoiceKey: 
     badChoiceKey: VF_A_1_R
     goodChoiceKey: VF_A_1_G

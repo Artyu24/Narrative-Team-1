@@ -17,7 +17,7 @@ namespace TeamOne
         [SerializeField] private TextMeshProUGUI dialogue;
         [SerializeField] private TMP_InputField nameInputField;
         [SerializeField] private TextMeshProUGUI namePreview;
-        [SerializeField] public CanvasGroup UI;
+        [SerializeField] public CanvasGroup UI, all;
 
         private void Start()
         {
@@ -77,8 +77,8 @@ namespace TeamOne
 
         public void EndChoosingNames()
         {
-            gameObject.SetActive(false);
-            GameManager.instance.InitDialogue();
+            spriteCon.GetComponent<CharacterChoice>().sprite.DOFade(0, 1);
+            all.DOFade(0, 2).OnComplete(() => GameManager.instance.InitDialogue());
         }
     }
 }

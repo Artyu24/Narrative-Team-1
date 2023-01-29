@@ -46,3 +46,9 @@ MonoBehaviour:
   - changingKey: PR_A_2_G
     oldKey: PF_A_2_G
     newKey: PF_A_16_D
+  - changingKey: VF_A_2_R
+    oldKey: FF_B_7_R
+    newKey: FF_B_15_D
+  - changingKey: PR_A_2_G
+    oldKey: PF_A_2_G
+    newKey: PF_A_16_D

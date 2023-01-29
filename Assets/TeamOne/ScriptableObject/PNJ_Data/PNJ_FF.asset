@@ -16,14 +16,21 @@ MonoBehaviour:
   basePnjName: Jehanne
   pnjKeyName: FF
   allSprites:
-  - {fileID: 21300000, guid: c6ed12df0664673419315ef3b39a6b02, type: 3}
-  - {fileID: 21300000, guid: 38dc3d89dad7ea843bfa74055b38efcb, type: 3}
+  - {fileID: 21300000, guid: 6ce732045869a504eb48a5700d35e247, type: 3}
+  - {fileID: 21300000, guid: bc43c972bd756db46beadfe2a619a125, type: 3}
+  - {fileID: 21300000, guid: 86be93381ecbf18419e387dd6067a435, type: 3}
+  - {fileID: 21300000, guid: 0abf4677cf5921d4f84131d3d9dee83c, type: 3}
+  - {fileID: 21300000, guid: d5a94ecd1025ff74eb43adb6c9105e16, type: 3}
+  - {fileID: 21300000, guid: be3b80d2d7731a448ae48272db4a03da, type: 3}
+  - {fileID: 21300000, guid: 9f24414330ed93545b6dfe1d04d7999e, type: 3}
+  - {fileID: 21300000, guid: 7e6a3da6c617a664ba1ba1d8463648fb, type: 3}
   actualDialogueData:
-    dialogueID: 1
     key: FF_A_1_D
+    dialogueID: 1
     dialogueLine: 131
     spriteId: 0
     actualTextState: 0
+    actualWeaponState: 0
     nextChoiceKey: 
     badChoiceKey: FF_A_1_R
     goodChoiceKey: FF_A_1_G
