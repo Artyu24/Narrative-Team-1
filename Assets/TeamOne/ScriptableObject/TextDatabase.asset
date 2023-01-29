@@ -144,11 +144,10 @@ MonoBehaviour:
     - 'News alert: [PF] A 10 year old girl is missing. Contact the following number
       if you have any information.'
   - columns:
-    - "*Snif* Ils sont vraiment pas gentils. Je vais leur montrer ce que je sais
-      faire puisqu'ils me croient pas ! Donnez moi une super arme s'il vous pla\xEEt
-      !"
-    - '*Snif* They are really not nice. I''ll show them what I can do since they
-      don''t believe me! Give me a super weapon please!'
+    - "Ils sont vraiment pas gentils. Je vais leur montrer ce que je sais faire puisqu'ils
+      me croient pas ! Donnez moi une super arme s'il vous pla\xEEt !"
+    - They are really not nice. I'll show them what I can do since they don't believe
+      me! Give me a super weapon please!
   - columns:
     - "Un mordu d'entr\xE2inement a commis une effraction dans la salle d'entra\xEEnement,
       aucun bien n'a \xE9t\xE9 vol\xE9 mais tous les mannequins de simulation on
@@ -210,11 +209,11 @@ MonoBehaviour:
   - columns:
     - "Monsieur mon papa il a gagn\xE9 plein d'argent et maintenant il y'a plein
       de gens dans la boutique, mais il passe moins de temps avec moi, j'ai envie
-      de lui faire un cadeau pour qu'il se souviennent de moi, pouvez vous me donner
-      une \xE9p\xE9e s'il vous plait ?"
-    - Mister my daddy has earned a lot of money and now there are a lot of people
+      de lui faire un cadeau pour qu'il ne m'oublie pas, pouvez-vous me donner une
+      \xE9p\xE9e s'il vous plait ?"
+    - Mister, my daddy has earned a lot of money and now there are a lot of people
       in the store, but he spends less time with me, I want to give him a present
-      to remember me, can you give me a sword please?
+      so he remembers me, can you give me a sword please?
   - columns:
     - "Record : une petite fille a r\xE9ussi \xE0 chasser un \xE9norme M\xE9cagon,
       le plus gros de la saison."
@@ -239,10 +238,10 @@ MonoBehaviour:
     - "Les citoyens se plaignent du surplus de d\xE9chets dans le cimeti\xE8re."
     - Citizens are complaining about the excess waste in the cemetery.
   - columns:
-    - "Monsieur le forgeron, je vous jure c'est pas ma faute. (pleure) Le gar\xE7on
-      n'arr\xEAtait pas de se moquer de moi tous les jours et et (pleure) j'en ai
-      eu marre et \u2026 (pleure) Je veux me racheter en lui ramenant des fleurs
-      \xE0 l'h\xF4pital, il me faut des ciseaux s'il vous plait."
+    - "Monsieur le forgeron, je vous jure c'est pas ma faute. *Snif* Le gar\xE7on
+      n'arr\xEAtait pas de se moquer de moi tous les jours et et *snif* j'en ai eu
+      marre et \u2026 *snif* Je veux me racheter en lui ramenant des fleurs \xE0
+      l'h\xF4pital, il me faut des ciseaux s'il vous plait."
     - Mr. Blacksmith, I swear it's not my fault. (cries) The boy kept making fun
       of me every day and and (cries) I got tired of it and... (cries) I want to
       make it up to him by bringing flowers to the hospital, I need scissors please.
@@ -418,10 +417,10 @@ MonoBehaviour:
     - Police custody of a father with his daughter, both found at the scene of the
       crime.
   - columns:
-    - "J'enseigne \xE0 ma fille comment se d\xE9fendre pour pas qu'elle finisse quoi
+    - "J'enseigne \xE0 ma fille comment se d\xE9fendre pour pas qu'elle finisse comme
       moi et mon bras. Il me faudrait une machette. Je suis fier car elle est d\xE9j\xE0
       bien d\xE9termin\xE9e mais j'ai peur qu'elle se blesse."
-    - I'm teaching my daughter how to defend herself so she doesn't end up with me
+    - I'm teaching my daughter how to defend herself so she doesn't end up like me
       and my arm. I would need a machete. I am proud because she is already very
       determined but I am afraid she will get hurt.
   - columns:
@@ -901,13 +900,13 @@ MonoBehaviour:
       she had only a few wounds on her when she returned.
   - columns:
     - "Forgeron, j'ai r\xE9ussi \xE0 faire fortune dans le mettalium, et cela gr\xE2ce
-      \xE0 vous et a vos \xE9quipements. Gr\xE2ce \xE0 l'argent gagn\xE9, je vais
-      pouvoir offrir une arme \xE0 mon ch\xE9ri, dans mon pays c'est une preuve d'amour.
+      \xE0 vous et a vos \xE9quipements. Avec l'argent gagn\xE9, je vais pouvoir
+      offrir une arme \xE0 mon ch\xE9ri, dans mon pays c'est une preuve d'amour.
       Pouvez vous me faire une belle arme s'il vous plait ?  "
-    - Blacksmith, I managed to make a fortune in mettalium, and this thanks to you
-      and your equipment. With the money I earned, I will be able to offer a weapon
-      to my darling, in my country it is a proof of love. Can you make me a beautiful
-      weapon please?
+    - Blacksmith, I managed to make a fortune in mettalium, thanks to you and your
+      equipment. With the money I earned, I will be able to offer a weapon to my
+      darling, in my country it is a proof of love. Can you make me a beautiful weapon
+      please?
   - columns:
     - "Une manifestation contre une femme a \xE9clat\xE9e dans les rues \xE0 cause
       d'une arme port\xE9e qui serait digne des dieux"
@@ -980,10 +979,10 @@ MonoBehaviour:
     - The parade of horses is cancelled this year because of a dispute between 2
       grooms
   - columns:
-    - "Forgeron, les habitants de cette ville m'on pris l'arme que vous m'avez faite.
-      A cause de \xE7a, nous allons faire notre lune de miel en dehors du royaume.
-      Pouvez vous me faire une nouvelle arme pour que je l'accroche \xE0 notre cheval
-      ?"
+    - "Forgeron, les habitants de cette ville m'ont pris l'arme que vous m'aviez
+      faite. A cause de \xE7a, nous allons faire notre lune de miel en dehors du
+      royaume. Pouvez vous me faire une nouvelle arme pour que je l'accroche \xE0
+      notre cheval ?"
     - Blacksmith, the people of this town took the weapon you made for me. Because
       of this, we are going to have our honeymoon outside the kingdom. Can you make
       me a new weapon so that I can attach it to our horse?
