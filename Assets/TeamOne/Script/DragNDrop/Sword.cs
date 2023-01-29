@@ -21,12 +21,13 @@ namespace TeamOne
         [SerializeField] private Sprite[] neutralSprite;
         [SerializeField] private SpriteRenderer neutralSr;
 
-        [SerializeField] private int weapon;        
+        [SerializeField] private int weapon;
+
+        public GameObject goodParticle;
+        public GameObject badParticle;
 
         public void InitChoice()
         {
-            Debug.Log(GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState);
-
             switch (GameManager.instance.ActualPNJ.ActualDialogueData.ActualWeaponState)
             {
                 case WeaponState.SHEARS:
@@ -49,8 +50,11 @@ namespace TeamOne
                     break;
             }
 
-            BadSr.sprite = badSprite[weapon];
-            goodSr.sprite = goodSprite[weapon];
+            Debug.Log(BadSr);
+
+
+            BadSr.sprite = goodSprite[weapon];
+            goodSr.sprite = badSprite[weapon]; 
             neutralSr.sprite = neutralSprite[weapon];
         }
 
@@ -79,18 +83,27 @@ namespace TeamOne
             transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .25f);
             transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .25f);
             transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(255, .25f);
+
+            goodParticle.SetActive(false);
+            badParticle.SetActive(true);
         }
         private void OnLeftSide()
         {
             transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(255, .25f);
             transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(0, .25f);
             transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+
+            goodParticle.SetActive(true);
+            badParticle.SetActive(false);
         }
         private void OnMiddleSide()
         {
             transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, .25f);
             transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(255, .25f);
             transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, .25f);
+
+            goodParticle.SetActive(false);
+            badParticle.SetActive(false);
         }        
     }
 }

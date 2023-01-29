@@ -89,12 +89,13 @@ namespace TeamOne
             if (lastDragged.ValidateRight)
             {
                 GameManager.instance.SwipeChoice(true);
+                lastDragged.GetComponent<Sword>().badParticle.SetActive(false);
                 lastDragged.gameObject.SetActive(false);
-                Debug.Log(lastDragged.gameObject);
             }
             else if (lastDragged.ValidateLeft)
             {
                 GameManager.instance.SwipeChoice(false);
+                lastDragged.GetComponent<Sword>().goodParticle.SetActive(false);
                 lastDragged.gameObject.SetActive(false);
             }
 
